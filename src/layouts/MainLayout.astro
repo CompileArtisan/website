@@ -1,0 +1,54 @@
+---
+interface Props {
+    title: string;
+    description?: string;
+}
+
+const { 
+    title, 
+    description = "Praanesh Nair's Personal Website" 
+} = Astro.props;
+
+import '../styles/global.css';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompileArtisan</title>
+    <link rel="stylesheet" href="/styles/global.css">
+</head>
+<body>
+    <div class="header">
+        <a href="/">CompileArtisan</a>
+    </div>
+    
+    <div class="navbar">
+        <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
+        <a href="/about" class={Astro.url.pathname === '/about' ? 'active' : ''}>About</a>
+        <a href="/work" class={Astro.url.pathname === '/work' ? 'active' : ''}>Some Work of Mine</a>
+    </div>
+
+    <div class="mobile-menu">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="mobile-menu-content">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/work">Some Work of Mine</a>
+        </div>
+    </div>
+
+    <slot />
+
+    <div class="footer">
+        By Praanesh Nair aka. CompileArtisan
+    </div>
+</body>
+</html>
