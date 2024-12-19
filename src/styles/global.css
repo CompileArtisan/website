@@ -1,6 +1,8 @@
 @font-face {
-    font-family: DOSVGA; src: url('Perfect DOS VGA 437 Win.ttf'); 
-} 
+    font-family: DOSVGA;
+    src: url('/Perfect%20DOS%20VGA%20437%20Win.ttf') format('truetype');
+    font-display: swap;
+}
 
 body {
     font-family: 'DOSVGA', monospace;
