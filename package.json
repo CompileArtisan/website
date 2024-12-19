@@ -1,5 +1,5 @@
 {
-  "name": "compileartisan",
+  "name": "website",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.1.0",
+    "@astrojs/markdown-remark": "^6.0.1",
+    "@astrojs/mdx": "^4.0.2",
     "astro": "^5.0.9"
   }
 }
