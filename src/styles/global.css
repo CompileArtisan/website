@@ -42,7 +42,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #0000aa;
-    padding: 10px 0;
     border-bottom: 2px solid #ffffff;
     flex-shrink: 0;
 }
@@ -198,12 +197,19 @@ body {
 
 .footer {
     background-color: #0000aa;
-    color: #ffffff;
     text-align: center;
-    padding: 5px;
-    font-size: 1.2em;
     border-top: 2px solid #ffffff;
     flex-shrink: 0;
+    padding: 5px;
+}
+
+.footer a {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.footer a:hover {
+    color: #acaaad;
 }
 
 ul {
