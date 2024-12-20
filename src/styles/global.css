@@ -23,7 +23,6 @@ body {
     color: #ffffff;
     font-size: 1.5em;
     padding: 5px 0;
-    border-bottom: 2px solid #ffffff;
     flex-shrink: 0;
     word-wrap: break-word;
 }
@@ -77,6 +76,9 @@ body {
     }
     .mobile-menu-content a {
         font-size: 0.8em; 
+    }
+    .header {
+        border-bottom: 2px solid #ffffff;
     }
 
     .left-panel {
