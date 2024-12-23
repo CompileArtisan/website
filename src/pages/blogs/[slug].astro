@@ -1,0 +1,40 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import MainLayout from '../../layouts/MainLayout.astro';
+
+export async function getStaticPaths() {
+  const blogPosts = await getCollection('blog');
+  return blogPosts.map((post) => ({
+    params: { slug: post.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const blogPost = await getEntry('blog', slug);
+
+if (!blogPost) {
+  throw new Error(`Blog post not found for slug: ${slug}`);
+}
+
+const { Content } = await blogPost.render();
+const { title, date, description } = blogPost.data;
+---
+
+<MainLayout title={title + " - CompileArtisan"}>
+  <div class="main-content">
+    <div class="left-panel">
+      <ul>
+        <li><a href="/blogs/"> ← Back to Blogs</a></li>
+      </ul>
+      <article>
+        <h1>{title}</h1>
+        <Content />
+      </article>
+    </div>
+    <div class="right-panel">
+      <p>Title: {title}</p>
+      <p>Description: {description}</p>
+      <p>Date: {date}</p>
+    </div>
+  </div>
+</MainLayout>
