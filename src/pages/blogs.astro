@@ -1,9 +1,11 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+const blogPosts = await getCollection('blog');
 const aboutContent = await import('../content/about.md');
 ---
 
-<MainLayout title="About - CompileArtisan">
+<MainLayout title="Blogs - CompileArtisan">
     <div class="main-content">
         <div class="left-panel">
             <Fragment set:html={aboutContent.compiledContent()} />
