@@ -3,7 +3,7 @@ import MainLayout from '../layouts/MainLayout.astro';
 const aboutContent = await import('../content/about.md');
 ---
 
-<MainLayout title="About">
+<MainLayout title="About - CompileArtisan">
     <div class="main-content">
         <div class="left-panel">
             <Fragment set:html={aboutContent.compiledContent()} />
