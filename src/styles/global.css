@@ -33,7 +33,7 @@ body {
 }
 
 .header a:hover {
-    color: #acaaad;
+    color: #9e9ca0;
 }
 
 .navbar {
@@ -55,11 +55,11 @@ body {
 }
 
 .navbar a:hover {
-    color: #acaaad;
+    color: #9e9ca0;
 }
 
 .navbar a.active {
-    background-color: #acaaad;
+    background-color: #9e9ca0;
     color: #0000aa;
     padding: 2px 5px;
 }
@@ -113,7 +113,7 @@ body {
     }
     
     .blog-list-item a:hover {
-        color: #acaaad;
+        color: #9e9ca0;
     }
 
     li {
@@ -192,7 +192,7 @@ body {
 
 .main-content {
     display: flex;
-    background-color: #acaaad;
+    background-color: #9e9ca0;
     flex-grow: 1;
     overflow: auto;
     width: 100%;
@@ -231,7 +231,7 @@ body {
 }
 
 .footer a:hover {
-    color: #acaaad;
+    color: #9e9ca0;
 }
 
 ul {
@@ -260,4 +260,23 @@ li a:hover {
     width: 1em;
     height: 1em;
     fill: currentColor;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d2cfd3; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0000aa; 
 }
