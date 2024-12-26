@@ -1,6 +1,6 @@
 ---
 title: "Learn more about who I am"
-date: 23-12-2024
+date: 2024-12-23
 description: "Who am I"
 ---
 
