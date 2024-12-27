@@ -100,7 +100,12 @@ import '../styles/global.css';
                     if(active_item>=0){
                       window.location.href = items[active_item];
                     }
+                    break;
 
+                case "Escape":
+                    active_item = -1;
+                    items.forEach(link => link.classList.remove('selected'))
+                    break;
     
                 default:
                     break;
