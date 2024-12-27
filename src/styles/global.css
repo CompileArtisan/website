@@ -257,6 +257,10 @@ li a {
 li a:hover {
     color: #0000aa;
 }
+
+.selected {
+    color: #0000aa;
+}
 .icon-link {
     display: inline-flex;
     align-items: center;
