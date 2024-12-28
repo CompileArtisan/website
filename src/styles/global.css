@@ -269,7 +269,8 @@ li a:hover {
 }
 .icon-link svg {
     width: 1em;
-    height: 1em;
+    height: 0.9em;
+    margin-bottom: 0.2em;
     fill: currentColor;
 }
 /* width */
