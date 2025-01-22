@@ -20,7 +20,6 @@ const { Content } = await blogPost.render();
 const { title, date, description } = blogPost.data;
 ---
 
-
 <MainLayout title={title + " - CompileArtisan"}>
   <div class="main-content">
     <div class="left-panel">
@@ -41,13 +40,21 @@ const { title, date, description } = blogPost.data;
 </MainLayout>
 
 <script>
+  // Function to render MathJax
+  function renderMathJax() {
+    if (typeof window.MathJax !== 'undefined') {
+      window.MathJax.typesetPromise && window.MathJax.typesetPromise();
+    }
+  }
+
+  // Handle code copying
   function copyCode(button) {
-    const codeBlock = button.previousElementSibling; // Get the code block
+    const codeBlock = button.previousElementSibling;
     const code = codeBlock.textContent || codeBlock.innerText;
     navigator.clipboard.writeText(code).then(() => {
       button.textContent = "Copied!";
       button.style = "background-color: #0000aa;"
-      setTimeout(function(){ 
+      setTimeout(function(){
         button.textContent = "Copy";
         button.style = "background-color: #6b6a6d;"
       }, 6000);
@@ -57,17 +64,24 @@ const { title, date, description } = blogPost.data;
   }
 
   document.addEventListener('DOMContentLoaded', () => {
+    // Set up code copy buttons
     const codeBlocks = document.querySelectorAll('.markdown-content pre code');
-    
     codeBlocks.forEach((codeBlock) => {
       const button = document.createElement('button');
       button.textContent = 'Copy';
       button.classList.add('copy-button');
       button.onclick = () => copyCode(button);
-      
-      const pre = codeBlock.parentElement; 
-      pre.appendChild(button); 
+      const pre = codeBlock.parentElement;
+      pre.appendChild(button);
     });
+
+    // Render MathJax after content is loaded
+    renderMathJax();
+  });
+
+  // Also re-render MathJax when the page is updated
+  document.addEventListener('astro:page-load', () => {
+    renderMathJax();
   });
 </script>
 
@@ -97,11 +111,17 @@ const { title, date, description } = blogPost.data;
     text-decoration: underline;
   }
 
+  /* Add styles for LaTeX elements */
+  .markdown-content :global(.MathJax) {
+    font-size: 1.1em !important;
+  }
+
+  /* Rest of the existing styles remain the same */
   .markdown-content :global(table) {
     border-collapse: collapse;
     width: 100%;
     margin: 2rem 0;
-    max-height: 500px;  
+    max-height: 500px;
     overflow-y: auto;
   }
 
@@ -176,7 +196,7 @@ const { title, date, description } = blogPost.data;
   .markdown-content :global(ul ul ul) {
     list-style-type: square;
   }
-  
+
   .markdown-content :global(li li) {
     font-size: inherit;
   }

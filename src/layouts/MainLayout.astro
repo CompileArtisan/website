@@ -24,23 +24,32 @@ import '../styles/global.css';
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
     <script>
         window.MathJax = {
-        tex: {
-            inlineMath: [['$', '$']],
-            displayMath: [['$$', '$$']],
-            processEscapes: true
-        }
+            tex: {
+                inlineMath: [['$', '$']],
+                displayMath: [['$$', '$$']],
+                processEscapes: true,
+                tags: 'ams'
+            },
+            svg: {
+                fontCache: 'global'
+            },
+            options: {
+                renderActions: {
+                    addMenu: []
+                },
+                processHtmlClass: 'markdown-content'
+            }
         };
     </script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js"></script>
 </head>
 <body>
     <div class="header">
         <a href="/">CompileArtisan</a>
     </div>
-    
+
     <div class="navbar">
         <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
         <a href="/blogs/" class={Astro.url.pathname === '/blogs/' ? 'active' : ''}>Blogs</a>
@@ -70,13 +79,12 @@ import '../styles/global.css';
       <a href="https://amrita.town/prev"> ← prev </a> | <a href="https://amrita.town/random"> ⚅ random </a> | <a href="https://amrita.town/next"> next → </a>
     </div>
 
-
     <script>
         const tabs = ["/", "/blogs/", "/work/"];
         const items = document.querySelectorAll('li a');
 
         let active = tabs.indexOf(window.location.pathname);
-        let active_item = -1 
+        let active_item = -1
 
         function highlight(index){
             items.forEach(link => link.classList.remove('selected'))
@@ -88,13 +96,13 @@ import '../styles/global.css';
         document.addEventListener("keydown", (event) => {
             switch (event.key) {
                 case "ArrowLeft":
-                    active = (active - 1 + tabs.length) % tabs.length; 
+                    active = (active - 1 + tabs.length) % tabs.length;
                     window.location.href = tabs[active];
                     break;
-    
+
                 case "ArrowRight":
-                    active = (active + 1) % tabs.length; 
-                    window.location.href = tabs[active]; 
+                    active = (active + 1) % tabs.length;
+                    window.location.href = tabs[active];
                     break;
 
                 case "ArrowDown":
@@ -117,12 +125,11 @@ import '../styles/global.css';
                     active_item = -1;
                     items.forEach(link => link.classList.remove('selected'))
                     break;
-    
+
                 default:
                     break;
             }
         });
     </script>
-
 </body>
 </html>
