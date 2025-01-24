@@ -1,19 +1,19 @@
 ---
-import { getCollection, getEntry } from 'astro:content';
-import MainLayout from '../../layouts/MainLayout.astro';
+import { getCollection, getEntry } from "astro:content";
+import MainLayout from "../../layouts/MainLayout.astro";
 
 export async function getStaticPaths() {
-  const blogPosts = await getCollection('blog');
-  return blogPosts.map((post) => ({
-    params: { slug: post.slug },
-  }));
+    const blogPosts = await getCollection("blog");
+    return blogPosts.map((post) => ({
+        params: { slug: post.slug },
+    }));
 }
 
 const { slug } = Astro.params;
-const blogPost = await getEntry('blog', slug);
+const blogPost = await getEntry("blog", slug);
 
 if (!blogPost) {
-  throw new Error(`Blog post not found for slug: ${slug}`);
+    throw new Error(`Blog post not found for slug: ${slug}`);
 }
 
 const { Content } = await blogPost.render();
@@ -21,206 +21,217 @@ const { title, date, description } = blogPost.data;
 ---
 
 <MainLayout title={title + " - CompileArtisan"}>
-  <div class="main-content">
-    <div class="left-panel">
-      <ul>
-        <li><a href="/blogs/"> ← Back to Blogs</a></li>
-      </ul>
-      <h1>{title}</h1>
-      <div class="markdown-content">
-        <Content />
-      </div>
+    <div class="main-content">
+        <div class="left-panel">
+            <ul>
+                <li><a href="/blogs/"> ← Back to Blogs</a></li>
+            </ul>
+            <h1>{title}</h1>
+            <div class="markdown-content">
+                <Content />
+            </div>
+        </div>
+        <div class="right-panel">
+            <p>Title: {title}</p>
+            <p>Description: {description}</p>
+            <p>Date: {date}</p>
+        </div>
     </div>
-    <div class="right-panel">
-      <p>Title: {title}</p>
-      <p>Description: {description}</p>
-      <p>Date: {date}</p>
-    </div>
-  </div>
 </MainLayout>
 
 <script>
-  // Function to render MathJax
-  function renderMathJax() {
-    if (typeof window.MathJax !== 'undefined') {
-      window.MathJax.typesetPromise && window.MathJax.typesetPromise();
+    // Function to render MathJax
+    function renderMathJax() {
+        if (typeof window.MathJax !== "undefined") {
+            window.MathJax.typesetPromise && window.MathJax.typesetPromise();
+        }
     }
-  }
 
-  // Handle code copying
-  function copyCode(button) {
-    const codeBlock = button.previousElementSibling;
-    const code = codeBlock.textContent || codeBlock.innerText;
-    navigator.clipboard.writeText(code).then(() => {
-      button.textContent = "Copied!";
-      button.style = "background-color: #0000aa;"
-      setTimeout(function(){
-        button.textContent = "Copy";
-        button.style = "background-color: #6b6a6d;"
-      }, 6000);
-    }).catch((err) => {
-      console.error('Error copying code:', err);
+    // Handle code copying
+    function copyCode(button) {
+        const codeBlock = button.previousElementSibling;
+        const code = codeBlock.textContent || codeBlock.innerText;
+        navigator.clipboard
+            .writeText(code)
+            .then(() => {
+                button.textContent = "Copied!";
+                button.style = "background-color: #0000aa;";
+                setTimeout(function () {
+                    button.textContent = "Copy";
+                    button.style = "background-color: #6b6a6d;";
+                }, 6000);
+            })
+            .catch((err) => {
+                console.error("Error copying code:", err);
+            });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        // Set up code copy buttons
+        const codeBlocks = document.querySelectorAll(
+            ".markdown-content pre code",
+        );
+        codeBlocks.forEach((codeBlock) => {
+            const button = document.createElement("button");
+            button.textContent = "Copy";
+            button.classList.add("copy-button");
+            button.onclick = () => copyCode(button);
+            const pre = codeBlock.parentElement;
+            pre.appendChild(button);
+        });
+
+        // Render MathJax after content is loaded
+        renderMathJax();
     });
-  }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    // Set up code copy buttons
-    const codeBlocks = document.querySelectorAll('.markdown-content pre code');
-    codeBlocks.forEach((codeBlock) => {
-      const button = document.createElement('button');
-      button.textContent = 'Copy';
-      button.classList.add('copy-button');
-      button.onclick = () => copyCode(button);
-      const pre = codeBlock.parentElement;
-      pre.appendChild(button);
+    // Also re-render MathJax when the page is updated
+    document.addEventListener("astro:page-load", () => {
+        renderMathJax();
     });
-
-    // Render MathJax after content is loaded
-    renderMathJax();
-  });
-
-  // Also re-render MathJax when the page is updated
-  document.addEventListener('astro:page-load', () => {
-    renderMathJax();
-  });
 </script>
 
 <style>
-  h1 {
-    margin-top: 2.5em;
-    text-align: center;
-  }
-
-  .markdown-content {
-    margin-top: 2.5em;
-    line-height: 2;
-    font-size: 1.5em;
-  }
-
-  .markdown-content p {
-    margin-bottom: 1em;
-  }
-
-  .markdown-content :global(a) {
-    color: #ffffff;
-    text-decoration: underline;
-  }
-
-  .markdown-content :global(a:hover) {
-    color: #0000aa;
-    text-decoration: underline;
-  }
-
-  /* Add styles for LaTeX elements */
-  .markdown-content :global(.MathJax) {
-    font-size: 1.1em !important;
-  }
-
-  /* Rest of the existing styles remain the same */
-  .markdown-content :global(table) {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 2rem 0;
-    max-height: 500px;
-    overflow-y: auto;
-  }
-
-  .markdown-content :global(th),
-  .markdown-content :global(td) {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
-    min-width: 150px;
-  }
-
-  .markdown-content :global(th) {
-    font-weight: bold;
-  }
-
-  .markdown-content :global(img) {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 2rem auto;
-    border-radius: 4px;
-  }
-
-  .markdown-content :global(img:not([width])) {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .markdown-content :global(img + em) {
-    display: block;
-    text-align: center;
-    color: #666;
-    margin-top: 0.5rem;
-    font-size: 0.9em;
-  }
-
-  .markdown-content :global(ul),
-  .markdown-content :global(ol) {
-    padding-left: 2em;
-    margin: 1.5em 0;
-  }
-
-  .markdown-content :global(ul) {
-    list-style-type: disc;
-  }
-
-  .markdown-content :global(ol) {
-    list-style-type: decimal;
-  }
-
-  .markdown-content :global(ul ul),
-  .markdown-content :global(ol ol),
-  .markdown-content :global(ul ol),
-  .markdown-content :global(ol ul) {
-    margin: 1em 0;
-  }
-
-  .markdown-content :global(li) {
-    margin: 1em;
-    line-height: 1.6;
-    font-size: 1em;
-  }
-
-  .markdown-content :global(li > ul),
-  .markdown-content :global(li > ol) {
-    font-size: 0.9em;
-  }
-
-  .markdown-content :global(ul ul) {
-    list-style-type: circle;
-  }
-
-  .markdown-content :global(ul ul ul) {
-    list-style-type: square;
-  }
-
-  .markdown-content :global(li li) {
-    font-size: inherit;
-  }
-
-  /* Copy Button Styling */
-  :global(.copy-button) {
-    background-color: #6b6a6d;
-    font-family: DOSVGA;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-size: 0.9em;
-    margin-left: 10px;
-  }
-
-  :global(.copy-button:hover) {
-    background-color: #0000aa;
-  }
-
-  @media screen and (max-width: 768px) {
-    .markdown-content {
-      font-size: 1em;
+    h1 {
+        margin-top: 2.5em;
+        text-align: center;
     }
-  }
+
+    .markdown-content {
+        margin-top: 2.5em;
+        line-height: 2;
+        font-size: 1.5em;
+    }
+
+    .markdown-content p {
+        margin-bottom: 1em;
+    }
+
+    .markdown-content :global(a) {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    .markdown-content :global(a:hover) {
+        color: #0000aa;
+        text-decoration: underline;
+    }
+
+    /* Add styles for LaTeX elements */
+    .markdown-content :global(.MathJax) {
+        font-size: 1.1em !important;
+    }
+
+    /* Rest of the existing styles remain the same */
+    .markdown-content :global(table) {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 2rem 0;
+        max-height: 500px;
+        overflow-y: auto;
+    }
+
+    .markdown-content :global(th),
+    .markdown-content :global(td) {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+        min-width: 150px;
+    }
+
+    .markdown-content :global(th) {
+        font-weight: bold;
+    }
+
+    .markdown-content :global(img) {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 4px;
+    }
+
+    .markdown-content :global(img:not([width])) {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .markdown-content :global(img + em) {
+        display: block;
+        text-align: center;
+        color: #666;
+        margin-top: 0.5rem;
+        font-size: 0.9em;
+    }
+
+    .markdown-content :global(ul),
+    .markdown-content :global(ol) {
+        padding-left: 2em;
+        margin: 1.5em 0;
+    }
+
+    .markdown-content :global(ul) {
+        list-style-type: disc;
+    }
+
+    .markdown-content :global(ol) {
+        list-style-type: decimal;
+    }
+
+    .markdown-content :global(ul ul),
+    .markdown-content :global(ol ol),
+    .markdown-content :global(ul ol),
+    .markdown-content :global(ol ul) {
+        margin: 1em 0;
+    }
+
+    .markdown-content :global(li) {
+        margin: 1em;
+        line-height: 1.6;
+        font-size: 1em;
+    }
+
+    .markdown-content :global(li > ul),
+    .markdown-content :global(li > ol) {
+        font-size: 0.9em;
+    }
+
+    .markdown-content :global(ul ul) {
+        list-style-type: circle;
+    }
+
+    .markdown-content :global(ul ul ul) {
+        list-style-type: square;
+    }
+
+    .markdown-content :global(li li) {
+        font-size: inherit;
+    }
+
+    /* Copy Button Styling */
+    :global(.copy-button) {
+        background-color: #6b6a6d;
+        font-family: DOSVGA;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 0.9em;
+        margin-left: 10px;
+    }
+
+    :global(.copy-button:hover) {
+        background-color: #0000aa;
+    }
+
+    :global(code) {
+        background-color: #24292e;
+        padding-left: 2%;
+        padding-right:2%;
+    }
+
+    @media screen and (max-width: 768px) {
+        .markdown-content {
+            font-size: 1em;
+        }
+    }
 </style>
