@@ -1,28 +1,18 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import fs from 'node:fs';
-import path from 'node:path';
 
-// Get all files from public/files/
-const filesDirectory = path.join(process.cwd(), 'public', 'files');
-let files: string[] = [];
+const files = await Astro.glob('/public/files/*');
 
-try {
-    // Check if directory exists first
-    if (fs.existsSync(filesDirectory)) {
-        files = fs.readdirSync(filesDirectory);
-    }
-} catch (error) {
-    console.error('Error reading files directory:', error);
-}
+const fileList = Object.keys(import.meta.glob('/public/files/*', { eager: true }))
+  .map(file => file.split('/').pop());
 ---
 <MainLayout title="Files - CompileArtisan">
     <div class="main-content">
         <div class="left-panel">
             <h1>Available Files</h1>
             <ul>
-                {files.length > 0 ? (
-                    files.map(file => (
+                {fileList.length > 0 ? (
+                    fileList.map(file => (
                         <li>
                             <a href={`/files/${file}`} class="icon-link">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
