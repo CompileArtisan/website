@@ -38,11 +38,12 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #0000aa;
     border-bottom: 2px solid #ffffff;
     flex-shrink: 0;
+    padding-left: 20px;
 }
 
 .navbar a {

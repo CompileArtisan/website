@@ -1,0 +1,44 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+// Get all files from public/files/
+const filesDirectory = path.join(process.cwd(), 'public', 'files');
+let files: string[] = [];
+
+try {
+    // Check if directory exists first
+    if (fs.existsSync(filesDirectory)) {
+        files = fs.readdirSync(filesDirectory);
+    }
+} catch (error) {
+    console.error('Error reading files directory:', error);
+}
+---
+<MainLayout title="Files - CompileArtisan">
+    <div class="main-content">
+        <div class="left-panel">
+            <h1>Available Files</h1>
+            <ul>
+                {files.length > 0 ? (
+                    files.map(file => (
+                        <li>
+                            <a href={`/files/${file}`} class="icon-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/>
+                                </svg>
+                                {file}
+                            </a>
+                        </li>
+                    ))
+                ) : (
+                    <li>No files found in the directory.</li>
+                )}
+            </ul>
+        </div>
+        <div class="right-panel">
+            <p>These are all the files available for download</p>
+        </div>
+    </div>
+</MainLayout>
