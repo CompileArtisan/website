@@ -128,8 +128,10 @@ const { title, date, description } = blogPost.data;
         margin: 2rem 0;
         max-height: 500px;
         overflow-y: auto;
+        overflow-x: auto;
+        table-layout: fixed;
+        max-width: 100%;
     }
-
     .markdown-content :global(th),
     .markdown-content :global(td) {
         border: 1px solid #ddd;
@@ -174,6 +176,12 @@ const { title, date, description } = blogPost.data;
 
     .markdown-content :global(ol) {
         list-style-type: decimal;
+    }
+
+    .markdown-content :global(b),
+    .markdown-content :global(strong) {
+        font-size: 1.5em;
+        font-weight: normal;
     }
 
     .markdown-content :global(ul ul),
@@ -226,7 +234,7 @@ const { title, date, description } = blogPost.data;
     :global(code) {
         background-color: #24292e;
         padding-left: 2%;
-        padding-right:2%;
+        padding-right: 2%;
     }
 
     @media screen and (max-width: 768px) {
