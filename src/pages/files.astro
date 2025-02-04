@@ -1,7 +1,6 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 
-const files = await Astro.glob('/public/files/*');
 
 const fileList = Object.keys(import.meta.glob('/public/files/*', { eager: true }))
   .map(file => file.split('/').pop());
