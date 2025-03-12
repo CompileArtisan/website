@@ -225,6 +225,14 @@ body {
     font-size: 1.5em;
 }
 
+.right-panel p a {
+    color: #ffffff;
+}
+
+.right-panel p a:hover {
+    color: #9e9ca0;
+}
+
 .footer {
     background-color: #0000aa;
     text-align: center;
