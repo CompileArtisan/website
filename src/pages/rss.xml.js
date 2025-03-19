@@ -8,14 +8,12 @@ export async function GET(context) {
   return rss({
     title: "Praanesh's Website",
     description: 'Here is my RSS Feed',
-    site: context.site || 'https://compileartisan.pages.dev',
+    site: 'https://compileartisan.pages.dev',
     items: posts.map((post) => ({
       title: post.data.title,
       pubDate: post.data.date,
       description: post.data.description,
-      // In Astro 2.0+, RSS expects this link format for items
-      link: `/blog/${post.slug}/`,
-      // Adding raw markdown content
+      link: `https://compileartisan.pages.dev/blog/${post.slug}/`,
       content: post.body,
     })),
     customData: `<language>en-us</language>`,
