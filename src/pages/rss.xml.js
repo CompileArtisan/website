@@ -1,15 +1,22 @@
+import { defineCollection, z } from 'astro:content';
 import rss from '@astrojs/rss';
+import { getCollection } from 'astro:content';
 
-export function GET() {
-  const blogPosts = Object.values(import.meta.glob('../content/blog/*.md', { eager: true }));
+export async function GET(context) {
+  const posts = await getCollection('blog');
+
   return rss({
-    title: 'Praanesh’s Website',
+    title: "Praanesh's Website",
     description: 'Here is my RSS Feed',
-    site: 'https://compileartisan.pages.dev',
-    items: blogPosts.map((post) => ({
-      link: post.url,
-      title: post.frontmatter.title,
-      pubDate: post.frontmatter.date,
+    site: context.site || 'https://compileartisan.pages.dev',
+    items: posts.map((post) => ({
+      title: post.data.title,
+      pubDate: post.data.date,
+      description: post.data.description,
+      // In Astro 2.0+, RSS expects this link format for items
+      link: `/blog/${post.slug}/`,
+      // Adding raw markdown content
+      content: post.body,
     })),
     customData: `<language>en-us</language>`,
   });
