@@ -20,7 +20,8 @@ const { Content } = await blogPost.render();
 const { title, date, description } = blogPost.data;
 ---
 
-<MainLayout title={title + " - CompileArtisan"}>
+
+<MainLayout title={title + " - CompileArtisan"} slug={slug}>
     <div class="main-content">
         <div class="left-panel">
             <ul>
