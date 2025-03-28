@@ -30,4 +30,5 @@ ChromeOS to Windows. Later on, I found out that I was right about going from
 ChromeOS to Windows _directly_. But that doesn't mean you can't go to Windows at
 all. You can go to a Linux distro, and then from there you can make a
 Windows-bootable device. I've used my dad's laptop from 2003 (in 2010) which had
-Linux Mint, so this definitely wasn't my first encounter with linux. 
+Linux Mint, so this definitely wasn't my first encounter with linux. Now that I
+have linux, I realized that unleashed a whole new breed of freedom. 
