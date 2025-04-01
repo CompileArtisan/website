@@ -29,14 +29,22 @@ wanted to go back to Windows. This was a little bit of an issue, because I
 didn't have a plan B (read: no Windows-bootable device as backup). This kept getting worse
 and worse. Making a Windows-bootable device in ChromeOS is utter nonsense (it's
 a browser guys), and this was the only computer I had at home. I almost had to
-settle for ChromeOS forever. _Almost_, because life had something else in stock
+settle for ChromeOS forever. /Almost/, because life had something else in stock
 for me.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The problem was simple: I couldn't go from
 ChromeOS to Windows. Later on, I found out that I was right about going from
-ChromeOS to Windows _directly_. But that doesn't mean you can't go to Windows at
+ChromeOS to Windows /directly/. But that doesn't mean you can't go to Windows at
 all. You can go to a Linux distro, and then from there you can make a
 Windows-bootable device. I've used my dad's laptop from 2003 (in 2010) which had
-Linux Mint, so this definitely wasn't my first encounter with linux. Now that I
-have linux, I realized that unleashed a whole new breed of freedom. I went on to
-use Linux and felt right at home.
+Linux Mint, so this definitely wasn't my first encounter with linux. I got
+Ubuntu on my trusted steed and Now that I have linux, I realized that unleashed
+a whole new breed of freedom. I went on to make my Gnome desktop, a macOS
+Catalina clone :-P. What was supposed to be my intermediate OS, now became my
+primary setup. Application support was way better than ChromeOSWhat was supposed
+to be my intermediate OS, now became my primary setup. Application support was
+way better than ChromeOS, so it was definitely an upgrade. The LibreOffice suite
+did have a lot to offer, and could easily replace Microsoft Office in my life.
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

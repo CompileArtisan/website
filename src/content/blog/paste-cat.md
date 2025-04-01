@@ -7,11 +7,11 @@ description: "How uniqueness and inspiration met in my workflow"
 
 # Table of Contents
 
-1.  [Introduction](#org1c6d589)
-2.  [The hunt for the right setup](#org6f1aa34)
+1.  [Introduction](#org7edcb2c)
+2.  [The hunt for the right setup](#org1a7bb9c)
 
 
-<a id="org1c6d589"></a>
+<a id="org7edcb2c"></a>
 
 # Introduction
 
@@ -21,7 +21,7 @@ very comfortable with Windows 11 over the past 3 years. Enter the year 2025, and
 the way I use a laptop is not what it once was.
 
 
-<a id="org6f1aa34"></a>
+<a id="org1a7bb9c"></a>
 
 # The hunt for the right setup
 
@@ -38,15 +38,22 @@ wanted to go back to Windows. This was a little bit of an issue, because I
 didn&rsquo;t have a plan B (read: no Windows-bootable device as backup). This kept getting worse
 and worse. Making a Windows-bootable device in ChromeOS is utter nonsense (it&rsquo;s
 a browser guys), and this was the only computer I had at home. I almost had to
-settle for ChromeOS forever. <span class="underline">Almost</span>, because life had something else in stock
+settle for ChromeOS forever. *Almost*, because life had something else in stock
 for me.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The problem was simple: I couldn&rsquo;t go from
 ChromeOS to Windows. Later on, I found out that I was right about going from
-ChromeOS to Windows <span class="underline">directly</span>. But that doesn&rsquo;t mean you can&rsquo;t go to Windows at
+ChromeOS to Windows *directly*. But that doesn&rsquo;t mean you can&rsquo;t go to Windows at
 all. You can go to a Linux distro, and then from there you can make a
 Windows-bootable device. I&rsquo;ve used my dad&rsquo;s laptop from 2003 (in 2010) which had
-Linux Mint, so this definitely wasn&rsquo;t my first encounter with linux. Now that I
-have linux, I realized that unleashed a whole new breed of freedom. I went on to
-use Linux and felt right at home.
+Linux Mint, so this definitely wasn&rsquo;t my first encounter with linux. I got
+Ubuntu on my trusted steed and Now that I have linux, I realized that unleashed
+a whole new breed of freedom. I went on to make my Gnome desktop, a macOS
+Catalina clone :-P. What was supposed to be my intermediate OS, now became my
+primary setup. Application support was way better than ChromeOSWhat was supposed
+to be my intermediate OS, now became my primary setup. Application support was
+way better than ChromeOS, so it was definitely an upgrade. The LibreOffice suite
+did have a lot to offer, and could easily replace Microsoft Office in my life.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
