@@ -7,11 +7,11 @@ description: "How uniqueness and inspiration met in my workflow"
 
 # Table of Contents
 
-1.  [Introduction](#org7edcb2c)
-2.  [The hunt for the right setup](#org1a7bb9c)
+1.  [Introduction](#org6e2e06f)
+2.  [The hunt for the right setup](#org90a90d1)
 
 
-<a id="org7edcb2c"></a>
+<a id="org6e2e06f"></a>
 
 # Introduction
 
@@ -21,7 +21,7 @@ very comfortable with Windows 11 over the past 3 years. Enter the year 2025, and
 the way I use a laptop is not what it once was.
 
 
-<a id="org1a7bb9c"></a>
+<a id="org90a90d1"></a>
 
 # The hunt for the right setup
 
@@ -50,10 +50,12 @@ Linux Mint, so this definitely wasn&rsquo;t my first encounter with linux. I got
 Ubuntu on my trusted steed and Now that I have linux, I realized that unleashed
 a whole new breed of freedom. I went on to make my Gnome desktop, a macOS
 Catalina clone :-P. What was supposed to be my intermediate OS, now became my
-primary setup. Application support was way better than ChromeOSWhat was supposed
+primary setup. Application support was way better than ChromeOS. What was supposed
 to be my intermediate OS, now became my primary setup. Application support was
 way better than ChromeOS, so it was definitely an upgrade. The LibreOffice suite
 did have a lot to offer, and could easily replace Microsoft Office in my life.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I don&rsquo;t quite remember why, but I really
+wanted to go back to Windows. This intermediate OS was fun, but I thought it was
+finally time to switch.
 

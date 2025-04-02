@@ -41,10 +41,12 @@ Linux Mint, so this definitely wasn't my first encounter with linux. I got
 Ubuntu on my trusted steed and Now that I have linux, I realized that unleashed
 a whole new breed of freedom. I went on to make my Gnome desktop, a macOS
 Catalina clone :-P. What was supposed to be my intermediate OS, now became my
-primary setup. Application support was way better than ChromeOSWhat was supposed
+primary setup. Application support was way better than ChromeOS. What was supposed
 to be my intermediate OS, now became my primary setup. Application support was
 way better than ChromeOS, so it was definitely an upgrade. The LibreOffice suite
 did have a lot to offer, and could easily replace Microsoft Office in my life.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I don't quite remember why, but I really
+wanted to go back to Windows. This intermediate OS was fun, but I thought it was
+finally time to switch.
