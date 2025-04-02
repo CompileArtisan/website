@@ -7,11 +7,11 @@ description: "How uniqueness and inspiration met in my workflow"
 
 # Table of Contents
 
-1.  [Introduction](#orgf4d5085)
-2.  [The hunt for the right setup](#org2636e82)
+1.  [Introduction](#org6a97a2d)
+2.  [The hunt for the right setup](#org21d6170)
 
 
-<a id="orgf4d5085"></a>
+<a id="org6a97a2d"></a>
 
 # Introduction
 
@@ -21,25 +21,26 @@ very comfortable with Windows 11 over the past 3 years. Enter the year 2025, and
 the way I use a laptop is not what it once was.
 
 
-<a id="org2636e82"></a>
+<a id="org21d6170"></a>
 
 # The hunt for the right setup
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My pursuit of finding the best operating
-system started off with trying ChromeOS. It was 2019 and I was running Windows
-10 on my HP Envy m4. It was around that time when I discovered what Chromebooks
-were. I was really intrigued by the fact that progressive web apps can almost
-replace any native app I would ever use (as a kid of 9th grade of course).
-Chromebooks are models certified by Google to ship with ChromeOS. So if your
-laptop didn&rsquo;t ship with ChromeOS, you can&rsquo;t install ChromeOS. As simple as that.
-I tried a bunch of different ChromeOS distributions, none of which were from
-Google (obviously). Now I found it hard to work with Microsoft Office, and I
-wanted to go back to Windows. This was a little bit of an issue, because I
-didn&rsquo;t have a plan B (read: no Windows-bootable device as backup). This kept getting worse
-and worse. Making a Windows-bootable device in ChromeOS is utter nonsense (it&rsquo;s
-a browser guys), and this was the only computer I had at home. I almost had to
-settle for ChromeOS forever. *Almost*, because life had something else in stock
-for me.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you&rsquo;ve read my [&ldquo;about-me&rdquo; blog](https://compileartisan.pages.dev/blogs/about-me), you&rsquo;d
+have found my trusted steed, not-so-trusted because of how I had to &ldquo;fix&rdquo; it.
+My pursuit of finding the best operating system started off with trying
+ChromeOS. It was 2019 and I was running Windows 10 on my HP Envy m4. It was
+around that time when I discovered what Chromebooks were. I was really intrigued
+by the fact that progressive web apps can almost replace any native app I would
+ever use (as a kid of 9th grade of course). Chromebooks are models certified by
+Google to ship with ChromeOS. So if your laptop didn&rsquo;t ship with ChromeOS, you
+can&rsquo;t install ChromeOS. As simple as that. I tried a bunch of different ChromeOS
+distributions, none of which were from Google (obviously). Now I found it hard
+to work with Microsoft Office, and I wanted to go back to Windows. This was a
+little bit of an issue, because I didn&rsquo;t have a plan B (read: no
+Windows-bootable device as backup). This kept getting worse and worse. Making a
+Windows-bootable device in ChromeOS is utter nonsense (it&rsquo;s a browser guys), and
+this was the only computer I had at home. I almost had to settle for ChromeOS
+forever. *Almost*, because life had something else in stock for me.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The problem was simple: I couldn&rsquo;t go from
 ChromeOS to Windows. Later on, I found out that I was right about going from
@@ -57,5 +58,12 @@ did have a lot to offer, and could easily replace Microsoft Office in my life.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I don&rsquo;t quite remember why, but I really
 wanted to go back to Windows. This intermediate OS was fun, but I thought it was
-finally time to press onward with installing Windows.
+finally time to press onward with installing Windows. I thought I&rsquo;ll try dual
+booting, since I did look back and simply appreciate my Catalina-flavoured
+Gnome. I buckled up and set out by downloading the ISO, creating the bootable
+media, and shrinking the volume — just the usual routine. It was all sunshine
+and rainbows until I accidentally deleted the partition which had Linux on it 💀.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I had to wait for **months** before I could
+get hold of another laptop, to make myself a bootable USB drive.
 
