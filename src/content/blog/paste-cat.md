@@ -7,11 +7,11 @@ description: "How uniqueness and inspiration met in my workflow"
 
 # Table of Contents
 
-1.  [Introduction](#org6e2e06f)
-2.  [The hunt for the right setup](#org90a90d1)
+1.  [Introduction](#orgf4d5085)
+2.  [The hunt for the right setup](#org2636e82)
 
 
-<a id="org6e2e06f"></a>
+<a id="orgf4d5085"></a>
 
 # Introduction
 
@@ -21,7 +21,7 @@ very comfortable with Windows 11 over the past 3 years. Enter the year 2025, and
 the way I use a laptop is not what it once was.
 
 
-<a id="org90a90d1"></a>
+<a id="org2636e82"></a>
 
 # The hunt for the right setup
 
@@ -57,5 +57,5 @@ did have a lot to offer, and could easily replace Microsoft Office in my life.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I don&rsquo;t quite remember why, but I really
 wanted to go back to Windows. This intermediate OS was fun, but I thought it was
-finally time to switch.
+finally time to press onward with installing Windows.
 
