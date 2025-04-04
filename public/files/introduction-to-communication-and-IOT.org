@@ -1,0 +1,647 @@
+#+title: Introduction to Communications and IOT
+#+SETUPFILE: /home/praaneshnair/.config/doom/preamble.org
+
+
+* Introduction
+** What a Signal is
+- It's a Quantitative Representation of Information
+- The most basic representation of a signal is in the form of a graph (\(t \textnormal{ on X-axis}\) and \(f(t) \textnormal{ on Y-axis } \))
+** Types of Communication
+*** Wired / Wireless 🔌
+1. *Wired*:
+   - Via Coaxial cables or Fibre-Optic Cables
+2. *Wireless*:
+   - Via Electromagnetic waves or rays
+*** Unidirectional / Bidirectional ↕
+1. *Simplex*:
+   - One-way
+   - Eg. Broadcast, FM
+2. *Half-Duplex*:
+   - Two-way, but only one direction at a time
+   - Eg. walkie-talkie
+3. *Duplex*:
+   - Two-way, and both directions are simultaneously possible
+*** Analogue / Digital 🕜📱
+1. *Analog*:
+   - Both \(t\) and \(f(t)\) are continuous
+2. *Digital*:
+   - Both \(t\) and \(f(t)\) are discrete
+3. *Continuous-Time*:
+   - \(t\) is continuous, but \(f(t)\) is discrete
+4. *Discrete-Time*:
+   - \(t\) is discrete and \(f(t)\) is continuous
+file:typesofsignals.png
+*** Transmission Technique ⏧
+Before knowing this, you must know what bandwidth is:
+#+begin_quote
+*Bandwidth*:
+- Range of frequencies a signal operates.
+- In other words:
+  \[ \textnormal{Bandwidth} = (\textnormal{ Highest Frequency of the Wave/Signal }) - (\textnormal{ Lowest Frequency of the Wave/Signal }) \]
+- \( \text{Fast, irregular variations in frequency} \propto \text{Bandwidth} \)
+
+#+end_quote
+
+| Aspect                | Baseband                                  | Broadband                                             |
+|-----------------------+-------------------------------------------+-------------------------------------------------------|
+| *Signal Transmission* | Single signal over the medium             | Multiple signals transmitted simultaneously           |
+| *Frequency Range*     | Narrower (few MHz)                        | Wider (MHz to GHz range)                              |
+| *Bandwidth*           | Low, used by one signal only              | High, used by multiple signals at once                |
+| *Transmission Method* | No modulation, direct signal transmission | Modulation and multiplexing used                      |
+| *Applications*        | Local area networks (LANs)                | Internet, TV, multimedia, long-distance communication |
+
+
+
+* Characteristics of a Signal
+** Standard Notation of a Standard Sinusoidal Signal
+- For a graph where \( \textnormal{X-axis} = \theta \) and \( \textnormal{Y-axis} = sin(\theta) \), the measure of input is \(\theta\).
+- To actually measure a signal against time,  \( \textnormal{X-axis} = t \textnormal{ (time) } \) and \( \textnormal{Y-axis} = sin(\theta) \)
+- Here's what we do for that: \( sin(\theta + \phi) = sin(\omega t + \phi) \)
+
+** Angular Frequency
+- \( \omega = \textnormal{Angular Frequency/Velocity} \)
+-  \( = \frac{Angle}{Time} \)
+-  \( = \frac{2\pi}{T}\)
+
+** Frequency
+- \( f = \frac{1}{T} \)
+- So, \( \omega = \frac{2\pi}{T} \) can also be written as \( \omega = 2\pi f \)
+
+** Phase
+- \(\theta\) or \(\omega t \) is the \(\textnormal{X-coordinate}\).
+- Phase \(\phi\) is added to the \( \textnormal{X-coordinate} \), so the wave shifts to the left by \(\phi\)
+- In a way, it's an offset to a wave. (Check https://www.geogebra.org/m/rzzqtx6q for some Visualization)
+- For example, if a sine wave is offset by \( \frac{1}{6}th \) of a cycle, then the phase would be \( \frac{1}{6} * 360^{0} \Rightarrow \textnormal{Phase} = 60^{0}\)
+
+* Time Domain vs Frequency Domain
+In both cases, \( \textnormal{Y-Axis} = Amplitude \). Only \( \textnormal{X-Axis} \) changes
+ file:./timedomain.png
+ file:./frequencydomain.png
+
+* Odd Signals vs Even Signals
+- *Odd Signals/Functions*: \(y(-x) = -y(x)\)
+- *Even Signals/Functions*: \( y(-x)  = y(x) \)
+- Even functions are called even probably because of the exponents they contain (even numbers). Hence even if you input negative numbers, the even exponents turn them into positive numbers. It's probably the same thing with odd functions too (odd exponents preserve sign, so if you input negative numbers, the output is negative too)
+- Even functions show reflectional symmetry
+  - Symmetrical about the y-axis i.e. \(y(-x)\) is just the mirror image of \(y(x)\) about y-axis
+  - In other words, you only flip the signs of the x-coordinates
+- Odd functions show rotational symmetry
+  - you rotate the \(y(x)\) about the origin to get \(y(-x)\).
+  - In other words, you flip the signs of both x and y coordinates
+
+* Some Common Signals
+- The GeoGebra plots were made with the help of a simple Python program. I made a string that consists of the first 50 or 100 terms of each of the equations and fed that into GeoGebra.
+- For example, the triangle wave sequence was given by:
+  #+begin_src python :results output
+str = f'cos(1)'
+for i in range(3,100,2):
+    str += f'+cos({i}*x )/{i*i} '
+print(str)
+
+  #+end_src
+
+  #+RESULTS:
+  : cos(1)+cos(3*x )/9 +cos(5*x )/25 +cos(7*x )/49 +cos(9*x )/81 +cos(11*x )/121 +cos(13*x )/169 +cos(15*x )/225 +cos(17*x )/289 +cos(19*x )/361 +cos(21*x )/441 +cos(23*x )/529 +cos(25*x )/625 +cos(27*x )/729 +cos(29*x )/841 +cos(31*x )/961 +cos(33*x )/1089 +cos(35*x )/1225 +cos(37*x )/1369 +cos(39*x )/1521 +cos(41*x )/1681 +cos(43*x )/1849 +cos(45*x )/2025 +cos(47*x )/2209 +cos(49*x )/2401 +cos(51*x )/2601 +cos(53*x )/2809 +cos(55*x )/3025 +cos(57*x )/3249 +cos(59*x )/3481 +cos(61*x )/3721 +cos(63*x )/3969 +cos(65*x )/4225 +cos(67*x )/4489 +cos(69*x )/4761 +cos(71*x )/5041 +cos(73*x )/5329 +cos(75*x )/5625 +cos(77*x )/5929 +cos(79*x )/6241 +cos(81*x )/6561 +cos(83*x )/6889 +cos(85*x )/7225 +cos(87*x )/7569 +cos(89*x )/7921 +cos(91*x )/8281 +cos(93*x )/8649 +cos(95*x )/9025 +cos(97*x )/9409 +cos(99*x )/9801
+
+** Square Wave
+- Given by \[ \frac{4}{\pi} (sin(\omega t)  + \frac{sin(3* \omega t)}{3} +   \frac{sin(5* \omega t)}{5} + \frac{sin(7* \omega t)}{7} + ...    ) \]
+  file:squarewave.png
+- [[https://www.geogebra.org/m/kf69jqz5][Click here to view in GeoGebra]]
+- To make something like this in MATLAB
+  - Add as many "Sine Wave" Blocks from Simulink/Sources, and the amplitudes of each of them will be \(1\), \(\frac{1}{3} \), \( \frac{1}{5} \), \( \frac{1}{7} \), etc.
+  - Connect them all to an "Add" block, and connect that block to a "Time Scope"
+** Sawtooth Wave
+- Given by \[ \frac{2}{\pi} (sin(\omega t)  - \frac{sin(2* \omega t)}{2} + \frac{sin(3* \omega t)}{3} - \frac{sin(4* \omega t)}{4}  +   \frac{sin(5* \omega t)}{5} -\frac{sin(6* \omega t)}{6} + \frac{sin(7* \omega t)}{7} + ...    ) \]
+  file:sawtoothwave.png
+- [[https://www.geogebra.org/m/e2q55uga][Click here to view in GeoGebra]]
+** Triangle Wave
+- Given by \[ \frac{8}{\pi^{2}} (  cos(\omega t) + \frac{cos(3* \omega t)}{3^{2}}  + \frac{cos(5* \omega t)}{5^{2}} + \frac{cos(7* \omega t)}{7^{2}} + ........                     ) \]
+  file:trianglewave.png
+- [[https://www.geogebra.org/m/affxqtdn][Click here to view in GeoGebra]]
+* Energy and Power of a Signal
+** Prerequisite knowledge
+- Let's assume we have a sinusoidal voltage and current
+- \(P = \frac{V^{2}}{R} = I^{2}R \)
+- This means that the power of a signal is some *constant* times *voltage squared* or *current squared*
+- Let us have a general signal \(x(t)\) which can either be sinusoidal voltage or sinusoidal current
+  \[ x(t) = V \textbf{ or } x(t) = I \]
+- So \( \textnormal{Instantaneous Power} = P = (x(t))^{2} \)
+  #+CAPTION: Green Curve showing V or I and the Red Curve showing P
+  file:./energyandpower.png
+
+** Energy
+- \( \textnormal{Energy} = \textnormal{Power} * \textnormal{time} \)
+- But the above formula is only applicable for discrete values.
+- So the energy of a signal would be the area of the Power-Time Graph
+  #+CAPTION: Area under the Red Curve
+  file:./energyandpower2.png
+\[ \text{Energy} = \int \text{P} dt = \int_{\frac{-T}{2}}^{\frac{T}{2}} (x(t))^{2} dt\]
+- The limits are actually from \(0\) to \(T\), but having them from \(\frac{-T}{2} \) to \( \frac{T}{2} \) simplifies calculations.
+
+** Power
+- Power is just \( \frac{\text{Energy}}{\text{Time}} \).
+- \( \text{Power} =  \frac{\int_{\frac{-T}{2}}^{\frac{T}{2}} (x(t))^{2} dt }{T} \)
+
+* Complex Sinusoids
+- *In phase*: Two signals are said to be in phase if they have phase difference 0
+- *Quadrature*: Two signals are said to be in quadrature if they have a phase difference 90
+- A complex sinusoid is given as \( cos(\theta) + jsin(\theta) \)
+- Now \(cos(\theta)\) is taken to be on the \(Inphase-Time\) plane, and \(sin(\theta)\) is taken to be on the \(Quadrature-Time\) plane
+- This results in a helical structure.
+  file:complexsinusoid.png
+- Number of rotations about the \(time\) axis, per unit time, is the frequency of the complex sinusoid.
+- Anti-Clockwise rotation means Positive frequency, so clockwise rotation means negative frequency
+
+* Sampling
+** What it is
+- Converting a continuous time signal into a discrete time signal by taking samples of the signals at discrete time intervals
+- Say we have a continuous sinusoidal signal:
+  \[ s(t)  =  Acos(2\pi Ft + \phi) \]
+- In its discrete form, instead of a parameter \(t\), you'd have parameters \(n\) and \(T_{s}\):
+  \[ s[n] = Acos( 2\pi F nT_{s} +\phi ) \]
+  \[ \text{or} \]
+  \[  s[n] = Acos(2\pi F \frac{n}{F_{s}} +\phi) \]
+Here, \(T_{s} = \text{Sampling Time Period and } F_{s} = \text{Sampling Frequency}\)
+** Sampling Theorem or Nyquist Theorem
+- \(F_{s}\) is the number of samples taken per second i.e. the *sampling rate*. Likewise, \(T_{s}\) is the time taken to record one sample
+- If \(F_{s}\) is too less, you won't be able to capture the wave correctly. You'll end up over-simplifying the wave.
+- This is called *aliasing*, and it's where high-frequency components appear as low-frequency components because of insufficient sampling rate.
+- Nyquist Theorem states that:
+  #+begin_quote
+        \[ F_{s} \geq 2B \] where \(B\) is the highest bandwidth present in the signal
+  #+end_quote
+  Another way of saying this would be:
+  #+begin_quote
+        \[  B \leq \frac{F_{s}}{2} \]
+  #+end_quote
+* Filters
+** Analog Filters
+1. *Low Pass Filters*:
+   - Keeps frequencies below a cutoff, and cuts off everything after it
+   - It's used for smoothening images
+   - Helps removing aliasing effect, as instead of increasing sampling frequency (it has to be at least double the highest frequency), you could cut off all the higher frequencies and then sample.
+2. *High Pass Filters*:
+   - Keeps frequencies after a cutoff, and cuts off everything below it
+   - It's used for sharpening images
+   - Helps in removing noise (blurriness, caused due to low frequency signals)
+3. *Band Pass Filters*: Keeps frequencies inside a range (above a lower cutoff, and below a higher cutoff), and cuts off everything outside
+4. *Band Reject/Stop Fitlers*: Keeps frequencies outside a range, and cuts off everything inside
+
+** Digital Filters
+- They're mathematical algorithms used on discrete time signals
+- Before knowing this, you must know about impulse signals:
+#+begin_quote
+- *Impulse Signal* \(\partial [n]\):
+  - \( \partial[n] = 1  \) if \(n=0\), and \(\partial[n] = 0\) for any other value of \(n\)
+  - This function is used for representing frequencies in digital signals
+- *Impulse Response* \(h[n]\): Output of a system, if the input is an impulse signal.
+#+end_quote
+*** Finite Impulse Response (FIR)
+**** What it is
+- Output depends only on current and past input
+- Output does NOT depend on past output
+\[  y[n] = \sum_{i=0}^{M} b_{i}x[n-i]  \]
+where \(y[n]\) = output of filter, \(x[n]\) = input signal, \(b_{i}\) = filter coefficients, \(M\) = filter order = number of taps
+- Eg. \( y[n] = 0.25x[n] + 0.5x[n-1] + 0.25x[n-2] \)
+  - This is called a 3-tap FIR Filter
+  - The impulse response for this filter would be
+    - \(  h[n] = [y[0], y[1], y[2], y[3], ..., y[n]]  \)
+    - \( h[n] = [0.25, 0.5, 0.25, 0, 0, 0, ...] \)
+**** Characteristics
+- Stable (Phase response is linear, and can be good for image/audio processing)
+- Phase Accurate
+- Computationally expensive
+- Impulse response decays to 0
+*** Infinite Impulse Response (IIR)
+**** What is is
+- Output depends on past input AND past output i.e. it uses *feedback*.
+\[  y[n] = \sum_{i=0}^{N}a_{i}y[n-i] + \sum_{i=0}^{M}b_{i}x[n-i]  \]
+Here, it's just whatever FIR was, but you're also doing the same thing for the previous *outputs* too.
+**** Characteristics
+- If order is low, frequency cutoffs will be sharp (Phase response is non-linear) (Can be good for real-time communication)
+- Computationally efficient (you'll need less parameters)
+- Can cause phase distortion
+- Impulse response never decays to 0 (hence, it's infinite)
+*** How to design FIR filter
+1. Device Specifications:
+   - Choose what filter you want (low pass, high pass, band width, band reject)
+   - Performance criteria
+2. Select Design Method
+   - Windowing method
+   - Sampling Method
+3. Calculate Coefficients
+4. Analyse Frequency response
+5. Implement the filter
+*** How to design IIR Filter
+1. Device Specifications
+2. Select Prototype filter
+3. Transform to Digital Domain
+4. Calculate Coefficients
+5. Analyse Frequency Response
+6. Implement the filter
+* Modulation
+
+\[  \text{Base Signal/ Message} + \text{Carrier Signal} = \text{Modulated Signal}  \]
+file:typesofmodulation.png
+** Why we need Modulation
+*** To reduce the size of antennna
+- Message signals have low frequency
+- When we use something like amplitude modulation, you're using a higher frequency wave (the carrier wave) to transmit the message
+- When frequency increases, the length of the antenna decreases:
+  \[ L \propto \lambda \text{ and } \lambda = \frac{c}{f} \]
+*** To reduce interference
+- When a signal gets disrupted due to noise or other waves, it's called interference
+- When we use modulation, you're sending a message using another frequency band, which avoids collision with waves using one frequency band.
+*** To improve SNR
+\[ SNR = \text{Signal to noise ratio} = \frac{Power_{Signal}}{Power_{Noise}} \]
+** Amplitude Modulation (AM)
+- Amplitude of carrier signal is changed
+- Say the message signal is:
+  \[  m(t) = A_{m} sin(2\pi f_{m} t) \]
+  And the original carrier signal is:
+  \[  c(t) = A_{c}sin(2\pi f_{c} t)  \]
+- The modulated signal i.e. the new carrier signal is
+  \[ s(t) = (A_{c} + A_{m}sin(2\pi f_{m}t))sin(2\pi f_{c} t)  \]
+- Another standard notation for this is obtained by taking \(A_{c}\) out common
+  \[  s(t) = A_{c}(1 + \frac{A_{m}}{A_{c}} sin(2\pi f_{m}t))sin(2\pi f_{c} )  \]
+  \[  s(t) = (1 + \frac{A_{m}}{A_{c}} sin(2\pi f_{m}t)) * A_{c}sin(2\pi f_{c} )  \]
+  \[  s(t) = (1 + \mu sin(2\pi f_{m}t)) * A_{c}sin(2\pi f_{c} )  \]
+  Where \(\mu\) is the modulation index (described in the next section)
+- In some cases, instead of adding \(1\) to \(\mu sin(2 \pi f_{m} t )\), a larger number is added. This is allowed as all you're doing is shifting the entire function up or down ( \(y(x) + \text{some constant}\) )
+
+*** Modulation Index (m)
+:LOGBOOK:
+CLOCK: [2025-03-09 Sun 11:06]--[2025-03-09 Sun 14:02] =>  2:56
+:END:
+\[ m = \mu = \frac{\text{Amplitude of Message Signal}}{\text{Amplitude of Carrier Signal}} = \frac{A_{m}}{A_{c}} \]
+- If \( m < 1 \Rightarrow \text{UnderModulated (Not Using full bandwidth)}\)
+- If \( m=1 \Rightarrow \text{ Uses full bandwidth } \) and is 100% Modulated
+- If \( m>1 \Rightarrow \) OverModulated, causes distortion
+*** Side Band
+- We already know that \( s(t) = (A_{c} + A_{m}cos(2\pi f_{m} t) )cos(2\pi f_{c}t) \)
+- \( s(t) = A_{c} cos(2\pi f_{c} t) + A_{m}cos(2\pi f_{m}t)cos(2\pi f_{c}t)  \) ( \(\because\) Multiply the \( cos(2\pi f_{c} t) \) term inside )
+- \( s(t) = A_c \cos 2\pi f_c t + \frac{A_m}{2} \cos 2\pi t (f_c - f_m) + \frac{A_m}{2} \cos 2\pi t (f_c + f_m)\)  ( \(\because \cos A \cos B = \frac{\cos (A - B)}{2} - \frac{\cos (A + B)}{2} \) )
+- \(f_{c}  + f_{m}  = \text{upper band}\)
+- \(f_{c}  - f_{m}  = \text{lower band}\)
+*** Bandwidth
+Band width = (upper band) - (lower band) = \(2f_{m}\)
+*** Power of AM
+- We know that
+\[  s(t) = A_{c}cos(2 \pi f) + \frac{A_{m}}{2} cos 2 \pi t (f_{c} - f_{m}) + \frac{A_{m}}{2} cos 2 \pi t (f_{c} + f_{m})  \]
+- Power of a sinusoidal signal is \(\frac{A^{2}}{2} \), and here there are 3 sinusoidal signals.
+- Total Power = \( \frac{A_{c}^{2}}{2} + \frac{(\frac{A_{m}}{2})^{2}}{2} + \frac{(\frac{A_{m}}{2})^{2}}{2}  \)
+\[ Power =  \frac{A_{c}^{2}}{2} + 2\frac{(\frac{A_{m}}{2})^{2}}{2} \]
+  \[  =\frac{A_{c}^{2}}{2} + (\frac{A_{m}}{2})^{2} \]
+  \[  =\frac{A_{c}^{2}}{2} + \frac{A_{m}^{2}}{4} \]
+  \[  =\frac{A_{c}^{2}}{2} + \frac{mA_{c}^{2}}{4} \]
+   \(\because m = \frac{A_{m}}{A_{c}} \Rightarrow  A_{m} = mA_{c}    \)
+- Taking \(  \frac{A_{c}^{2}}{2}  \) common,
+  \[  = \frac{A_{c}^{2}}{2}(1 + \frac{m^{2}}{2}  ) \]
+
+\[  Power_{AM} = Power_{Carrier}(1 + \frac{m^{2}}{2} ) = Power_{Carrier} + 2*Power_{1 Sideband}\]
+*** Example
+A carrier signal with a frequency of 1 MHz and amplitude of 10V is amplitude modulated by a sinusoidal message signal with frequency 10 kHz and amplitude 5V. Calculate:
+   1. The modulation index m.
+      \[ m = \frac{5}{10} = 0.5 \]
+   2. The carrier power Pc​.
+      \[ P_{c} = \frac{A_{c}^{2}}{2} = \frac{10^{2}}{2} = 50W \]
+   3. The sideband power \(P_{SB}\)​.
+      \[ P_{SB} = (\frac{A_{m}}{2})^{2} = (\frac{5}{2})^{2} = 6.25  \]
+   4. The total transmitted power \(P_{t}\)​.
+      \[  P_{t} = P_{c}(1 + \frac{m^{2}}{2}) = 50(1 + \frac{0.5^{2}}{2}) = 56.25    \]
+   5. The bandwidth of AM.
+      \[ \text{Bandwidth} = 2f_{m} = 2*10  = 20kHz  \]
+
+** AM Demodulation
+*** Synchronous/ Coherent demodulation
+- Multiply recieved signal with a sine wave of same frequency and phase
+- You basically use the modulated signal as the message signal, perform AM on it again, now use a low-pass filter to get back the original wave
+- This is accurate, but not as cost-efficient as non-coherent demodulation
+*** Asynchronous/ Non-Coherent demodulation aka. Envelope Detector
+- Doesn't need frequency or phase matching
+- Uses diode, resistor, capacitor
+- It's very cost-efficient, but not as accurate as coherennt demodulation
+- Envelope Detector:
+  - During positive half cycle, capacitor and diode charges
+  - During negative half cycle, capacitor discharges
+  - Because the capacitor repeatedly charges and discharges, the recovered signal has a small amount of ripple on it.
+  - Diagonal Distortion: If the time constant is too slow, distortion happens, the charging-discharging happens for too long, and it can't detect changes in modulating signal
+** Frequency Modulation (FM)
+- We change frequency of carrier signal
+  \[  s(t) = A_{c} cos( 2\pi f_{c} t + \beta sin(2\pi f_{m} t)) \]
+  where
+  - \(\beta = \frac{\Delta f}{f_{m}}  \)
+  - \(\Delta f = \text{Frequency Deviation} =  K_{f} * A_{m} =  \frac{f_{max} - f_{min}}{2} \)
+  - \(K_{f}\) = Frequency Sensitivity
+- The more the value of \(\Delta f\) is, the better it will be noise-resistant
+*** Bandwidth
+- Bandwidth of FM is given by Carson's rule:
+  \[ \text{Bandwidth} = 2(\Delta f + f_{m}) \]
+  \[ \text{Bandwidth} = f_{max} - f_{min} + 2f_{m} \]
+
+*** Classification based on modulation index
+**** Narrow Band Frequency Modulation
+\[ \beta < 1 \]
+- Frequency deviation is small
+- Used in voice communication, walkie-talkies
+**** Wide Band Frequency Modulation
+\[ \beta > 1 \]
+- Frequency deviation is large
+- Used in FM Broadcasting
+*** Power in FM
+- This is just the power of a regular sinusoidal signal
+  \[ P = \frac{A_{c}^{2}}{2}  \]
+*** AM vs FM
+| AM                                            | FM                   |
+|-----------------------------------------------+----------------------|
+| Larger Range                                  | Shorter Range        |
+| Lower Sound Quality                           | Better Sound Quality |
+| Prone to distortion from electrical equipment | Not really           |
+
+\[ SNR_{FM} = (1+ \beta^{2} )SNR_{AM}  \]
+where \(SNR\) stands for Signal-to-noise
+\[ SNR = \frac{P_{\text{Signal}}}{P_{\text{Noise}}} \]
+*** Example
+A 100 MHz carrier is frequency modulated by a 5 kHz signal. The maximum frequency deviation is 75 kHz. Calculate:
+
+1. The modulation index \(\beta\).
+   \[ \beta = \frac{\Delta f}{f_{m}} = \frac{75}{5} = 15 \]
+2. The bandwidth of FM using Carson’s Rule.
+   \[ 2(\Delta f  + f_{m}) = 2(75 + 5) = 160kHz  \]
+** Phase Modulation
+\[ s(t) = A_{c}cos(2 \pi f_{c}t + k_{p}A_{m}cos(2 \pi f_{m})t)  \]
+where \(k_{p} =   \text{Phase Sensitivity Constant} = \frac{\text{Number of phase changes}}{\text{Amplitude}}      \)
+*** Modulation Index
+\[  \beta = k_{p}A_{m}     \]
+- In FM, \(\beta\) depends on both frequency and amplitude
+- But in PM, \(\beta\) depends on only amplitude.
+*** Bandwidth
+\[ \text{Bandwidth} = 2(\beta + f_{m}) \]
+*** FM vs PM
+| FM                             | PM                                          |
+|--------------------------------+---------------------------------------------|
+| Needs wider bandwidth          | Needs narrower bandwidth                    |
+| depends on frequency deviation | depends on rate of phase shift              |
+| needs complex circuitry        | easy to implement, but you need good timing |
+*** Example
+A phase modulator has a phase sensitivity constant of 5 radians/volt. The modulating signal has a maximum amplitude of 3V and a maximum frequency of 4 kHz. Calculate:
+
+1. The modulation index \(\beta\).
+   \[ \beta = k_{p}A_{m} = 5*3 = 15  \]
+2. The bandwidth of PM using Carson’s Rule.
+   \[ 2(\beta + f_{m}) = 2(15 + 4) = 38kHz \]
+** Digital Modulation
+*** Basics
+- This is when the message signal is digital.
+**** Bit Rate
+\[  \text{Bit Rate} = \text{Number of Bits per second} = \frac{\text{Number of bits}}{Time} \]
+**** Baud Rate
+\[ \text{Baud Rate} = \text{Number of Symbols per Second} = \frac{\text{Number of Symbols}}{Time} \]
+- A symbol is a combination of bits, which represents 1 change of state.
+\[ \text{Bit Rate} = f_{b} =  \text{Baud Rate} * \text{Number of Bits Per Symbol} \]
+
+file:baudrate.png
+
+- Given the number of levels \(n\), the number of bits in each level would be \(log_{2}(n)\)
+*** Pulse Code Modulation (PSM)
+- It's the process of converting analog waves into digital signals
+- The 3 main processes are sampling, quantization and encoding
+**** Sampling
+- You use Nyquist theorem
+**** Quantization
+- Each sample value is approximated to the nearest discrete value
+**** Encoding
+\[ \text{Bit Rate} = \text{Sampling Rate} * \text{Number of bits per sample}  \]
+eg. Example: A telephone system uses 8-bit PCM with a sampling rate of 8 kHz. Find bit rate.
+ \[ \text{Bit Rate} = 8000 * 8 = 64000 bps = 64 kbps \]
+
+
+*** Amplitude Shift Keying
+- You're still multiplying two waves: message and carrier.
+- But there's a catch: The carrier signal is still analogue (some sort of sinusoidal wave), but the message signal is digital. At a given point of time, it's either 0 or 1.
+- So the modulated signal becomes:
+  \[ s(t) = \begin{cases} A_c \cos(2 \pi f_c t), & \text{if bit} = 1 \\ 0, & \text{if bit} = 0 \end{cases} \]
+**** Bandwidth
+\[ \text{Bandwidth} = 2f_{b} \]
+where \(f_{b}\) is the bit rate
+- In AM, it was \(2f_{m}\), where \(f_{m}\) was the message frequency.
+- Digital message frequency is what we call bit rate.
+**** Power
+\[ \text{Power} = \frac{A_{c}^{2}}{2} \]
+**** Properties
+- Easy to implement
+- Works with existing AM systems
+- Highly sensitive to noise
+  - 0 bit means no power transmission, and so at low amplitudes, noise makes it very uncertain whether it's a 0, or it's a 1.
+- Used in Optical Fiber Communication and RFID (Radio Frequency Identification)
+
+*** Frequency Shift Keying
+  \[ \text{Carrier Frequency} = \begin{cases} f_{1}, & \text{if Message bit} = 1 \\ f_{0}, & \text{if Message bit} = 0 \end{cases} \]
+
+  Hence,
+
+  \[ s(t) = \begin{cases} A_c \cos(2 \pi f_{1} t), & \text{if bit} = 1 \\ A_{c} \cos(2 \pi f_{0} t), & \text{if bit} = 0 \end{cases} \]
+**** Bandwidth
+\[ f_{1} - f_{0} + 2f_{b}  \]
+**** Properties
+- More noise-resistant than ASK
+- Used in low-power applications
+- Requires larger bandwidth
+- Complex to implement
+- Used in Bluetooth and RFID
+*** Phase Shift Keying
+- Every binary number represents one phase i.e. an angle
+o\[  \text{Number of Phases} = 2^{\text{Number of bits}}    \]
+\[ \text{or} \]
+\[ \text{Number of bits} = log_{2}(\text{Number of Phases})  \]
+**** Binary Phase Shift Keying (BPSK)
+There is only 1 bit, hence there are \(2^{1}\) phases: \(0^{0} or 180^{0} \)
+\[ s(t) = A_{c}\cos(2 \pi f_{c} + \theta)  \]
+where:
+\[ \theta = \begin{cases}  0, & \text{for bit 0} \\ 180, & \text{for bit 1}  \end{cases}  \]
+***** Power and Bandwidth
+\[  \text{Power} = \frac{A_{c}^{2}}{2}  \]
+\[  \text{Bandwidth} = 2f_{b}  \]
+***** Properties
+- Immune to noise, as phase changes are very distinct
+- Used in deep-space communication due to its robustness
+- Very slow, as the number of bits per second is only 1.
+- It needs coherent demodulation
+**** Quadrature Phase Shift Keying (QPSK)
+- There are 2 bits, hence there are \(2^{2} = 4\) phases: \(0^{0}, 90^{0}, 180^{0}, 270^{0}\)
+\[ s(t) = A_{c}\cos(2 \pi f_{c} + \theta)  \]
+where:
+\[ \theta = \begin{cases}  0, & \text{for bit 00} \\ 90, & \text{for bit 10} \\ 180, & \text{for bit 01} \\ 270, & \text{for bit 11}  \end{cases}  \]
+- Think of it this way: The left most bit corresponds to 90 and the right most bit corresponds to 180
+  |     | 90 | 180 |
+  |-----+----+-----|
+  |   0 |  0 |   0 |
+  |  90 |  1 |   0 |
+  | 180 |  0 |   1 |
+  | 270 |  1 |   1 |
+***** Power and Bandwidth
+\[  \text{Power} = \frac{A_{c}^{2}}{2}  \]
+\[  \text{Bandwidth} = f_{b}  \]
+***** Properties
+- QPSK is twice as fast as BPSK, because the data rate is two times larger (2 bits as opposed to 1)
+- QPSK has higher noise sensitivity, as the phases aren't as distinct
+**** Higher Order PSK
+***** 8-PSK:
+- 8 Phases
+- \(log_{2}(8) = 3 \) bits
+***** 16-PSK:
+- 16 Phases
+- \(log_{2}(16) = 4 \) bits
+**** Quadrature Amplitude Modulation aka. IQ Modulation aka. Quadrature Carrier Multiplexing
+- It's a combination of ASK and PSK i.e. both amplitude and phase is modulated.
+- Consider two independent carrier waves \(I(t)\) (inphase) and \(Q(t)\) (quadrature). The transmitted signal is:
+  \[ s(t)=I(t)cos(2 \pi f_{c} ​t) + Q(t)sin(2 \pi f_{c} ​t) \]
+- 16-QAM basically means there are 16 waveforms/symbols. So the number of bits per symbol is \(log_{2}(16) = 4\).
+- Wi-Fi 5 is basically 256-QAM, which means there are 256 symbols, and the number of bits per symbol is \(log_{2}(256) = 8\)
+- Wi-Fi 6 is 1024-QAM
+
+* Internet of Things
+
+** Layers of IoT
+There are various representations of architectures
+*** Basic Architecture
+| Layer | Layer Name                | Description                 | Components                                          |
+|-------+---------------------------+-----------------------------+-----------------------------------------------------|
+|     5 | Business Layer (Optional) | System Management           | Conversion of IoT into Business                     |
+|     4 | Application Layer         | Represents data graphically | Applications                                        |
+|     3 | Middleware Layer:         | Process data and store it   | Cloud Servers, Microcontrollers, and Edge Computing |
+|     2 | Network Layer             | Transmits data              | LoRaWAN, Fiber Optics, Wi-Fi, Bluetooth             |
+|     1 | Perception Layer          | Gathers Data                | Sensors and Actuators                               |
+
+*** CISCO 7 Layered Model
+
+| Layer | Layer Name                       | Basic Equivalent |
+|-------+----------------------------------+------------------|
+|     7 | Collaboration                    | Business Layer   |
+|     6 | Application                      | Application      |
+|     5 | Data Abstraction                 | Middleware Layer |
+|     4 | Data Accumulation                |                  |
+|     3 | Edge Computing                   |                  |
+|     2 | Connectivity                     | Network Layer    |
+|     1 | Physical Devices and Controllers | Perception Layer |
+
+
+** IoT with respect to Cloud Services
+- Gather
+- Consolidate
+- Connect
+- Collect
+- Assemble
+- Manage
+- Analyse
+
+** Components / Deployment Template of IoT
+
+*** Device
+- Sensing
+
+*** Resource
+- Software Components
+
+*** Controller Service
+ - Requests and recieves commands/data from application
+
+*** Database
+
+
+*** Web Service
+- Link between IoT Device, Application, Database and Analysis Components
+
+*** Analysis Component
+
+
+*** Application
+
+* Levels of IoT
+
+*** Level 1
+- Single Device/Node senses, processes/analyses data and hosts the application
+- Suitable for low cost
+
+*** Level 2
+- Single Device/Node senses, processes/analyses data locally, but stores data in the cloud
+- Used when data is large, but analysing isn't computationally expensive
+
+*** Level 3
+- Single Device/Node senses data, but analyzing and storage happens on the cloud
+- Used when both data is large, and analyzing is computationally expensive
+
+*** Level 4
+- Multiple Nodes do local analysis, and storage happens in the cloud
+- Used when multiple nodes are required
+- Level 2, but multiple nodes
+
+*** Level 5
+- Multiple end nodes senses or actuates, while multiple coordinator nodes collects data from end nodes, and sends them to the cloud for storage and analysis
+- Used when wireless networks are required
+- Level 3, but with multiple nodes, and a coordinator
+
+*** Level 6
+- Multiple nodes senses/actuates data and send them to the cloud for storage, analysis and visualization
+- There's also a centralized controller, which controls all nodes
+
+* IoT Protocols
+|   Number | Protocol   | What it is                                                      |
+|----------+------------+-----------------------------------------------------------------|
+|   802.16 | WiMax      |                                                                 |
+|   802.11 | WiFi       |                                                                 |
+|    802.3 | Ethernet   |                                                                 |
+| 802.15.4 | LR-WPAN    | sounds like Elon's son                                          |
+|          | HTTP       | HyperText Transfer Protocol                                     |
+|          | CoAP       | Constrained Application Protocol                                |
+|          |            | - Uses UDP, while everything else in this list uses TCP         |
+|          | MQTT       | Message Querying Telemetry Transport                            |
+|          |            | - Lightweight                                                   |
+|          |            | - Low Bandwidth                                                 |
+|          |            | - Used in High Latency Networks                                 |
+|          |            | - Eg. Smart home automation                                     |
+|          |            | - Also used for Publish-Subscribe Communication Model           |
+|          | WebSockets | WebSockets :)                                                   |
+|          |            | - Used for real-time two-way communication                      |
+|          |            | - Can use TCP and UDP also                                      |
+|          | XMPP       | Extensible Messaging and Presence Protocol                      |
+|          | DDS        | Data Distribution Service                                       |
+|          |            | - Used in autonomous vehicles                                   |
+|          |            | - Used in other mission critical IoT applications               |
+|          | AMQP       | Advanced Message Querying Protocol                              |
+|          |            | - Used for banking, industrial IoT and cloud messaging services |
+|          |            | - Used for Secure and Reliable Message Delivery                 |
+|          |            | - Also used for Publish-Subscribe Communication Model           |
+
+
+* Communication Models
+| Model                   | About                              |
+|-------------------------+------------------------------------|
+| Request-Response        | - Synchronous                      |
+|                         | - HTTP, CoAP                       |
+|-------------------------+------------------------------------|
+| Publish-Subscribe Model | - Publishers: Source               |
+|                         | - Consumers: Destination           |
+|                         | - Uses MQTT, AMQP                  |
+|                         | - Producers don't know consumers   |
+|                         | - Many-to-one model                |
+|-------------------------+------------------------------------|
+| Push-Pull Model         | - Queue System                     |
+|                         | - Producers don't know consumers   |
+|                         | - Used in big data analytics       |
+|                         | - Handles large volumes of data    |
+|                         | - Supports Asynchronous processing |
+
+* Socket
+|            | *ReST-API*                                       | *Websocket*   |
+|------------+--------------------------------------------------+---------------|
+| What it is | - Representational State Transfer                |               |
+|            | - Set of principles used to build APIs over HTTP |               |
+| Payload    | High                                             | Low           |
+| Direction  | Unidirectional                                   | Bidirectional |
+| Use Case   | For short lived, stateless communication         |               |
+
+* M2M Area Network
+- Comprises of nodes which have modules for sensing, actuation and communication
+- M2M is a subset of IoT
+- M2M uses IP based protocols, while IoT doesn't.
