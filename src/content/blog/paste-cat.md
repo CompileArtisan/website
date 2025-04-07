@@ -7,11 +7,11 @@ description: "How uniqueness and inspiration met in my workflow"
 
 # Table of Contents
 
-1.  [Introduction](#org6a97a2d)
-2.  [The hunt for the right setup](#org21d6170)
+1.  [Introduction](#org3bde539)
+2.  [The hunt for the right setup](#orgf75f3c8)
 
 
-<a id="org6a97a2d"></a>
+<a id="org3bde539"></a>
 
 # Introduction
 
@@ -21,7 +21,7 @@ very comfortable with Windows 11 over the past 3 years. Enter the year 2025, and
 the way I use a laptop is not what it once was.
 
 
-<a id="org21d6170"></a>
+<a id="orgf75f3c8"></a>
 
 # The hunt for the right setup
 
@@ -43,7 +43,7 @@ this was the only computer I had at home. I almost had to settle for ChromeOS
 forever. *Almost*, because life had something else in stock for me.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The problem was simple: I couldn&rsquo;t go from
-ChromeOS to Windows. Later on, I found out that I was right about going from
+ChromeOS to Windows 10. Later on, I found out that I was right about going from
 ChromeOS to Windows *directly*. But that doesn&rsquo;t mean you can&rsquo;t go to Windows at
 all. You can go to a Linux distro, and then from there you can make a
 Windows-bootable device. I&rsquo;ve used my dad&rsquo;s laptop from 2003 (in 2010) which had
@@ -51,19 +51,22 @@ Linux Mint, so this definitely wasn&rsquo;t my first encounter with linux. I got
 Ubuntu on my trusted steed and Now that I have linux, I realized that unleashed
 a whole new breed of freedom. I went on to make my Gnome desktop, a macOS
 Catalina clone :-P. What was supposed to be my intermediate OS, now became my
-primary setup. Application support was way better than ChromeOS. What was supposed
-to be my intermediate OS, now became my primary setup. Application support was
-way better than ChromeOS, so it was definitely an upgrade. The LibreOffice suite
-did have a lot to offer, and could easily replace Microsoft Office in my life.
+primary setup. Application support was way better than ChromeOS. What was
+supposed to be my intermediate OS, now became my primary setup. Application
+support was way better than ChromeOS, so it was definitely an upgrade. The
+LibreOffice suite did have a lot to offer, and could easily replace Microsoft
+Office in my life.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I don&rsquo;t quite remember why, but I really
 wanted to go back to Windows. This intermediate OS was fun, but I thought it was
-finally time to press onward with installing Windows. I thought I&rsquo;ll try dual
+finally time to press onward with installing Windows 10. I thought I&rsquo;ll try dual
 booting, since I did look back and simply appreciate my Catalina-flavoured
 Gnome. I buckled up and set out by downloading the ISO, creating the bootable
 media, and shrinking the volume — just the usual routine. It was all sunshine
 and rainbows until I accidentally deleted the partition which had Linux on it 💀.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I had to wait for **months** before I could
-get hold of another laptop, to make myself a bootable USB drive.
+get hold of another laptop, to make myself a bootable USB drive. It was around
+that time I started revisiting Windows 8.1, and all the keynotes about it. I
+really did fall for its charm ([pun intended :)](https://www.bleepstatic.com/tutorials/windows-8/charms-bar/charm-bar.jpg)). 
 
