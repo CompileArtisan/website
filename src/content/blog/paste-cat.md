@@ -7,11 +7,11 @@ description: "How uniqueness and inspiration met in my workflow"
 
 # Table of Contents
 
-1.  [Introduction](#org3bde539)
-2.  [The hunt for the right setup](#orgf75f3c8)
+1.  [Introduction](#org7ab1ac7)
+2.  [The hunt for the right setup](#orgc4b6689)
 
 
-<a id="org3bde539"></a>
+<a id="org7ab1ac7"></a>
 
 # Introduction
 
@@ -21,7 +21,7 @@ very comfortable with Windows 11 over the past 3 years. Enter the year 2025, and
 the way I use a laptop is not what it once was.
 
 
-<a id="orgf75f3c8"></a>
+<a id="orgc4b6689"></a>
 
 # The hunt for the right setup
 
@@ -66,7 +66,12 @@ media, and shrinking the volume — just the usual routine. It was all sunshine
 and rainbows until I accidentally deleted the partition which had Linux on it 💀.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I had to wait for **months** before I could
-get hold of another laptop, to make myself a bootable USB drive. It was around
-that time I started revisiting Windows 8.1, and all the keynotes about it. I
-really did fall for its charm ([pun intended :)](https://www.bleepstatic.com/tutorials/windows-8/charms-bar/charm-bar.jpg)). 
+get hold of another laptop, to make myself a bootable USB drive. In the
+waiting-period I started revisiting Windows 8.1, and all the keynotes about it.
+I really did fall for its charm ([pun intended :)](https://compileartisan.pages.dev/charm-bar.jpg)). So I threw in Windows 8.1 on
+my trusted steed, and I experienced speeds I never witnessed before. I wondered
+if I was too young to truly appreciate this back in 2012. The Metro
+interface was incredibly fluid and the boot-up time was no longer than 10 seconds!
+This was when I actually became a good Windows user, learning all the shortcuts
+and working my own ways around the OS. 
 
