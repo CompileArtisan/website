@@ -62,7 +62,11 @@ get hold of another laptop, to make myself a bootable USB drive. In the
 waiting-period I started revisiting Windows 8.1, and all the keynotes about it.
 I really did fall for its charm ([[https://compileartisan.pages.dev/charm-bar.jpg][pun intended :)]]). So I threw in Windows 8.1 on
 my trusted steed, and I experienced speeds I never witnessed before. I wondered
-if I was too young to truly appreciate this back in 2012. The Metro
-interface was incredibly fluid and the boot-up time was no longer than 10 seconds!
-This was when I actually became a good Windows user, learning all the shortcuts
-and working my own ways around the OS. 
+if I was too young to truly appreciate this back in 2012. The Metro interface
+was incredibly fluid and the boot-up time was no longer than 10 seconds! This
+was when I actually became a good Windows user, learning all the shortcuts and
+working my own ways around the OS. What also helped me fly around was my new
+profound love for touch-typing.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Here comes a chunk of time missing from my
+memory.
