@@ -20,18 +20,20 @@ the way I use a laptop is not what it once was.
 have found my trusted steed, not-so-trusted because of how I had to "fix" it. My
 pursuit of finding the best operating system started off with trying ChromeOS.
 It was 2019 and I was running Insider Previews of Windows 10 on my HP Envy m4.
-It was around that time when I discovered what Chromebooks were. I was really
-intrigued by the fact that progressive web apps can almost replace any native
-app I would ever use (as a kid of 9th grade of course). Chromebooks are models
-certified by Google to ship with ChromeOS. So if your laptop didn't ship with
-ChromeOS, you can't install ChromeOS. As simple as that. I tried a bunch of
-different ChromeOS distributions, none of which were from Google (obviously).
-Now I found it hard to work with Microsoft Office, and I wanted to go back to
-Windows. This was a little bit of an issue, because I didn't have a plan B
-(read: no Windows-bootable device as backup). This kept getting worse and worse.
-Making a Windows-bootable device in ChromeOS is utter nonsense (it's a browser
-guys), and this was the only computer I had at home. I almost had to settle for
-ChromeOS forever. /Almost/, because life had something else in stock for me.
+It was around that time when I discovered what Chromebooks were. MKBHD's review
+of the original Pixelbook instantly caught my attention, and that provoked me to
+watch a lot of Chrome Unboxed to learn more about them. I was really intrigued
+by the fact that progressive web apps can almost replace any native app I would
+ever use (as a kid of 9th grade of course). Chromebooks are models certified by
+Google to ship with ChromeOS. So if your laptop didn't ship with ChromeOS, you
+can't install ChromeOS. As simple as that. I tried a bunch of different ChromeOS
+distributions, none of which were from Google (obviously). Now I found it hard
+to work with Microsoft Office, and I wanted to go back to Windows. This was a
+little bit of an issue, because I didn't have a plan B (read: no
+Windows-bootable device as backup). This kept getting worse and worse. Making a
+Windows-bootable device in ChromeOS is utter nonsense (it's a browser guys), and
+this was the only computer I had at home. I almost had to settle for ChromeOS
+forever. /Almost/, because life had something else in stock for me.
 
 * Hello Linux
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The problem was simple: I couldn't go from
@@ -40,14 +42,12 @@ ChromeOS to Windows /directly/. But that doesn't mean you can't go to Windows at
 all. You can go to a Linux distro, and then from there you can make a
 Windows-bootable device. I've used my dad's laptop from 2003 (in 2010) which had
 Linux Mint, so this definitely wasn't my first encounter with linux. I got
-Ubuntu on my trusted steed and Now that I have linux, I realized that unleashed
+Ubuntu on my trusted steed and now that I have linux, I realized that unleashed
 a whole new breed of freedom. I went on to make my Gnome desktop, a macOS
 Catalina clone :-P. What was supposed to be my intermediate OS, now became my
-primary setup. Application support was way better than ChromeOS. What was
-supposed to be my intermediate OS, now became my primary setup. Application
-support was way better than ChromeOS, so it was definitely an upgrade. The
-LibreOffice suite did have a lot to offer, and could easily replace Microsoft
-Office in my life.
+primary setup. Application support was way better than ChromeOS, so it was
+definitely an upgrade. The LibreOffice suite did have a lot to offer, and could
+easily replace Microsoft Office in my life.
 
 * Not Home Yet
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I don't quite remember why, but I really
@@ -61,13 +61,23 @@ and rainbows until I accidentally deleted the partition which had Linux on it �
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I had to wait for *months* before I could
 get hold of another laptop, to make myself a bootable USB drive. In the
 waiting-period I started revisiting Windows 8.1, and all the keynotes about it.
-I really did fall for its charm ([[https://compileartisan.pages.dev/charm-bar.jpg][pun intended :)]]). So I threw in Windows 8.1 on
-my trusted steed, and I experienced speeds I never witnessed before. I wondered
-if I was too young to truly appreciate this back in 2012. The Metro interface
-was incredibly fluid and the boot-up time was no longer than 10 seconds! This
-was when I actually became a good Windows user, learning all the shortcuts and
-working my own ways around the OS. What also helped me fly around was my new
-profound love for touch-typing.
+I really did fall for its charms (/pun intended :), refer pic below/).
+
+#+begin_export markdown
+![Image of Windows 8.1 Charms](/charm-bar.jpg "Windows 8.1 Charms")
+#+end_export
+
+#+begin_export html
+<center> Image of Windows 8.1 Charms (the quick-access toggles on the right) </center><br>
+#+end_export
+
+
+So I threw in Windows 8.1 on my trusted steed, and I experienced speeds I never
+witnessed before. I wondered if I was too young to truly appreciate this back
+in 2012. The Metro interface was incredibly fluid and the boot-up time was no
+longer than 10 seconds! This was when I actually became a good Windows user,
+learning all the shortcuts and working my own ways around the OS. What also
+helped me fly around was my new profound love for touch-typing.
 
 * The Ladder Through Windows
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Here comes a chunk of time missing from my
@@ -87,3 +97,17 @@ a TPM module. On October 5th, 2021 (the very day that Windows 11 was officially
 released), I managed to spoof the TPM Module and get it installed on my trusted
 steed. Ever since, I didn't mess around with my laptop too much since I needed
 it to remain reliable enough to get me through my last 2 years of high school.
+My laptop was already pretty old by then (almost 10 years), so I swapped out my
+hard drive for a shiny new SSD (Samsung EVO 870) to keep it chugging along.
+
+* New Laptop! Trusted steed now used for side-missions
+After I got into college, my parents got me an ASUS TUF A15.
+
+|-----------------------+-----------------------------------------------------------|
+| *Hardware Model*      | ASUSTeK COMPUTER INC. ASUS TUF Gaming A15 FA507NU FA577NU |
+| *Memory*              | 16.0 GiB                                                  |
+| *Processor*           | AMD Ryzen™ 7 7735HS with Radeon™ Graphics × 16         |
+| *Integrated Graphics* | AMD Radeon™ 680M                                        |
+| *Dedicated Graphics*  | NVIDIA GeForce RTX 4050                                   |
+| *Disk Capacity*       | 512 GiB                                                   |
+|-----------------------+-----------------------------------------------------------|
