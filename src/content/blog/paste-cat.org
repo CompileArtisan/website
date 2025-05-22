@@ -100,14 +100,34 @@ it to remain reliable enough to get me through my last 2 years of high school.
 My laptop was already pretty old by then (almost 10 years), so I swapped out my
 hard drive for a shiny new SSD (Samsung EVO 870) to keep it chugging along.
 
-* New Laptop! Trusted steed now used for side-missions
-After I got into college, my parents got me an ASUS TUF A15.
+* New Laptop!
+After I got into college, my parents got me an ASUS TUF A15 FA507NU FA577NU
+with:
+- 16GiB of memory
+- 512GiB of storage
+- an AMD Ryzen™ 7 7735HS
+- AMD Radeon™ 680M integrated graphics
+- an NVIDIA GeForce RTX 4050 graphics card
+- a happy owner :)
 
-|-----------------------+-----------------------------------------------------------|
-| *Hardware Model*      | ASUSTeK COMPUTER INC. ASUS TUF Gaming A15 FA507NU FA577NU |
-| *Memory*              | 16.0 GiB                                                  |
-| *Processor*           | AMD Ryzen™ 7 7735HS with Radeon™ Graphics × 16         |
-| *Integrated Graphics* | AMD Radeon™ 680M                                        |
-| *Dedicated Graphics*  | NVIDIA GeForce RTX 4050                                   |
-| *Disk Capacity*       | 512 GiB                                                   |
-|-----------------------+-----------------------------------------------------------|
+Now I had some courage to play around with my trusted steed. Didn't I tell you I
+made a macOS Catalina themed Ubuntu? I came across this video from Linus Tech Tips:
+
+#+begin_export html
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/ATnpEOo3GJA?si=fNpEODp48e00W_Ul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+#+end_export
+
+This time, I decided to make a macOS Big Sur powered hackintosh, using the
+[[https://dortania.github.io/OpenCore-Install-Guide/][OpenCore Install Guide]]. Research on this took weeks, with my main sources of
+information being [[https://www.tonymacx86.com/][tonymacx86.com]] and various subreddits. I tried relentlessly to
+get the kexts work but they just wouldn't! I figured hackintoshing wasn't my cup
+of tea. In the end, I threw in Ubuntu, and handed over the trusted steed to my
+younger brother.
+
+* Same Behaviour, different Sources
+The ASUS TUF came with Windows 11, and I instantly felt at home. My college gave
+me a Microsoft account with 1 TB of storage on Onedrive. Any piece of code I
+would write, would be pushed to a GitHub repository. I primarily used Visual
+Studio Code, and was fairly proficient in it. Since I'd settled into a good
+setup, the time I spent on its tweaking had gone towards learning new languages
+and professional skills.

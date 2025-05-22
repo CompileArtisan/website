@@ -7,15 +7,16 @@ description: "How uniqueness and inspiration met in my workflow"
 
 # Table of Contents
 
-1.  [Introduction](#org9542e3e)
-2.  [The Hunt For the Right Setup](#org4cfb421)
-3.  [Hello Linux](#org44f33c5)
-4.  [Not Home Yet](#orga999c40)
-5.  [The Ladder Through Windows](#org32fea0e)
-6.  [New Laptop! Trusted steed now used for side-missions](#orged920c0)
+1.  [Introduction](#org278306d)
+2.  [The Hunt For the Right Setup](#org9ddaa8a)
+3.  [Hello Linux](#org3bd09c5)
+4.  [Not Home Yet](#orge658f76)
+5.  [The Ladder Through Windows](#orgc3fac36)
+6.  [New Laptop!](#org27c8426)
+7.  [Same Behaviour, different Sources](#orgc45c39c)
 
 
-<a id="org9542e3e"></a>
+<a id="org278306d"></a>
 
 # Introduction
 
@@ -25,7 +26,7 @@ very comfortable with Windows 11 over the past 3 years. Enter the year 2025, and
 the way I use a laptop is not what it once was.
 
 
-<a id="org4cfb421"></a>
+<a id="org9ddaa8a"></a>
 
 # The Hunt For the Right Setup
 
@@ -49,7 +50,7 @@ this was the only computer I had at home. I almost had to settle for ChromeOS
 forever. *Almost*, because life had something else in stock for me.
 
 
-<a id="org44f33c5"></a>
+<a id="org3bd09c5"></a>
 
 # Hello Linux
 
@@ -67,7 +68,7 @@ definitely an upgrade. The LibreOffice suite did have a lot to offer, and could
 easily replace Microsoft Office in my life.
 
 
-<a id="orga999c40"></a>
+<a id="orge658f76"></a>
 
 # Not Home Yet
 
@@ -96,7 +97,7 @@ learning all the shortcuts and working my own ways around the OS. What also
 helped me fly around was my new profound love for touch-typing.
 
 
-<a id="org32fea0e"></a>
+<a id="orgc3fac36"></a>
 
 # The Ladder Through Windows
 
@@ -121,50 +122,36 @@ My laptop was already pretty old by then (almost 10 years), so I swapped out my
 hard drive for a shiny new SSD (Samsung EVO 870) to keep it chugging along.
 
 
-<a id="orged920c0"></a>
+<a id="org27c8426"></a>
 
-# New Laptop! Trusted steed now used for side-missions
+# New Laptop!
 
-After I got into college, my parents got me an ASUS TUF A15.
+After I got into college, my parents got me an ASUS TUF A15 FA507NU FA577NU
+with:
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+-   16GiB of memory
+-   512GiB of storage
+-   an AMD Ryzen™ 7 7735HS
+-   AMD Radeon™ 680M integrated graphics
+-   an NVIDIA GeForce RTX 4050 graphics card
+-   a happy owner :)
+
+Now I had some courage to play around with my trusted steed. Didn&rsquo;t I tell you I
+made a macOS Catalina themed Ubuntu? I came across this video from Linus Tech Tips:
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/ATnpEOo3GJA?si=fNpEODp48e00W_Ul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+
+This time, I decided to make a macOS Big Sur powered hackintosh, using the
+[OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/). Research on this took weeks, with my main sources of
+information being [tonymacx86.com](https://www.tonymacx86.com/) and various subreddits. I tried relentlessly to
+get the kexts work but they just wouldn&rsquo;t! I figured hackintoshing wasn&rsquo;t my cup
+of tea. In the end, I threw in Ubuntu, and handed over the trusted steed to my
+younger brother.
 
 
-<colgroup>
-<col  class="org-left" />
+<a id="orgc45c39c"></a>
 
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left"><b>Hardware Model</b></td>
-<td class="org-left">ASUSTeK COMPUTER INC. ASUS TUF Gaming A15 FA507NU FA577NU</td>
-</tr>
+# Same Behaviour, different Sources
 
-<tr>
-<td class="org-left"><b>Memory</b></td>
-<td class="org-left">16.0 GiB</td>
-</tr>
-
-<tr>
-<td class="org-left"><b>Processor</b></td>
-<td class="org-left">AMD Ryzen™ 7 7735HS with Radeon™ Graphics × 16</td>
-</tr>
-
-<tr>
-<td class="org-left"><b>Integrated Graphics</b></td>
-<td class="org-left">AMD Radeon™ 680M</td>
-</tr>
-
-<tr>
-<td class="org-left"><b>Dedicated Graphics</b></td>
-<td class="org-left">NVIDIA GeForce RTX 4050</td>
-</tr>
-
-<tr>
-<td class="org-left"><b>Disk Capacity</b></td>
-<td class="org-left">512 GiB</td>
-</tr>
-</tbody>
-</table>
+The ASUS TUF came with Windows 11, and
 
