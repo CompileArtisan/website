@@ -130,4 +130,6 @@ me a Microsoft account with 1 TB of storage on Onedrive. Any piece of code I
 would write, would be pushed to a GitHub repository. I primarily used Visual
 Studio Code, and was fairly proficient in it. Since I'd settled into a good
 setup, the time I spent on its tweaking had gone towards learning new languages
-and professional skills.
+and professional skills. This near-permanent setup of mine remained untouched
+until I looked into the laptops of two people: [[https://adithyanair.com/][Adithya Nair]] and [[https://github.com/varunadhityagb/][Varun Adhitya G
+B]].

@@ -7,16 +7,16 @@ description: "How uniqueness and inspiration met in my workflow"
 
 # Table of Contents
 
-1.  [Introduction](#org278306d)
-2.  [The Hunt For the Right Setup](#org9ddaa8a)
-3.  [Hello Linux](#org3bd09c5)
-4.  [Not Home Yet](#orge658f76)
-5.  [The Ladder Through Windows](#orgc3fac36)
-6.  [New Laptop!](#org27c8426)
-7.  [Same Behaviour, different Sources](#orgc45c39c)
+1.  [Introduction](#org75a733c)
+2.  [The Hunt For the Right Setup](#org7740aa2)
+3.  [Hello Linux](#org2f3ecb1)
+4.  [Not Home Yet](#orge52683c)
+5.  [The Ladder Through Windows](#org60a5915)
+6.  [New Laptop!](#org744eff9)
+7.  [Same Behaviour, different Sources](#org1aec32a)
 
 
-<a id="org278306d"></a>
+<a id="org75a733c"></a>
 
 # Introduction
 
@@ -26,7 +26,7 @@ very comfortable with Windows 11 over the past 3 years. Enter the year 2025, and
 the way I use a laptop is not what it once was.
 
 
-<a id="org9ddaa8a"></a>
+<a id="org7740aa2"></a>
 
 # The Hunt For the Right Setup
 
@@ -50,7 +50,7 @@ this was the only computer I had at home. I almost had to settle for ChromeOS
 forever. *Almost*, because life had something else in stock for me.
 
 
-<a id="org3bd09c5"></a>
+<a id="org2f3ecb1"></a>
 
 # Hello Linux
 
@@ -68,7 +68,7 @@ definitely an upgrade. The LibreOffice suite did have a lot to offer, and could
 easily replace Microsoft Office in my life.
 
 
-<a id="orge658f76"></a>
+<a id="orge52683c"></a>
 
 # Not Home Yet
 
@@ -97,7 +97,7 @@ learning all the shortcuts and working my own ways around the OS. What also
 helped me fly around was my new profound love for touch-typing.
 
 
-<a id="orgc3fac36"></a>
+<a id="org60a5915"></a>
 
 # The Ladder Through Windows
 
@@ -122,7 +122,7 @@ My laptop was already pretty old by then (almost 10 years), so I swapped out my
 hard drive for a shiny new SSD (Samsung EVO 870) to keep it chugging along.
 
 
-<a id="org27c8426"></a>
+<a id="org744eff9"></a>
 
 # New Laptop!
 
@@ -149,9 +149,16 @@ of tea. In the end, I threw in Ubuntu, and handed over the trusted steed to my
 younger brother.
 
 
-<a id="orgc45c39c"></a>
+<a id="org1aec32a"></a>
 
 # Same Behaviour, different Sources
 
-The ASUS TUF came with Windows 11, and
+The ASUS TUF came with Windows 11, and I instantly felt at home. My college gave
+me a Microsoft account with 1 TB of storage on Onedrive. Any piece of code I
+would write, would be pushed to a GitHub repository. I primarily used Visual
+Studio Code, and was fairly proficient in it. Since I&rsquo;d settled into a good
+setup, the time I spent on its tweaking had gone towards learning new languages
+and professional skills. This near-permanent setup of mine remained untouched
+until I looked into the laptops of two people: [Adithya Nair](https://adithyanair.com/) and [Varun Adhitya G
+B](https://github.com/varunadhityagb/).
 
