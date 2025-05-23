@@ -7,16 +7,17 @@ description: "How uniqueness and inspiration met in my workflow"
 
 # Table of Contents
 
-1.  [Introduction](#org75a733c)
-2.  [The Hunt For the Right Setup](#org7740aa2)
-3.  [Hello Linux](#org2f3ecb1)
-4.  [Not Home Yet](#orge52683c)
-5.  [The Ladder Through Windows](#org60a5915)
-6.  [New Laptop!](#org744eff9)
-7.  [Same Behaviour, different Sources](#org1aec32a)
+1.  [Introduction](#org2db9431)
+2.  [The Hunt For the Right Setup](#orgcd32fab)
+3.  [Hello Linux](#org415d2b5)
+4.  [Not Home Yet](#orgc12e1f5)
+5.  [The Ladder Through Windows](#orgf0eb9b8)
+6.  [New Laptop!](#org870c481)
+7.  [Rekindled](#org3ecfa6b)
+8.  [Final Move and Final Thoughts](#org6db46d6)
 
 
-<a id="org75a733c"></a>
+<a id="org2db9431"></a>
 
 # Introduction
 
@@ -26,7 +27,7 @@ very comfortable with Windows 11 over the past 3 years. Enter the year 2025, and
 the way I use a laptop is not what it once was.
 
 
-<a id="org7740aa2"></a>
+<a id="orgcd32fab"></a>
 
 # The Hunt For the Right Setup
 
@@ -50,7 +51,7 @@ this was the only computer I had at home. I almost had to settle for ChromeOS
 forever. *Almost*, because life had something else in stock for me.
 
 
-<a id="org2f3ecb1"></a>
+<a id="org415d2b5"></a>
 
 # Hello Linux
 
@@ -68,7 +69,7 @@ definitely an upgrade. The LibreOffice suite did have a lot to offer, and could
 easily replace Microsoft Office in my life.
 
 
-<a id="orge52683c"></a>
+<a id="orgc12e1f5"></a>
 
 # Not Home Yet
 
@@ -97,7 +98,7 @@ learning all the shortcuts and working my own ways around the OS. What also
 helped me fly around was my new profound love for touch-typing.
 
 
-<a id="org60a5915"></a>
+<a id="orgf0eb9b8"></a>
 
 # The Ladder Through Windows
 
@@ -122,7 +123,7 @@ My laptop was already pretty old by then (almost 10 years), so I swapped out my
 hard drive for a shiny new SSD (Samsung EVO 870) to keep it chugging along.
 
 
-<a id="org744eff9"></a>
+<a id="org870c481"></a>
 
 # New Laptop!
 
@@ -149,9 +150,9 @@ of tea. In the end, I threw in Ubuntu, and handed over the trusted steed to my
 younger brother.
 
 
-<a id="org1aec32a"></a>
+<a id="org3ecfa6b"></a>
 
-# Same Behaviour, different Sources
+# Rekindled
 
 The ASUS TUF came with Windows 11, and I instantly felt at home. My college gave
 me a Microsoft account with 1 TB of storage on Onedrive. Any piece of code I
@@ -161,4 +162,59 @@ setup, the time I spent on its tweaking had gone towards learning new languages
 and professional skills. This near-permanent setup of mine remained untouched
 until I looked into the laptops of two people: [Adithya Nair](https://adithyanair.com/) and [Varun Adhitya G
 B](https://github.com/varunadhityagb/).
+
+Varun began to run Arch Linux and set up Hyprland on it. This was when I first
+understood the concept of compositors and window managers. I came across
+Adithya&rsquo;s setup, and he ran Hyprland on Fedora. I was quite fascinated by their
+work, but definitely didn&rsquo;t convince me to make the switch. I remained steadfast
+in sticking with Windows, thanks to how it does exactly what I need, the way I
+want it to. What they did convince me in though, was switching my editor.
+Adithya compelled me to start using the Vim editor, as that would truly
+capitalize on my typing speed. I used Neovim (LazyVim) on PowerShell. I loved
+Vim motions and I sought to use it as my primary code editor. I deeply enjoyed
+customizing it and in this process there were several shortcomings (I don&rsquo;t
+quite remember them right now). I was fed up of people online comparing it to
+Emacs, which is what Adithya uses. On learning that Doom Emacs on `evil-mode`,
+is an excellent alternative to Neovim, my next mission was clear: get Emacs on
+Windows. I&rsquo;m sorry for what I&rsquo;m about to say, but I ran Doom Emacs on WSL. I
+just pretended like the start-up time of 20 seconds didn&rsquo;t matter to me. Ever
+since, Adithya has been my goto guide for this.
+
+On setting up LSPs and whatnot, Doom Emacs had completely replaced Visual Studio
+Code for me. Emacs is more than just a code editor. It&rsquo;s a text editor which can
+replace Microsoft Word if you use `.org` files. This is definitely not a popular
+file format, but you can export it as anything you&rsquo;d like: `.tex`, `.pdf`,
+`.md`, `.html`, and so on. Having to both code, and write documents in the same
+place has changed the way I work with my computer. Here at college, we are
+required to write papers to submit and present in IEEE conferences. While Emacs
+is an amazing editor for writing in LaTeX directly, you could use an
+org-template which ensures a LaTeX export in the IEEE format. The blog you&rsquo;re
+reading right now, is an Org document too!
+
+
+<a id="org6db46d6"></a>
+
+# Final Move and Final Thoughts
+
+I&rsquo;ve been influenced thoroughly, and I&rsquo;ve definitely taken inspiration from my
+peers. I&rsquo;ve always wanted to use my laptop unlike anybody else. The way I use my
+laptop is always backed up by my research. A YouTube video or a random article
+on the internet only tells me what I can change; it doesn&rsquo;t tell me how. This is
+just the way I like it, as &ldquo;how&rdquo; is left to me and my experiments. In college,
+my inspiration has changed from YouTubers to actual people I see every day. But
+again, they&rsquo;re inspiration, not instruction manuals. I strive to keep them that
+way, as this keeps me from thinking I&rsquo;m a copycat. I take bits and pieces from
+everywhere, and paste them into my workflow, such that it works for *me*. I&rsquo;m a
+&ldquo;pastecat&rdquo; of sorts as I paste something from somewhere and play around with
+whatever I&rsquo;ve got. The experimental aspect involved with my setup is primarily
+in finding new things for my configuration files for Doom Emacs, and adopting
+new shortcuts. The org-template for the IEEE template was a direct lift from
+another website, but my choice of pasting this, is an experiment I own. We&rsquo;re
+all building on top of each other’s foundations, and we must take pride in it.
+
+Oh and here&rsquo;s a twist: I **did** switch to Fedora completetely 🙂. I&rsquo;m an ardent
+GNOME user and have found myself quite comfortable with the GUI. I don&rsquo;t see
+myself switching to Hyprland anytime soon, because I have capped my time to just
+getting things done instead of tweaking things endlessly. Because now, I&rsquo;ve made
+myself another established setup. Let&rsquo;s see if something else fascinates me.
 

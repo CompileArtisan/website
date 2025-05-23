@@ -124,7 +124,7 @@ get the kexts work but they just wouldn't! I figured hackintoshing wasn't my cup
 of tea. In the end, I threw in Ubuntu, and handed over the trusted steed to my
 younger brother.
 
-* Same Behaviour, different Sources
+* Rekindled
 The ASUS TUF came with Windows 11, and I instantly felt at home. My college gave
 me a Microsoft account with 1 TB of storage on Onedrive. Any piece of code I
 would write, would be pushed to a GitHub repository. I primarily used Visual
@@ -133,3 +133,59 @@ setup, the time I spent on its tweaking had gone towards learning new languages
 and professional skills. This near-permanent setup of mine remained untouched
 until I looked into the laptops of two people: [[https://adithyanair.com/][Adithya Nair]] and [[https://github.com/varunadhityagb/][Varun Adhitya G
 B]].
+
+
+Varun began to run Arch Linux and set up Hyprland on it. This was when I first
+understood the concept of compositors and window managers. I came across
+Adithya's setup, and he ran Hyprland on Fedora. I was quite fascinated by their
+work, but definitely didn't convince me to make the switch. I remained steadfast
+in sticking with Windows, thanks to how it does exactly what I need, the way I
+want it to. What they did convince me in though, was switching my editor.
+Adithya compelled me to start using the Vim editor, as that would truly
+capitalize on my typing speed. I used Neovim (LazyVim) on PowerShell. I loved
+Vim motions and I sought to use it as my primary code editor. I deeply enjoyed
+customizing it and in this process there were several shortcomings (I don't
+quite remember them right now). I was fed up of people online comparing it to
+Emacs, which is what Adithya uses. On learning that Doom Emacs on ~evil-mode~,
+is an excellent alternative to Neovim, my next mission was clear: get Emacs on
+Windows. I'm sorry for what I'm about to say, but I ran Doom Emacs on WSL. I
+just pretended like the start-up time of 20 seconds didn't matter to me. Ever
+since, Adithya has been my goto guide for this.
+
+
+# insert command prompt image here, and after the image add "...on PowerShell"
+
+On setting up LSPs and whatnot, Doom Emacs had completely replaced Visual Studio
+Code for me. Emacs is more than just a code editor. It's a text editor which can
+replace Microsoft Word if you use ~.org~ files. This is definitely not a popular
+file format, but you can export it as anything you'd like: ~.tex~, ~.pdf~,
+~.md~, ~.html~, and so on. Having to both code, and write documents in the same
+place has changed the way I work with my computer. Here at college, we are
+required to write papers to submit and present in IEEE conferences. While Emacs
+is an amazing editor for writing in LaTeX directly, you could use an
+org-template which ensures a LaTeX export in the IEEE format. The blog you're
+reading right now, is an Org document too!
+
+* Final Move and Final Thoughts
+
+I've been influenced thoroughly, and I've definitely taken inspiration from my
+peers. I've always wanted to use my laptop unlike anybody else. The way I use my
+laptop is always backed up by my research. A YouTube video or a random article
+on the internet only tells me what I can change; it doesn't tell me how. This is
+just the way I like it, as "how" is left to me and my experiments. In college,
+my inspiration has changed from YouTubers to actual people I see every day. But
+again, they're inspiration, not instruction manuals. I strive to keep them that
+way, as this keeps me from thinking I'm a copycat. I take bits and pieces from
+everywhere, and paste them into my workflow, such that it works for /me/. I'm a
+"pastecat" of sorts as I paste something from somewhere and play around with
+whatever I've got. The experimental aspect involved with my setup is primarily
+in finding new things for my configuration files for Doom Emacs, and adopting
+new shortcuts. The org-template for the IEEE template was a direct lift from
+another website, but my choice of pasting this, is an experiment I own. We're
+all building on top of each other’s foundations, and we must take pride in it.
+
+Oh and here's a twist: I *did* switch to Fedora completetely 🙂. I'm an ardent
+GNOME user and have found myself quite comfortable with the GUI. I don't see
+myself switching to Hyprland anytime soon, because I have capped my time to just
+getting things done instead of tweaking things endlessly. Because now, I've made
+myself another established setup. Let's see if something else fascinates me.
