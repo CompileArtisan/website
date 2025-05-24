@@ -7,17 +7,17 @@ description: "How uniqueness and inspiration met in my workflow"
 
 # Table of Contents
 
-1.  [Introduction](#org2db9431)
-2.  [The Hunt For the Right Setup](#orgcd32fab)
-3.  [Hello Linux](#org415d2b5)
-4.  [Not Home Yet](#orgc12e1f5)
-5.  [The Ladder Through Windows](#orgf0eb9b8)
-6.  [New Laptop!](#org870c481)
-7.  [Rekindled](#org3ecfa6b)
-8.  [Final Move and Final Thoughts](#org6db46d6)
+1.  [Introduction](#org8d096a9)
+2.  [The Hunt For the Right Setup](#org347bbca)
+3.  [Hello Linux](#orge12a6e5)
+4.  [Not Home Yet](#org2e2ffc2)
+5.  [The Ladder Through Windows](#org55d9f85)
+6.  [New Laptop!](#orgacdf305)
+7.  [Rekindled](#org05683cd)
+8.  [Final Move and Final Thoughts](#orgb69fa4e)
 
 
-<a id="org2db9431"></a>
+<a id="org8d096a9"></a>
 
 # Introduction
 
@@ -27,7 +27,7 @@ very comfortable with Windows 11 over the past 3 years. Enter the year 2025, and
 the way I use a laptop is not what it once was.
 
 
-<a id="orgcd32fab"></a>
+<a id="org347bbca"></a>
 
 # The Hunt For the Right Setup
 
@@ -51,7 +51,7 @@ this was the only computer I had at home. I almost had to settle for ChromeOS
 forever. *Almost*, because life had something else in stock for me.
 
 
-<a id="org415d2b5"></a>
+<a id="orge12a6e5"></a>
 
 # Hello Linux
 
@@ -69,7 +69,7 @@ definitely an upgrade. The LibreOffice suite did have a lot to offer, and could
 easily replace Microsoft Office in my life.
 
 
-<a id="orgc12e1f5"></a>
+<a id="org2e2ffc2"></a>
 
 # Not Home Yet
 
@@ -98,7 +98,7 @@ learning all the shortcuts and working my own ways around the OS. What also
 helped me fly around was my new profound love for touch-typing.
 
 
-<a id="orgf0eb9b8"></a>
+<a id="org55d9f85"></a>
 
 # The Ladder Through Windows
 
@@ -123,7 +123,7 @@ My laptop was already pretty old by then (almost 10 years), so I swapped out my
 hard drive for a shiny new SSD (Samsung EVO 870) to keep it chugging along.
 
 
-<a id="org870c481"></a>
+<a id="orgacdf305"></a>
 
 # New Laptop!
 
@@ -150,7 +150,7 @@ of tea. In the end, I threw in Ubuntu, and handed over the trusted steed to my
 younger brother.
 
 
-<a id="org3ecfa6b"></a>
+<a id="org05683cd"></a>
 
 # Rekindled
 
@@ -191,8 +191,12 @@ is an amazing editor for writing in LaTeX directly, you could use an
 org-template which ensures a LaTeX export in the IEEE format. The blog you&rsquo;re
 reading right now, is an Org document too!
 
+![Headers for an IEEE Export](/template.png "Headers for an IEEE Export")
 
-<a id="org6db46d6"></a>
+<center> Headers for an IEEE Export </center><br>
+
+
+<a id="orgb69fa4e"></a>
 
 # Final Move and Final Thoughts
 

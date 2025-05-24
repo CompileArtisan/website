@@ -166,6 +166,14 @@ is an amazing editor for writing in LaTeX directly, you could use an
 org-template which ensures a LaTeX export in the IEEE format. The blog you're
 reading right now, is an Org document too!
 
+#+begin_export markdown
+![Headers for an IEEE Export](/template.png "Headers for an IEEE Export")
+#+end_export
+
+#+begin_export html
+<center> Headers for an IEEE Export </center><br>
+#+end_export
+
 * Final Move and Final Thoughts
 
 I've been influenced thoroughly, and I've definitely taken inspiration from my
