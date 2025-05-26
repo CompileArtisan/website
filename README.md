@@ -1,2 +1,2 @@
 ## My Personal Website
-This website was made using Astro and plain CSS.
+This minimal website of mine was made using Astro and plain CSS. 
