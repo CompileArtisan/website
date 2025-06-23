@@ -1,18 +1,21 @@
 :root {
     --color-primary: #0000aa;
-    --color-secondary: #9e9ca0;
+    --color-secondary: #bababa;
     --color-text-primary: #ffffff;
-    --color-text-secondary: #0000aa;
-    --color-border: #ffffff;
+    --color-text-secondary: #404040;
+    --color-border: #0000aa;
     --color-scrollbar-track: #d2cfd3;
     --color-scrollbar-thumb: #555;
     --color-scrollbar-thumb-hover: var(--color-primary);
+    --color-panel-light: #dfdfdf;
+    --color-panel-dark: #808080;
+    --color-panel-shadow: #404040;
 
     --font-family-primary: "DOSVGA", monospace;
-    --font-size-base: 1em;
-    --font-size-small: 0.8em;
-    --font-size-medium: 1.2em;
-    --font-size-large: 1.5em;
+    --font-size-base: 1.2em;
+    --font-size-small: 1em;
+    --font-size-medium: 1.4em;
+    --font-size-large: 1.7em;
 
     --spacing-xs: 2px;
     --spacing-sm: 5px;
@@ -42,7 +45,7 @@
 body {
     font-family: var(--font-family-primary);
     background-color: var(--color-primary);
-    color: var(--color-text-primary);
+    color: var(--color-text-secondary);
     margin: 0;
     padding: 0;
     font-size: var(--font-size-base);
@@ -53,13 +56,12 @@ body {
 }
 
 a {
-    color: var(--color-text-primary);
+    color: var(--color-text-s);
     text-decoration: none;
-    transition: color var(--transition-duration) ease;
 }
 
 a:hover {
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 .header {
@@ -77,7 +79,7 @@ a:hover {
     justify-content: flex-start;
     align-items: center;
     background-color: var(--color-primary);
-    border-bottom: var(--border-width) solid var(--color-border);
+    border-bottom: var(--border-width) solid var(--color-secondary);
     flex-shrink: 0;
     padding-left: var(--spacing-lg);
 }
@@ -93,12 +95,12 @@ a:hover {
 }
 
 .navbar a:hover {
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 .navbar a.active {
     background-color: var(--color-secondary);
-    color: var(--color-text-secondary);
+    color: var(--color-primary);
     padding: var(--spacing-xs) var(--spacing-sm);
 }
 
@@ -139,7 +141,7 @@ a:hover {
 
 .mobile-menu-content a {
     display: block;
-    color: var(--color-text-primary);
+    color: var(--color-text-secondary);
     padding: var(--spacing-md);
     text-decoration: none;
     border-top: 1px solid var(--color-border);
@@ -175,26 +177,30 @@ a:hover {
     padding: var(--spacing-md);
     overflow: auto;
     min-width: 0;
-    margin: var(--spacing-xxl);
+    margin: var(--spacing-md);
+    border: var(--border-width) solid var(--color-border);
+    background-color: var(--color-secondary);
+    color: var(--color-text-secondary);
 }
 
 .right-panel {
     width: var(--panel-right-width);
     flex-shrink: 0;
     padding: var(--spacing-lg);
-    background-color: var(--color-primary);
-    color: var(--color-text-primary);
-    border-left: var(--border-width) solid var(--color-border);
+    background-color: var(--color-secondary);
+    color: var(--color-text-secondary);
     overflow: hidden;
     font-size: var(--font-size-large);
+    border: var(--border-width) solid var(--color-border);
+    margin: var(--spacing-md);
 }
 
 .right-panel p a {
-    color: var(--color-text-primary);
+    color: var(--color-text-secondary);
 }
 
 .right-panel p a:hover {
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 .footer {
@@ -226,11 +232,11 @@ li {
 }
 
 li a {
-    color: var(--color-text-primary);
+    color: var(--color-text-secondary);
 }
 
 li a:hover {
-    color: var(--color-text-secondary);
+    color: var(--color-primary);
 }
 
 .blog-list {
@@ -244,7 +250,7 @@ li a:hover {
 }
 
 .blog-list-item a {
-    color: var(--color-text-primary);
+    color: var(--color-text-secondary);
     font-size: var(--font-size-small);
 }
 
@@ -257,7 +263,7 @@ li a:hover {
 }
 
 .selected {
-    color: var(--color-text-secondary);
+    color: var(--color-primary);
 }
 
 .icon-link {
