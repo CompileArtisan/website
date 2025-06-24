@@ -24,7 +24,7 @@
     --spacing-xl: 30px;
     --spacing-xxl: 40px;
 
-    --border-width: 2px;
+    --border-width: 6px;
     --panel-left-width: 70%;
     --panel-right-width: 30%;
     --transition-duration: 0.3s;
@@ -95,13 +95,13 @@ a:hover {
 }
 
 .navbar a:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .navbar a.active {
     background-color: var(--color-secondary);
     color: var(--color-primary);
-    padding: var(--spacing-xs) var(--spacing-sm);
+    padding: var(--spacing-xs) var(--spacing-lg);
 }
 
 .mobile-menu {
@@ -188,7 +188,7 @@ a:hover {
     flex-shrink: 0;
     padding: var(--spacing-lg);
     background-color: var(--color-secondary);
-    color: var(--color-text-secondary);
+    color: var(--color-primary);
     overflow: hidden;
     font-size: var(--font-size-large);
     border: var(--border-width) solid var(--color-border);
@@ -197,6 +197,7 @@ a:hover {
 
 .right-panel p a {
     color: var(--color-text-secondary);
+    text-decoration: underline;
 }
 
 .right-panel p a:hover {
@@ -209,6 +210,7 @@ a:hover {
     border-top: var(--border-width) solid var(--color-border);
     flex-shrink: 0;
     padding: var(--spacing-sm);
+    color: var(--color-text-primary);
 }
 
 .footer a {
