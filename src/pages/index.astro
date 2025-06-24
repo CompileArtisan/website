@@ -1,5 +1,6 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
+import Keybindings from '../components/Keybindings.astro'
 ---
 
 <MainLayout title="CompileArtisan">
@@ -58,6 +59,7 @@ import MainLayout from '../layouts/MainLayout.astro';
             </ul>
         </div>
         <div class="right-panel" id="description-panel">
+          <div class="right-panel-top">
           <p>This is my Personal Website, inspired by the good old
             <a
             href="https://docs.oracle.com/cd/E20881_01/html/E20891/figures/mb1.png"
@@ -68,6 +70,8 @@ import MainLayout from '../layouts/MainLayout.astro';
             <div class="tip">
               <p>You can use your arrow keys to move around, just like it's your BIOS.</p>
             </div>
+          </div>
+          <Keybindings />
         </div>
     </div>
 

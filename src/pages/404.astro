@@ -1,5 +1,7 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
+import Keybindings from '../components/Keybindings.astro'
+
 ---
 
 <MainLayout title="Error 404 - CompileArtisan">
@@ -8,7 +10,11 @@ import MainLayout from '../layouts/MainLayout.astro';
           <h2>Whoops, We can't find that page :(</h2>
         </div>
         <div class="right-panel">
-            <p>Error 404</p>
+            <div class='right-panel-top'>
+                <p>Error 404</p>
+            </div>
+            <Keybindings />
+
         </div>
     </div>
 </MainLayout>

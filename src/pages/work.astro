@@ -1,5 +1,7 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
+import Keybindings from '../components/Keybindings.astro'
+
 ---
 
 <MainLayout title="My Work - CompileArtisan">
@@ -36,7 +38,12 @@ import MainLayout from '../layouts/MainLayout.astro';
             </ul>
         </div>
         <div class="right-panel">
+          <div class="right-panel-top">
             <p>A few among the best projects I have done</p>
+          </div>
+          <Keybindings />
+
+
         </div>
     </div>
 </MainLayout>

@@ -1,33 +1,20 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
+import Keybindings from '../components/Keybindings.astro'
+import FileFetcher from '../components/FileFetcher.astro'
 
-
-const fileList = Object.keys(import.meta.glob('/public/files/*', { eager: true }))
-  .map(file => file.split('/').pop());
 ---
 <MainLayout title="Files - CompileArtisan">
     <div class="main-content">
         <div class="left-panel">
-            <h1>Available Files</h1>
-            <ul>
-                {fileList.length > 0 ? (
-                    fileList.map(file => (
-                        <li>
-                            <a href={`/files/${file}`} class="icon-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/>
-                                </svg>
-                                {file}
-                            </a>
-                        </li>
-                    ))
-                ) : (
-                    <li>No files found in the directory.</li>
-                )}
-            </ul>
+            <FileFetcher />
         </div>
         <div class="right-panel">
-            <p>These are all the files available for download</p>
+            <div class="right-panel-top">
+                <p>These are all the files available for download</p>
+            </div>
+
+            <Keybindings />
         </div>
     </div>
 </MainLayout>

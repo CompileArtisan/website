@@ -1,5 +1,6 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
+import Keybindings from '../components/Keybindings.astro'
 import { getCollection } from 'astro:content';
 const blogPosts = (await getCollection('blog')).sort((a, b) => {
     return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
@@ -23,7 +24,11 @@ const blogPosts = (await getCollection('blog')).sort((a, b) => {
           </ul>
         </div>
         <div class="right-panel">
+            <div class="right-panel-top">
             <p>These are all of my blogs</p>
+            </div>
+
+            <Keybindings />
         </div>
     </div>
 </MainLayout>
