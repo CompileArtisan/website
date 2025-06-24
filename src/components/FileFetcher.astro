@@ -2,7 +2,6 @@
 const fileList = Object.keys(import.meta.glob('/public/files/*', { eager: true }))
   .map(file => file.split('/').pop());
 ---
-<h1>Available Files</h1>
 <ul>
     {fileList.length > 0 ? (
         fileList.map(file => (

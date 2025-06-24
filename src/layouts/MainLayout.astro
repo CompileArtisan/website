@@ -68,8 +68,7 @@ import '../styles/global.css';
     <div class="navbar">
         <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
         <a href="/blogs/" class={Astro.url.pathname === '/blogs/' ? 'active' : ''}>Blogs</a>
-        <a href="/files/" class={Astro.url.pathname === '/files/' ? 'active' : ''}>Files</a>
-        <a href="/work/" class={Astro.url.pathname === '/work/' ? 'active' : ''}>Some Work of Mine</a>
+        <a href="/work/" class={Astro.url.pathname === '/work/' ? 'active' : ''}>Portfolio</a>
     </div>
 
     <div class="mobile-menu">
@@ -82,8 +81,7 @@ import '../styles/global.css';
         <div class="mobile-menu-content">
             <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
             <a href="/blogs/" class={Astro.url.pathname === '/blogs/' ? 'active' : ''}>Blogs</a>
-            <a href="/files/" class={Astro.url.pathname === '/files/' ? 'active' : ''}>Files</a>
-            <a href="/work/" class={Astro.url.pathname === '/work/' ? 'active' : ''}>Some Work of Mine</a>
+            <a href="/work/" class={Astro.url.pathname === '/work/' ? 'active' : ''}>Portfolio</a>
         </div>
     </div>
 
@@ -95,7 +93,7 @@ import '../styles/global.css';
     </div>
 
     <script>
-        const tabs = ["/", "/blogs/", "/files/" ,"/work/"];
+        const tabs = ["/", "/blogs/", "/work/"];
         const items = document.querySelectorAll('li a');
 
         let active = tabs.indexOf(window.location.pathname);
