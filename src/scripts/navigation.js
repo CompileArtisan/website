@@ -1,5 +1,5 @@
 export function setupKeyboardNavigation() {
-  const tabs = ["/", "/blogs/", "/work/"];
+  const tabs = ["/", "/blogs/", "/portfolio/"];
   const items = document.querySelectorAll("li a");
 
   let active = tabs.indexOf(window.location.pathname);
