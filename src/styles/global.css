@@ -349,6 +349,7 @@ li a:hover {
 
     body {
         font-size: var(--font-size-small);
+        overflow-x: hidden;
     }
 
     header {
@@ -368,30 +369,19 @@ li a:hover {
 
     .main-content {
         flex-direction: column;
+        overflow-x: hidden;
     }
 
     .left-panel {
         width: 100%;
         padding: var(--spacing-md);
-        margin: var(--spacing-md) var(--spacing-md) 0 var(--spacing-md);
-        overflow: visible;
-        order: 1;
+        margin: var(--spacing-md);
+        overflow-x: hidden;
+        overflow-y: auto;
+        border: none;
     }
 
     .right-panel {
-        width: 100%;
-        margin: 0 var(--spacing-md) var(--spacing-md) var(--spacing-md);
-        border-top: var(--border-width) solid var(--color-border);
-        order: 2;
-    }
-
-    .right-panel-top {
-        font-size: var(--font-size-small);
-        border-left: none;
-        padding: var(--spacing-md);
-    }
-
-    .right-panel-bottom {
         display: none;
     }
 
