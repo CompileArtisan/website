@@ -20,10 +20,10 @@ if (!blogPost) {
 const { Content } = await blogPost.render();
 const { title, date, description } = blogPost.data;
 const formattedDate = new Date(date).toLocaleDateString("en-US", {
-    weekday: "long", // day of the week (e.g., "Monday")
-    year: "numeric", // full year (e.g., "2025")
-    month: "long", // full month name (e.g., "June")
-    day: "numeric", // day of the month (e.g., "25")
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
 });
 ---
 
