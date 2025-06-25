@@ -1,6 +1,7 @@
 ---
 import { getCollection, getEntry } from "astro:content";
 import MainLayout from "../../layouts/MainLayout.astro";
+import Keybindings from '../../components/Keybindings.astro'
 
 export async function getStaticPaths() {
     const blogPosts = await getCollection("blog");
@@ -18,6 +19,12 @@ if (!blogPost) {
 
 const { Content } = await blogPost.render();
 const { title, date, description } = blogPost.data;
+const formattedDate = new Date(date).toLocaleDateString("en-US", {
+    weekday: "long", // day of the week (e.g., "Monday")
+    year: "numeric", // full year (e.g., "2025")
+    month: "long", // full month name (e.g., "June")
+    day: "numeric", // day of the month (e.g., "25")
+});
 ---
 
 
@@ -33,9 +40,13 @@ const { title, date, description } = blogPost.data;
             </div>
         </div>
         <div class="right-panel">
-            <p>Title: {title}</p>
-            <p>Description: {description}</p>
-            <p>Date: {date}</p>
+            <div class='right-panel-top'>
+                <p>Title: {title}</p>
+                <p>Description: {description}</p>
+                <p>Date: {formattedDate}</p>
+            </div>
+            <Keybindings />
+
         </div>
     </div>
 </MainLayout>
