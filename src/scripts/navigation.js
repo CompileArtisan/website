@@ -15,18 +15,25 @@ export function setupKeyboardNavigation() {
   document.addEventListener("keydown", (event) => {
     switch (event.key) {
       case "ArrowLeft":
+      case "h":
         active = (active - 1 + tabs.length) % tabs.length;
         window.location.href = tabs[active];
         break;
       case "ArrowRight":
+      case "l":
+      case "L":
         active = (active + 1) % tabs.length;
         window.location.href = tabs[active];
         break;
       case "ArrowDown":
+      case "j":
+      case "J":
         active_item = (active_item + 1) % items.length;
         highlight(active_item);
         break;
       case "ArrowUp":
+      case "k":
+      case "K":
         active_item = (active_item + items.length - 1) % items.length;
         highlight(active_item);
         break;

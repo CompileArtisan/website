@@ -103,6 +103,12 @@ const formattedDate = new Date(date).toLocaleDateString("en-US", {
 </script>
 
 <style>
+    :root {
+        --color-primary: #0000aa;
+        --color-secondary: #bababa;
+        --color-text-primary: #ffffff;
+        --color-text-secondary: #404040;
+    }
     h1 {
         margin-top: 2.5em;
         text-align: center;
@@ -119,7 +125,7 @@ const formattedDate = new Date(date).toLocaleDateString("en-US", {
     }
 
     .markdown-content :global(a) {
-        color: #ffffff;
+        color: var(--color-text-secondary);
         text-decoration: underline;
     }
 
@@ -133,7 +139,6 @@ const formattedDate = new Date(date).toLocaleDateString("en-US", {
         font-size: 1.1em !important;
     }
 
-    /* Rest of the existing styles remain the same */
     .markdown-content :global(table) {
         border-collapse: collapse;
         width: 100%;
