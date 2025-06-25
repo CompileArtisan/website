@@ -8,7 +8,7 @@ export interface Props {
 const { filename, logo, islink } = Astro.props;
 
 const data = await import(`../content/${filename}.json`).then(module => module.default);
-const LogoComponent = await import(`./${logo}Logo.astro`).then(module => module.default);
+const LogoComponent = await import(`./${logo}SVG.astro`).then(module => module.default);
 ---
 
 <ul>
@@ -30,3 +30,22 @@ const LogoComponent = await import(`./${logo}Logo.astro`).then(module => module.
     </li>
     ))}
 </ul>
+
+<!--
+This is how the JSON File should look like:
+[
+  {
+    "title": "",
+    "url": "",
+    "description": "",
+    "imageUrl": ""
+  },
+  {
+    "title": "",
+    "url": "",
+    "description": "",
+    "imageUrl": ""
+  },
+     ...
+]
+-->
