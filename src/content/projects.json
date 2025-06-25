@@ -3,18 +3,18 @@
     "title": "This Website",
     "url": "https://github.com/CompileArtisan/website",
     "description": "This website was built using Astro and is heavily inspired by the old American Megatrends BIOS, a screen which I've seen a lot since I first got my hands on a Laptop.",
-    "imageUrl": "https://docs.oracle.com/cd/E20881_01/html/E20891/figures/mb1.png"
+    "imageUrl": ""
   },
   {
     "title": "blockchain-messenger",
     "url": "https://github.com/varunadhityagb/blockchain-messenger",
     "description": "An instant messaging application that uses a blockchain and multicast transmission. This was done in Java.",
-    "imageUrl": "https://example.com/blockchain-image.png"
+    "imageUrl": ""
   },
   {
     "title": "flUId",
     "url": "https://github.com/CompileArtisan/flUId-Water-Potability-Statistics",
     "description": "A website that checks if a water sample is potable or not.",
-    "imageUrl": "https://example.com/fluid-image.png"
+    "imageUrl": ""
   }
 ]
