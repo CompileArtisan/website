@@ -12,7 +12,4 @@ export default defineConfig({
       blog: "./src/content/blog",
     },
   },
-  server: {
-    host: "0.0.0.0",
-  },
 });

@@ -1,0 +1,17 @@
+<div class="navbar">
+    <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
+    <a href="/blogs/" class={Astro.url.pathname === '/blogs/' ? 'active' : ''}>Blogs</a>
+    <a href="/work/" class={Astro.url.pathname === '/work/' ? 'active' : ''}>Portfolio</a>
+</div>
+    <div class="mobile-menu">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <div class="mobile-menu-content">
+        <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
+        <a href="/blogs/" class={Astro.url.pathname === '/blogs/' ? 'active' : ''}>Blogs</a>
+        <a href="/work/" class={Astro.url.pathname === '/work/' ? 'active' : ''}>Portfolio</a>
+    </div></div>
