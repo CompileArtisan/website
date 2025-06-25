@@ -2,37 +2,14 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import Keybindings from '../components/Keybindings.astro'
 import FileFetcher from '../components/FileFetcher.astro'
-import GithubLogo from '../components/GithubLogo.astro'
-
+import ProjectFetcher from '../components/ProjectFetcher.astro'
 ---
 
 <MainLayout title="My Work - CompileArtisan">
     <div class="main-content">
         <div class="left-panel">
           <FileFetcher />
-            <ul>
-              <li>
-                <a href="https://github.com/CompileArtisan/website" class="icon-link"> 
-                  <GithubLogo />
-                 This Website
-                </a>
-                <p>This website was built using Astro and is heavily inspired by the old <a href="https://docs.oracle.com/cd/E20881_01/html/E20891/figures/mb1.png">American Megatrends BIOS</a>, a screen which I've seen a lot since I first got my hands on a Laptop.</p>
-              </li>
-              <li>
-                <a href="https://github.com/varunadhityagb/blockchain-messenger" class="icon-link"> 
-                  <GithubLogo />
-                  blockchain-messenger
-                </a>
-                <p>An instant messaging application that uses a blockchain and multicast transmission. This was done in Java, with the help of <a href="https://github.com/varunadhityagb">Varun Adhitya G B</a>. </p>
-              </li>
-              <li>
-                <a href="https://github.com/CompileArtisan/flUId-Water-Potability-Statistics" class="icon-link">
-                  <GithubLogo />
-                  flUId
-                </a>
-                <p>A website made by <a href="https://github.com/varunadhityagb">Varun</a> and I, in very less time, that checks if a water sample is potable or not.</p>
-              </li>
-            </ul>
+          <ProjectFetcher />
         </div>
         <div class="right-panel">
           <div class="right-panel-top">
