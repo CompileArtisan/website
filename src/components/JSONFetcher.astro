@@ -1,0 +1,32 @@
+---
+export interface Props {
+  filename: string;
+  logo: string;
+  islink: boolean;
+}
+
+const { filename, logo, islink } = Astro.props;
+
+const data = await import(`../content/${filename}.json`).then(module => module.default);
+const LogoComponent = await import(`./${logo}Logo.astro`).then(module => module.default);
+---
+
+<ul>
+    {data.map((item) => (
+    <li key={item.title}>
+        {islink ? (
+            <a href={item.url} class="icon-link">
+            <LogoComponent />
+            {item.title}
+            </a>
+        ) : (
+            <div class="icon-link">
+            <LogoComponent />
+            {item.title}
+            </div>
+        )}
+        <p>{item.description}
+        <!-- <a href={item.imageUrl} target="_blank" rel="noopener noreferrer">View image</a></p>  -->
+    </li>
+    ))}
+</ul>

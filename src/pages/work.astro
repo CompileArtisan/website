@@ -2,13 +2,16 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import Keybindings from '../components/Keybindings.astro'
 import FileFetcher from '../components/FileFetcher.astro'
-import ProjectFetcher from '../components/ProjectFetcher.astro'
+import JSONFetcher from '../components/JSONFetcher.astro'
 ---
 
 <MainLayout title="My Work - CompileArtisan">
     <div class="main-content">
         <div class="left-panel">
-          <h1><b>Welcome to my Porfolio</b></h1>
+
+         <br />
+
+          <h1><center>Welcome to my Porfolio</center></h1>
 
          <br />
 
@@ -18,11 +21,22 @@ import ProjectFetcher from '../components/ProjectFetcher.astro'
          <br />
 
           <h1>Projects</h1>
-          <ProjectFetcher />
+          <JSONFetcher filename="projects" logo="Github" islink={ true }/>
+
+         <br />
+
+         <h1>Skills and Tools</h1>
+
+
+         <br />
+
+
+         <h1>Contact Me</h1>
+
         </div>
         <div class="right-panel">
           <div class="right-panel-top">
-            <p>A few among the best projects I have done</p>
+            <p>Welcome to my Porfolio, where you can explore my projects and see what I've been working on.</p>
           </div>
           <Keybindings />
 
