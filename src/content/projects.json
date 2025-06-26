@@ -12,6 +12,12 @@
     "imageUrl": ""
   },
   {
+    "title": "portfolio optimization",
+    "url": "https://github.com/CompileArtisan/portfolio-optimization",
+    "description": "An application that finds the right split-up of investments in a stock-market portfolio",
+    "imageUrl": ""
+  },
+  {
     "title": "flUId",
     "url": "https://github.com/CompileArtisan/flUId-Water-Potability-Statistics",
     "description": "A website that checks if a water sample is potable or not.",

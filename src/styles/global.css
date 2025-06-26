@@ -338,6 +338,7 @@ li a:hover {
     background: var(--color-scrollbar-thumb-hover);
 }
 
+/* Add this to your existing mobile media query */
 @media screen and (max-width: 768px) {
     .tip {
         display: none;
@@ -350,6 +351,9 @@ li a:hover {
     body {
         font-size: var(--font-size-small);
         overflow-x: hidden;
+        /* Keep the body height fixed for sticky footer */
+        height: 100vh;
+        overflow: hidden;
     }
 
     header {
@@ -370,6 +374,11 @@ li a:hover {
     .main-content {
         flex-direction: column;
         overflow-x: hidden;
+        /* Make main content take remaining space minus footer */
+        flex-grow: 1;
+        overflow-y: auto;
+        /* Account for footer height */
+        height: calc(100vh - var(--footer-height, 60px));
     }
 
     .left-panel {
@@ -379,6 +388,8 @@ li a:hover {
         overflow-x: hidden;
         overflow-y: auto;
         border: none;
+        /* Remove height constraints to let it flow naturally */
+        height: auto;
     }
 
     .right-panel {
@@ -392,5 +403,15 @@ li a:hover {
 
     .navbar a {
         margin: 0;
+    }
+
+    /* Make footer sticky at bottom */
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
     }
 }
