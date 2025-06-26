@@ -252,6 +252,9 @@ a:hover {
     padding: var(--spacing-sm);
     color: var(--color-text-primary);
 }
+.footer-mobile {
+    display: none;
+}
 
 .footer a {
     font-size: var(--font-size-medium);
@@ -346,6 +349,20 @@ li a:hover {
 
     .navbar {
         display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: block;
+        background-color: var(--color-primary);
+        text-align: center;
+        border-top: var(--border-width) solid var(--color-border);
+        flex-shrink: 0;
+        padding: var(--spacing-sm);
+        color: var(--color-text-primary);
     }
 
     body {
