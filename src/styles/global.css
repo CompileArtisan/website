@@ -382,19 +382,36 @@ li a:hover {
     }
 
     .mobile-menu {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         background-color: var(--color-primary);
         padding: var(--spacing-md);
         position: relative;
     }
 
+    .page-title {
+        color: var(--color-text-primary);
+        font-size: var(--font-size-medium);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+
+    .menu-spacer {
+        width: 30px;
+    }
+
+    .menu-icon {
+        z-index: 1001;
+    }
+
     .main-content {
         flex-direction: column;
         overflow-x: hidden;
-        /* Make main content take remaining space minus footer */
         flex-grow: 1;
         overflow-y: auto;
-        /* Account for footer height */
         height: calc(100vh - var(--footer-height, 60px));
     }
 
