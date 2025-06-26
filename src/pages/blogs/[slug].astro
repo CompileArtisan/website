@@ -2,6 +2,7 @@
 import { getCollection, getEntry } from "astro:content";
 import MainLayout from "../../layouts/MainLayout.astro";
 import Keybindings from '../../components/Keybindings.astro'
+import Comments from '../../components/Comments.astro'
 
 export async function getStaticPaths() {
     const blogPosts = await getCollection("blog");
@@ -38,6 +39,7 @@ const formattedDate = new Date(date).toLocaleDateString("en-US", {
             <div class="markdown-content">
                 <Content />
             </div>
+            <Comments />
         </div>
         <div class="right-panel">
             <div class='right-panel-top'>
