@@ -1,0 +1,19 @@
+#+OPTIONS: toc:nil
+#+begin_export markdown
+---
+title: "My Favourite Things on the Internet"
+date: 2025-08-08
+description: "A comprehensive list of the most unique things which have fascinated me on the Internet"
+---
+#+end_export
+
+#+TOC: headlines 2
+
+* Emacs
+- A Great Blog on Source Blocks in Org Mode: [[https://blog.wilcoxd.com/2025/06/14/OrgMode-As-Architecture-Notebook/][Org Mode As Architecture Notebook |
+  Wilcox Development Solutions Blog]]
+|---|
+
+* Blockchain
+- Go through each heading in the Navbar to get an incremental foundation on
+  blockchains: [[https://andersbrownworth.com/blockchain/hash][Blockchain Demo]]
