@@ -7,13 +7,32 @@ description: "A comprehensive list of the most unique things which have fascinat
 
 # Table of Contents
 
-1.  [Emacs](#org60148d6)
-2.  [Blockchain](#orga67877a)
+1.  [Programming in General](#org78b5b15)
+2.  [Linux](#orgfbb12d1)
+    1.  [Emacs](#orgbd56b49)
+    2.  [Kitty](#org78806dc)
+3.  [Internet is Fun](#orgcefbb93)
+4.  [Physics and Mathematics](#org2c63b50)
+5.  [Automotive Scene](#orgd82fa9e)
 
 
-<a id="org60148d6"></a>
+<a id="org78b5b15"></a>
 
-# Emacs
+# Programming in General
+
+-   Most comprehensive guide on how discipline meets computer science: [How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html)
+-   Find answers from a random person who&rsquo;s had a random problem you&rsquo;re facing:
+    [Stack Exchange](https://stackexchange.com/) and [Reddit](https://www.reddit.com/).
+
+
+<a id="orgfbb12d1"></a>
+
+# Linux
+
+
+<a id="orgbd56b49"></a>
+
+## Emacs
 
 -   A Great Blog on Source Blocks in Org Mode: [Org Mode As Architecture Notebook |
     Wilcox Development Solutions Blog](https://blog.wilcoxd.com/2025/06/14/OrgMode-As-Architecture-Notebook/)
@@ -24,10 +43,34 @@ description: "A comprehensive list of the most unique things which have fascinat
 </table>
 
 
-<a id="orga67877a"></a>
+<a id="org78806dc"></a>
 
-# Blockchain
+## Kitty
 
--   Go through each heading in the Navbar to get an incremental foundation on
-    blockchains: [Blockchain Demo](https://andersbrownworth.com/blockchain/hash)
+-   Brilliant Guide on Customizing Kitty: [kitty.conf - kitty](https://sw.kovidgoyal.net/kitty/conf/)
+
+
+<a id="orgcefbb93"></a>
+
+# Internet is Fun
+
+-   The most Gamified Personal Website I&rsquo;ve Ever Seen: [Bruno Simon](https://bruno-simon.com/)
+-   JavaScript that blew my mind: [Antonymph](https://lyra.horse/antonymph/)
+-   HTTP Error Codes done cutely: [HTTP Cats](https://http.cat/)
+
+
+<a id="org2c63b50"></a>
+
+# Physics and Mathematics
+
+-   3b1b&rsquo;s [Essence of linear algebra - YouTube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) made me fall in love with geometry.
+-   Get an incremental foundation on blockchains: [Blockchain Demo](https://andersbrownworth.com/blockchain/hash)
+
+
+<a id="orgd82fa9e"></a>
+
+# Automotive Scene
+
+-   Find writings of people who *feel* vehicles: [Team-BHP - India&rsquo;s Most Trusted Car
+    Reviews & News](https://www.team-bhp.com/)
 

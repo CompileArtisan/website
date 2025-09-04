@@ -9,11 +9,30 @@ description: "A comprehensive list of the most unique things which have fascinat
 
 #+TOC: headlines 2
 
-* Emacs
+* Programming in General
+- Most comprehensive guide on how discipline meets computer science: [[http://www.catb.org/~esr/faqs/hacker-howto.html][How To Become A Hacker]]
+- Find answers from a random person who's had a random problem you're facing:
+  [[https://stackexchange.com/][Stack Exchange]] and [[https://www.reddit.com/][Reddit]].
+
+* Linux
+
+** Emacs
 - A Great Blog on Source Blocks in Org Mode: [[https://blog.wilcoxd.com/2025/06/14/OrgMode-As-Architecture-Notebook/][Org Mode As Architecture Notebook |
   Wilcox Development Solutions Blog]]
 |---|
+** Kitty
+- Brilliant Guide on Customizing Kitty: [[https://sw.kovidgoyal.net/kitty/conf/][kitty.conf - kitty]]
 
-* Blockchain
-- Go through each heading in the Navbar to get an incremental foundation on
-  blockchains: [[https://andersbrownworth.com/blockchain/hash][Blockchain Demo]]
+
+* Internet is Fun
+- The most Gamified Personal Website I've Ever Seen: [[https://bruno-simon.com/][Bruno Simon]]
+- JavaScript that blew my mind: [[https://lyra.horse/antonymph/][Antonymph]]
+- HTTP Error Codes done cutely: [[https://http.cat/][HTTP Cats]]
+
+* Physics and Mathematics
+- 3b1b's [[https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of linear algebra - YouTube]] made me fall in love with geometry.
+- Get an incremental foundation on blockchains: [[https://andersbrownworth.com/blockchain/hash][Blockchain Demo]]
+
+* Automotive Scene
+- Find writings of people who /feel/ vehicles: [[https://www.team-bhp.com/][Team-BHP - India's Most Trusted Car
+  Reviews & News]]
