@@ -28,6 +28,7 @@ description: "A comprehensive list of the most unique things which have fascinat
 - The most Gamified Personal Website I've Ever Seen: [[https://bruno-simon.com/][Bruno Simon]]
 - JavaScript that blew my mind: [[https://lyra.horse/antonymph/][Antonymph]]
 - HTTP Error Codes done cutely: [[https://http.cat/][HTTP Cats]]
+- My Guru's favourite things on the internet: [[https://heftymouse.me/info/essential/][Essential Media - heftymouse]]
 
 * Physics and Mathematics
 - 3b1b's [[https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of linear algebra - YouTube]] made me fall in love with geometry.

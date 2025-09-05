@@ -7,16 +7,16 @@ description: "A comprehensive list of the most unique things which have fascinat
 
 # Table of Contents
 
-1.  [Programming in General](#org78b5b15)
-2.  [Linux](#orgfbb12d1)
-    1.  [Emacs](#orgbd56b49)
-    2.  [Kitty](#org78806dc)
-3.  [Internet is Fun](#orgcefbb93)
-4.  [Physics and Mathematics](#org2c63b50)
-5.  [Automotive Scene](#orgd82fa9e)
+1.  [Programming in General](#org59f9ed2)
+2.  [Linux](#orgbbab471)
+    1.  [Emacs](#orgad179ae)
+    2.  [Kitty](#orgf7ce541)
+3.  [Internet is Fun](#org982c137)
+4.  [Physics and Mathematics](#orgfe7248e)
+5.  [Automotive Scene](#org929616c)
 
 
-<a id="org78b5b15"></a>
+<a id="org59f9ed2"></a>
 
 # Programming in General
 
@@ -25,12 +25,12 @@ description: "A comprehensive list of the most unique things which have fascinat
     [Stack Exchange](https://stackexchange.com/) and [Reddit](https://www.reddit.com/).
 
 
-<a id="orgfbb12d1"></a>
+<a id="orgbbab471"></a>
 
 # Linux
 
 
-<a id="orgbd56b49"></a>
+<a id="orgad179ae"></a>
 
 ## Emacs
 
@@ -43,23 +43,24 @@ description: "A comprehensive list of the most unique things which have fascinat
 </table>
 
 
-<a id="org78806dc"></a>
+<a id="orgf7ce541"></a>
 
 ## Kitty
 
 -   Brilliant Guide on Customizing Kitty: [kitty.conf - kitty](https://sw.kovidgoyal.net/kitty/conf/)
 
 
-<a id="orgcefbb93"></a>
+<a id="org982c137"></a>
 
 # Internet is Fun
 
 -   The most Gamified Personal Website I&rsquo;ve Ever Seen: [Bruno Simon](https://bruno-simon.com/)
 -   JavaScript that blew my mind: [Antonymph](https://lyra.horse/antonymph/)
 -   HTTP Error Codes done cutely: [HTTP Cats](https://http.cat/)
+-   My Guru&rsquo;s favourite things on the internet: [Essential Media - heftymouse](https://heftymouse.me/info/essential/)
 
 
-<a id="org2c63b50"></a>
+<a id="orgfe7248e"></a>
 
 # Physics and Mathematics
 
@@ -67,7 +68,7 @@ description: "A comprehensive list of the most unique things which have fascinat
 -   Get an incremental foundation on blockchains: [Blockchain Demo](https://andersbrownworth.com/blockchain/hash)
 
 
-<a id="orgd82fa9e"></a>
+<a id="org929616c"></a>
 
 # Automotive Scene
 
