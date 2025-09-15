@@ -19,6 +19,7 @@ description: "A comprehensive list of the most unique things which have fascinat
 ** Emacs
 - A Great Blog on Source Blocks in Org Mode: [[https://blog.wilcoxd.com/2025/06/14/OrgMode-As-Architecture-Notebook/][Org Mode As Architecture Notebook |
   Wilcox Development Solutions Blog]]
+- Org Mode in General: [[https://orgmode.org/manual/][Top (The Org Manual)]]
 |---|
 ** Kitty
 - Brilliant Guide on Customizing Kitty: [[https://sw.kovidgoyal.net/kitty/conf/][kitty.conf - kitty]]
