@@ -7,16 +7,16 @@ description: "A comprehensive list of the most unique things which have fascinat
 
 # Table of Contents
 
-1.  [Programming in General](#orgce853ee)
-2.  [Linux](#org15738de)
-    1.  [Emacs](#org11eeb8b)
-    2.  [Kitty](#orgb3acb25)
-3.  [Internet is Fun](#orge58d338)
-4.  [Physics and Mathematics](#org6f72fc6)
-5.  [Automotive Scene](#org380781b)
+1.  [Programming in General](#org54113e0)
+2.  [Linux](#orgc33ee4a)
+    1.  [Emacs](#org35bc65d)
+    2.  [Kitty](#org2c3c75f)
+3.  [Internet is Fun](#org312e14a)
+4.  [Physics and Mathematics](#org05c577e)
+5.  [Automotive Scene](#org5cfd5f4)
 
 
-<a id="orgce853ee"></a>
+<a id="org54113e0"></a>
 
 # Programming in General
 
@@ -25,18 +25,19 @@ description: "A comprehensive list of the most unique things which have fascinat
     [Stack Exchange](https://stackexchange.com/) and [Reddit](https://www.reddit.com/).
 
 
-<a id="org15738de"></a>
+<a id="orgc33ee4a"></a>
 
 # Linux
 
 
-<a id="org11eeb8b"></a>
+<a id="org35bc65d"></a>
 
 ## Emacs
 
 -   A Great Blog on Source Blocks in Org Mode: [Org Mode As Architecture Notebook |
     Wilcox Development Solutions Blog](https://blog.wilcoxd.com/2025/06/14/OrgMode-As-Architecture-Notebook/)
 -   Org Mode in General: [Top (The Org Manual)](https://orgmode.org/manual/)
+-   Great YouTube Channel for Emacs: [DistroTube - YouTube](https://www.youtube.com/@DistroTube)
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -44,14 +45,14 @@ description: "A comprehensive list of the most unique things which have fascinat
 </table>
 
 
-<a id="orgb3acb25"></a>
+<a id="org2c3c75f"></a>
 
 ## Kitty
 
 -   Brilliant Guide on Customizing Kitty: [kitty.conf - kitty](https://sw.kovidgoyal.net/kitty/conf/)
 
 
-<a id="orge58d338"></a>
+<a id="org312e14a"></a>
 
 # Internet is Fun
 
@@ -61,7 +62,7 @@ description: "A comprehensive list of the most unique things which have fascinat
 -   My Guru&rsquo;s favourite things on the internet: [Essential Media - heftymouse](https://heftymouse.me/info/essential/)
 
 
-<a id="org6f72fc6"></a>
+<a id="org05c577e"></a>
 
 # Physics and Mathematics
 
@@ -69,7 +70,7 @@ description: "A comprehensive list of the most unique things which have fascinat
 -   Get an incremental foundation on blockchains: [Blockchain Demo](https://andersbrownworth.com/blockchain/hash)
 
 
-<a id="org380781b"></a>
+<a id="org5cfd5f4"></a>
 
 # Automotive Scene
 
