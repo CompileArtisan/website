@@ -4,14 +4,15 @@ const blogPosts = (await getCollection('blog')).sort((a, b) => {
     return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
 });
 
-import HyperLinkSVG from '../components/HyperLinkSVG.astro'
+import Icon from '../components/Icon.astro'
+
 ---
 <ul>
 {blogPosts.map(post => (
     <li>
-    <a href={`/blogs/${post.slug}`}>
-        <HyperLinkSVG />
-        {post.data.title}
+    <a href={`/blogs/${post.slug}`} class="icon-link">
+      <Icon name='hyperlink' />
+      {post.data.title}
     </a>
     </li>
 ))}

@@ -1,11 +1,7 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 import Keybindings from '../components/Keybindings.astro'
-import GithubSVG from '../components/GithubSVG.astro'
-import LinkedInSVG from '../components/LinkedInSVG.astro'
-import InstagramSVG from '../components/InstagramSVG.astro'
-import RSSFeedSVG from '../components/RSSFeedSVG.astro'
-import HyperLinkSVG from '../components/HyperLinkSVG.astro'
+import Icon from '../components/Icon.astro'
 ---
 
 <MainLayout title="CompileArtisan">
@@ -15,36 +11,36 @@ import HyperLinkSVG from '../components/HyperLinkSVG.astro'
             <ul>
               <li>
                 <a href="/blogs/about-me/" class="icon-link">
-                  <HyperLinkSVG />
+                  <Icon name="hyperlink" />
                     About me
                 </a>
               </li>
               <li>
                 <a href="https://github.com/CompileArtisan" class="icon-link">
-                  <GithubSVG />
+                  <Icon name="github" />
                     GitHub
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/praanesh-nair/" class="icon-link">
-                  <LinkedInSVG />
+                  <Icon name="linkedin" />
                     Linkedin
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/praanesh_nair/" class="icon-link">
-                  <InstagramSVG />
+                  <Icon name="instagram" />
                     Instagram
                 </a>
               </li>
               <li>
                   <a href="/rss.xml" class="icon-link">
-                    <RSSFeedSVG />
+                    <Icon name="rss" />
                     My RSS Feed
                   </a>
                   <a href="https://aboutfeeds.com/" class="icon-link">
                     (
-                  <HyperLinkSVG />
+                  <Icon name="hyperlink" />
                     Learn More
                     )
                   </a>
