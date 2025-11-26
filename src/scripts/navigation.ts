@@ -1,5 +1,8 @@
+import { NAV_ITEMS } from '../config';
+
+
 export const initNavigation = () => {
-  const tabs = ["/", "/blogs/"];
+  const tabs = NAV_ITEMS.map(item => item.path);
   const items = document.querySelectorAll("li a");
 
   let active = tabs.indexOf(window.location.pathname);

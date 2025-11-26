@@ -1,6 +1,14 @@
+---
+import { NAV_ITEMS } from '../config';
+---
+
+
 <div class="navbar">
-    <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
-    <a href="/blogs/" class={Astro.url.pathname === '/blogs/' ? 'active' : ''}>Blogs</a>
+    {NAV_ITEMS.map(item => (
+        <a href={item.path} class={Astro.url.pathname === item.path ? 'active' : ''}>
+            {item.label}
+        </a>
+    ))}
 </div>
 <div class="mobile-menu">
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
@@ -11,15 +19,16 @@
     </label>
 
     <div class="page-title">
-        {Astro.url.pathname === '/' ? 'Home' :
-         Astro.url.pathname === '/blogs/' ? 'Blogs'  : 'Page'}
+        {NAV_ITEMS.find(item => item.path === Astro.url.pathname)?.label || 'Page'}
     </div>
 
     <div class="menu-spacer"></div>
 
     <div class="mobile-menu-content">
-        <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
-        <a href="/blogs/" class={Astro.url.pathname === '/blogs/' ? 'active' : ''}>Blogs</a>
-        <a href="/portfolio/" class={Astro.url.pathname === '/portfolio/' ? 'active' : ''}>Portfolio</a>
+        {NAV_ITEMS.map(item => (
+            <a href={item.path} class={Astro.url.pathname === item.path ? 'active' : ''}>
+                {item.label}
+            </a>
+        ))}
     </div>
 </div>
