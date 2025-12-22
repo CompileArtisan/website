@@ -16,8 +16,9 @@ import Footer from '../components/Footer.astro'
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content={ title }>
-    <meta property="og:image" content="https://compileartisan.pages.dev/banner.png">
-    <meta property="og:url" content="https://compileartisan.pages.dev/">
+    <meta property="og:description" content={description || "Praanesh's personal website"}>
+    <meta property="og:image" content="https://compileartisan.dev/banner.png">
+    <meta property="og:url" content={`https://compileartisan.dev${Astro.url.pathname}`}>
     <meta property="og:type" content="website">
     <title>{ title }</title>
     <link rel="preload" href="./styles/global.css" as="style" />

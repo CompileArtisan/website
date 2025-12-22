@@ -2,11 +2,13 @@
 import { defineConfig } from "astro/config";
 import cloudflare from "@astrojs/cloudflare";
 import mdx from "@astrojs/mdx";
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://compileartisan.dev',
   adapter: cloudflare(),
-  integrations: [mdx()],
+  integrations: [mdx(), sitemap()],
   content: {
     collections: {
       blog: "./src/content/blog",
