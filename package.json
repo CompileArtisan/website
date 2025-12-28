@@ -15,6 +15,7 @@
     "@astrojs/react": "^4.4.2",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.6.0",
+    "@fullpage/react-fullpage": "^0.1.49",
     "@vercel/og": "^0.6.5",
     "astro": "^5.9.1",
     "astro-og-canvas": "^0.7.0",
