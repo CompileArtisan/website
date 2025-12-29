@@ -4,7 +4,7 @@ import { glob } from 'astro/loaders';
 const blog = defineCollection({ });
 
 const home = defineCollection({
-  type: 'content',
+  type: 'content_layer',
   schema: z.object({
     label: z.string(),
     title: z.string(),
