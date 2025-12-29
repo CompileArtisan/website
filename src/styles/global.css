@@ -176,7 +176,7 @@ a:hover {
 .left-panel {
     width: var(--panel-left-width);
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
     min-width: 0;
     margin: var(--spacing-md);
     border: var(--border-width) solid var(--color-border);
