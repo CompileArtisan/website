@@ -15,4 +15,7 @@ export default defineConfig({
       blog: "./src/content/blog",
     },
   },
+  server: {
+    allowedHosts: ['localhost', 'preseminal-lucille-cutaneously.ngrok-free.dev']
+  },
 });
