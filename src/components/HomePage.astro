@@ -1,0 +1,142 @@
+---
+interface Section {
+  label: string;
+  title: string;
+  content: string;
+  order: number;
+}
+
+interface Props {
+  sections: Section[];
+}
+
+const { sections } = Astro.props;
+---
+
+<div id="fullpage">
+  {sections.map((section) => (
+    <div class="section">
+      <div class="section-label">{section.label}</div>
+      <h1 class="section-title">{section.title}</h1>
+      <div 
+        class="section-content"
+        set:html={section.content}
+      />
+    </div>
+  ))}
+</div>
+
+<style>
+  .section {
+    padding: 40px 20px;
+    box-sizing: border-box;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .fp-watermark {
+    display: none !important;
+  }
+
+  .section-label {
+    font-size: 1em;
+    color: #0000aa;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .section-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    line-height: 1.2;
+  }
+
+  .section-content {
+    font-size: 1.5em;
+    line-height: 1.8;
+    color: #404040;
+  }
+
+  .section-content :global(p) {
+    margin-bottom: 20px;
+  }
+
+  .section-content :global(h3) {
+    font-size: 1.2em;
+    color: #0000aa;
+    margin: 30px 0 10px 0;
+    font-weight: bold;
+  }
+
+  .section-content :global(ul) {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .section-content :global(li) {
+    margin: 30px 0;
+    font-size: 1.13em;
+  }
+
+  .section-content :global(a) {
+    color: #404040;
+    text-decoration: none;
+  }
+
+  .section-content :global(a::before) {
+    content: '→ ';
+  }
+
+  .section-content :global(a:hover) {
+    color: #0000aa !important;
+    text-decoration: underline;
+  }
+
+  :global(#fp-nav ul li a span) {
+    background-color: #808080 !important;
+    border: 2px solid #404040 !important;
+  }
+
+  :global(#fp-nav ul li a.active span) {
+    background-color: #0000aa !important;
+    border-color: #0000aa !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    .section {
+      padding: 20px 15px;
+    }
+
+    .section-title {
+      font-size: 1.5em;
+    }
+
+    .section-content {
+      font-size: 1.2em;
+    }
+
+    .section-content :global(li) {
+      font-size: 1.08em !important;
+      margin: 20px 0 !important;
+    }
+  }
+</style>
+
+<script>
+  import fullpage from 'fullpage.js';
+  import 'fullpage.js/dist/fullpage.css';
+
+  new fullpage('#fullpage', {
+    licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+    scrollingSpeed: 500,
+    navigation: true,
+    navigationPosition: 'right',
+    showActiveTooltip: true,
+    slidesNavigation: false,
+    controlArrows: false,
+    keyboardScrolling: true,
+  });
+</script>
