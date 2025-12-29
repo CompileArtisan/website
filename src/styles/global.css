@@ -168,7 +168,7 @@ a:hover {
     display: flex;
     background-color: var(--color-secondary);
     flex-grow: 1;
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
 }
 
