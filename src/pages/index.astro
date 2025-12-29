@@ -2,12 +2,25 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import Keybindings from '../components/Keybindings.astro'
 import HomePage from '../components/HomePage';
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+
+const homeSections = (await getCollection('home')).sort((a, b) => 
+  a.data.order - b.data.order
+);
+
+const sections = homeSections.map((section) => ({
+  label: section.data.label,
+  title: section.data.title,
+  content: marked.parse(section.body),
+  order: section.data.order,
+}));
 ---
 
 <MainLayout title="CompileArtisan">
     <div class="main-content">
       <div class="left-panel scroller-container">
-        <HomePage client:only="react" />
+        <HomePage client:only="react" sections={sections} />
       </div>
         <div class="right-panel" id="description-panel">
           <div class="right-panel-top">
