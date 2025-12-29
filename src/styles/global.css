@@ -183,6 +183,13 @@ a:hover {
     color: var(--color-text-secondary);
 }
 
+.scroller-container {
+    overflow: hidden !important;
+    padding: 0 !important;
+    height: calc(100vh - 155px) !important;
+    position: relative;
+}
+
 .right-panel {
     width: var(--panel-right-width);
     flex-shrink: 0;
@@ -341,7 +348,6 @@ li a:hover {
     background: var(--color-scrollbar-thumb-hover);
 }
 
-/* Add this to your existing mobile media query */
 @media screen and (max-width: 768px) {
     .tip {
         display: none;
