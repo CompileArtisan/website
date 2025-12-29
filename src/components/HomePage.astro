@@ -23,31 +23,6 @@ const { sections } = Astro.props;
   ))}
 </div>
 
-<style>
-  .section {
-    padding: 2rem 4rem;
-  }
-
-  .section-label {
-    font-size: 0.875rem;
-    opacity: 0.7;
-    margin-bottom: 0.5rem;
-  }
-
-  .section-title {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .section-content {
-    line-height: 1.6;
-    max-width: 800px;
-  }
-
-  .section-content :global(p) {
-    margin-bottom: 1rem;
-  }
-</style>
 
 <script>
   import fullpage from 'fullpage.js';
@@ -58,9 +33,9 @@ const { sections } = Astro.props;
       autoScrolling: true,
       navigation: true,
       navigationPosition: 'left',
-      scrollingSpeed: 700,
+      scrollingSpeed: 500,
       fitToSection: true,
-      fitToSectionDelay: 300,
+      fitToSectionDelay: 200,
     });
   });
 </script>
