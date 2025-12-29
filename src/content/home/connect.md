@@ -4,7 +4,8 @@ title: "Let's Connect"
 order: 2
 ---
 
-Find me on various platforms:
+
+## Find me on various platforms:
 
 - [GitHub](https://github.com/CompileArtisan)
 - [LinkedIn](https://www.linkedin.com/in/praanesh-nair/)

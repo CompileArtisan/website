@@ -1,9 +1,8 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import Keybindings from '../components/Keybindings.astro'
+import Keybindings from '../components/Keybindings.astro';
 import HomePage from '../components/HomePage.astro';
 import { getCollection } from 'astro:content';
-import { marked } from 'marked';
 
 const homeSections = (await getCollection('home')).sort((a, b) => 
   a.data.order - b.data.order
@@ -12,8 +11,8 @@ const homeSections = (await getCollection('home')).sort((a, b) =>
 const sections = homeSections.map((section) => ({
   label: section.data.label,
   title: section.data.title,
-  content: marked.parse(section.body),
   order: section.data.order,
+  id: section.id, // Keep the slug/id for reference
 }));
 ---
 

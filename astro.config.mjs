@@ -9,7 +9,7 @@ import react from "@astrojs/react";
 export default defineConfig({
   site: 'https://compileartisan.dev',
   adapter: cloudflare(),
-    integrations: [mdx(), sitemap(), react()],
+    integrations: [mdx({optimize: true,}), sitemap(), react()],
   content: {
     collections: {
       blog: "./src/content/blog",

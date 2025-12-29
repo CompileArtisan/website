@@ -1,20 +1,38 @@
 ---
-interface Section {
-  label: string;
-  title: string;
-  content: string;
-  order: number;
-}
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
 
 interface Props {
-  sections: Section[];
+  sections: Array<{
+    label: string;
+    title: string;
+    order: number;
+    id: string;
+  }>;
 }
 
 const { sections } = Astro.props;
+
+// Get content and parse it
+const sectionContents = await Promise.all(
+  sections.map(async (section) => {
+    const entry = await getCollection('home', (entry) => entry.id === section.id);
+    if (entry && entry.length > 0) {
+      // For MD files
+      if (entry[0].body) {
+        return {
+          ...section,
+          content: marked.parse(entry[0].body),
+        };
+      }
+    }
+    return section;
+  })
+);
 ---
 
 <div id="fullpage">
-  {sections.map((section) => (
+  {sectionContents.map((section) => (
     <div class="section">
       <div class="section-label">{section.label}</div>
       <h1 class="section-title">{section.title}</h1>
@@ -22,7 +40,6 @@ const { sections } = Astro.props;
     </div>
   ))}
 </div>
-
 
 <script>
   import fullpage from 'fullpage.js';
