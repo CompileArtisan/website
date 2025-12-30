@@ -2,6 +2,7 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import Keybindings from '../components/Keybindings.astro';
 import HomePage from '../components/HomePage.astro';
+import Icon from '../components/Icon';
 import { getCollection } from 'astro:content';
 
 const homeSections = (await getCollection('home')).sort((a, b) => 
@@ -26,13 +27,11 @@ const sections = homeSections.map((section) => ({
           <p>This is my Personal Website, inspired by the good old
             <a
             href="https://docs.oracle.com/cd/E20881_01/html/E20891/figures/mb1.png"
-            class="right-panel-link">
+            class="icon-link">
+              <Icon name="hyperlink" />
               BIOS interface
-            </a>
+            </a>.
           </p>
-            <div class="tip">
-              <p>You can use your arrow keys to move around, just like it's your BIOS.</p>
-            </div>
           </div>
           <Keybindings />
         </div>
