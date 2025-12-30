@@ -102,6 +102,15 @@ const formattedDate = new Date(date).toLocaleDateString("en-US", {
     document.addEventListener("astro:page-load", () => {
         renderMathJax();
     });
+
+    import { initHorizontalNavigation } from '../../scripts/navigation';
+    import { initVerticalNavigation } from '../../scripts/navigation';
+
+    initHorizontalNavigation();
+    initVerticalNavigation();
+
+
+
 </script>
 
 <style>
