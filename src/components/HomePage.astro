@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Icon from './Icon';
+import Age from './Age';
 
 interface Props {
   sections: Array<{
@@ -42,7 +43,7 @@ const sectionContents = await Promise.all(
       <div class="section-label">{section.label}</div>
       <h1 class="section-title">{section.title}</h1>
       <div class="section-content">
-        {section.Content && <section.Content components={{ Icon }} />}
+        {section.Content && <section.Content components={{ Icon, Age }} />}
       </div>
     </div>
   ))}
@@ -65,6 +66,16 @@ const sectionContents = await Promise.all(
   }
   .section-content :global(p) {
     font-size: 1.5em;
+    color: var(--color-text-secondary);
+  }
+
+  .section-content :global(p a){
+    color: var(--color-text-secondary);
+    text-decoration: underline;
+  }
+
+  .section-content :global(p a):hover {
+    color: var(--color-primary);
   }
 
   .section-title {
