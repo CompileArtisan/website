@@ -262,25 +262,6 @@ a:hover {
     color: var(--color-primary);
 }
 
-.keybindings {
-    line-height: 1.8;
-}
-
-.keybinding {
-    display: flex;
-    align-items: center;
-    margin-bottom: var(--spacing-sm);
-}
-
-.key {
-    font-weight: bold;
-    min-width: 60px;
-    color: var(--color-text-secondary);
-}
-
-.description {
-    color: var(--color-primary);
-}
 
 .footer {
     background-color: var(--color-primary);
@@ -322,24 +303,6 @@ li a:hover {
     color: var(--color-primary);
 }
 
-.blog-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.blog-list-item {
-    margin: var(--spacing-md) 0;
-}
-
-.blog-list-item a {
-    color: var(--color-text-secondary);
-    font-size: var(--font-size-small);
-}
-
-.blog-list-item a:hover {
-    color: var(--color-secondary);
-}
 
 .hey-there {
     margin-bottom: 2em;
@@ -459,7 +422,6 @@ li a:hover {
         overflow-x: hidden;
         overflow-y: auto;
         border: none;
-        /* Remove height constraints to let it flow naturally */
         height: auto;
     }
 

@@ -7,7 +7,7 @@ const blogPosts = (await getCollection('blog')).sort((a, b) => {
 import Icon from '../components/Icon'
 
 ---
-<ul>
+<ul class="list-of-blogs">
 {blogPosts.map(post => (
     <li>
     <a href={`/blogs/${post.slug}`} class="icon-link">
@@ -17,3 +17,9 @@ import Icon from '../components/Icon'
     </li>
 ))}
 </ul>
+
+<style type="text/css" media="screen">
+.list-of-blogs {
+  padding: 2em;
+}
+</style>
