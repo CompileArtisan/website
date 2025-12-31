@@ -8,17 +8,29 @@
     "preview": "astro preview",
     "astro": "astro"
   },
-  "dependencies": {
-    "@astrojs/cloudflare": "^12.2.1",
-    "@astrojs/markdown-remark": "^6.0.1",
-    "@astrojs/mdx": "^4.0.2",
-    "@astrojs/rss": "^4.0.11",
-    "@vercel/og": "^0.6.5",
-    "astro": "^5.9.1",
-    "astro-og-canvas": "^0.7.0",
-    "canvaskit-wasm": "^0.39.1",
-    "marked": "^15.0.7"
-  },
+"dependencies": {
+  "@astrojs/cloudflare": "^12.2.1",
+  "@astrojs/markdown-remark": "^6.0.1",
+  "@astrojs/mdx": "^4.0.2",
+  "@astrojs/react": "^4.4.2",
+  "@astrojs/rss": "^4.0.11",
+  "@astrojs/sitemap": "^3.6.0",
+
+  "@types/react": "18.3.12",
+  "@types/react-dom": "18.3.1",
+
+  "@vercel/og": "^0.6.5",
+  "astro": "^5.9.1",
+  "astro-og-canvas": "^0.7.0",
+  "canvaskit-wasm": "^0.39.1",
+  "fullpage.js": "^4.0.40",
+  "marked": "^15.0.7",
+
+  "react": "18.3.1",
+  "react-dom": "18.3.1",
+
+  "react-page-scroller": "^3.0.1"
+},
   "engines": {
     "node": ">=18.20.8"
   }

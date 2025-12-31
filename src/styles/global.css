@@ -13,7 +13,7 @@
 
     --font-family-primary: "DOSVGA", monospace;
     --font-size-base: 1.2em;
-    --font-size-small: 1em;
+    --font-size-small: 0.85em;
     --font-size-medium: 1.4em;
     --font-size-large: 1.7em;
 
@@ -142,10 +142,10 @@ a:hover {
 .mobile-menu-content a {
     display: block;
     color: var(--color-text-primary);
-    padding: var(--spacing-md);
+    padding: var(--spacing-lg);
     text-decoration: none;
     border-top: 1px solid var(--color-border);
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-medium);
 }
 
 .menu-toggle:checked ~ .mobile-menu-content {
@@ -168,20 +168,58 @@ a:hover {
     display: flex;
     background-color: var(--color-secondary);
     flex-grow: 1;
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
+    height: 100%;
 }
 
 .left-panel {
     width: var(--panel-left-width);
-    padding: var(--spacing-md);
+    padding: 0;
     overflow: auto;
     min-width: 0;
     margin: var(--spacing-md);
     border: var(--border-width) solid var(--color-border);
     background-color: var(--color-secondary);
     color: var(--color-text-secondary);
+    height: auto;
 }
+
+.scroller-container {
+    overflow: hidden !important;
+    padding: 0 !important;
+    height: calc(100vh - 155px) !important;
+    position: relative;
+}
+
+.section {
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    height: 100vh; 
+}
+
+  .section-label {
+    font-size: 0.875rem;
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-content {
+    line-height: 1.6;
+    max-width: 800px;
+  }
+
+  .section-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
 
 .right-panel {
     width: var(--panel-right-width);
@@ -224,25 +262,6 @@ a:hover {
     color: var(--color-primary);
 }
 
-.keybindings {
-    line-height: 1.8;
-}
-
-.keybinding {
-    display: flex;
-    align-items: center;
-    margin-bottom: var(--spacing-sm);
-}
-
-.key {
-    font-weight: bold;
-    min-width: 60px;
-    color: var(--color-text-secondary);
-}
-
-.description {
-    color: var(--color-primary);
-}
 
 .footer {
     background-color: var(--color-primary);
@@ -284,24 +303,6 @@ li a:hover {
     color: var(--color-primary);
 }
 
-.blog-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.blog-list-item {
-    margin: var(--spacing-md) 0;
-}
-
-.blog-list-item a {
-    color: var(--color-text-secondary);
-    font-size: var(--font-size-small);
-}
-
-.blog-list-item a:hover {
-    color: var(--color-secondary);
-}
 
 .hey-there {
     margin-bottom: 2em;
@@ -341,12 +342,7 @@ li a:hover {
     background: var(--color-scrollbar-thumb-hover);
 }
 
-/* Add this to your existing mobile media query */
 @media screen and (max-width: 768px) {
-    .tip {
-        display: none;
-    }
-
     .navbar {
         display: none;
     }
@@ -363,6 +359,7 @@ li a:hover {
         flex-shrink: 0;
         padding: var(--spacing-sm);
         color: var(--color-text-primary);
+        font-size: var(--font-size-small);
     }
 
     body {
@@ -374,7 +371,7 @@ li a:hover {
     }
 
     header {
-        font-size: var(--font-size-medium);
+        font-size: var(--font-size-small);
     }
 
     .header {
@@ -422,7 +419,6 @@ li a:hover {
         overflow-x: hidden;
         overflow-y: auto;
         border: none;
-        /* Remove height constraints to let it flow naturally */
         height: auto;
     }
 
@@ -431,7 +427,7 @@ li a:hover {
     }
 
     li {
-        font-size: var(--font-size-medium);
+        font-size: var(--font-size-small);
         margin: var(--spacing-md) 0;
     }
 

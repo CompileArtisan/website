@@ -1,0 +1,172 @@
+---
+import { getCollection } from 'astro:content';
+import Icon from './Icon';
+import Age from './Age';
+import ScrollIndicator from './ScrollIndicator.astro';
+
+interface Props {
+  sections: Array<{
+    label: string;
+    title: string;
+    order: number;
+    id: string;
+  }>;
+}
+
+const { sections } = Astro.props;
+
+const allHomeContent = await getCollection('home');
+
+console.log('All home content:', allHomeContent.map(e => e.id));
+
+const sectionContents = await Promise.all(
+  sections.map(async (section) => {
+    const entry = allHomeContent.find((e) => e.id === section.id);
+    console.log(`Looking for ${section.id}, found:`, entry?.id);
+    if (entry) {
+      const { Content } = await entry.render();
+      return {
+        ...section,
+        Content,
+      };
+    }
+    return {
+      ...section,
+      Content: null,
+    };
+  })
+);
+---
+
+<div id="fullpage">
+  {sectionContents.map((section) => (
+    <div class="section">
+      <div class="section-label">{section.label}</div>
+      <h1 class="section-title">{section.title}</h1>
+      <div class="section-content">
+        {section.Content && <section.Content components={{ Icon, Age }} />}
+      </div>
+    </div>
+  ))}
+</div>
+
+<ScrollIndicator />
+
+<style>
+  .section-content :global(svg) {
+    width: 1em;
+    height: 0.9em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5em;
+  }
+
+  .section-content :global(li) {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1.5em;
+  }
+  .section-content :global(p) {
+    font-size: 1.5em;
+    color: var(--color-text-secondary);
+  }
+
+  .section-content :global(p a){
+    color: var(--color-text-secondary);
+    text-decoration: underline;
+  }
+
+  .section-content :global(p a):hover {
+    color: var(--color-primary);
+  }
+
+  .section-title {
+    font-size: 2em;
+  }
+  .scroll-indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: var(--fixed-bottom-height, 60px);
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-medium);
+    z-index: 10;
+  }
+</style>
+
+<script>
+  import fullpage from 'fullpage.js';
+
+  function initFullpage() {
+    const container = document.getElementById('fullpage');
+    if (!container || container.children.length === 0) {
+      setTimeout(initFullpage, 100);
+      return;
+    }
+
+    const totalSections = container.children.length;
+    const indicator = document.getElementById('scroll-indicator');
+    let currentIndex = 0;
+    let animationInterval;
+
+    const updateIndicator = (index) => {
+      if (!indicator) return;
+      currentIndex = index;
+      if (animationInterval)
+        clearInterval(animationInterval);
+
+      const getScrollText = () => {
+        if (currentIndex === 0) return 'scroll up/down';
+        if (currentIndex === totalSections - 1) return 'scroll up';
+        return 'scroll up/down';
+      };
+
+      const pageText = `${currentIndex + 1} / ${totalSections}`;
+      const scrollText = getScrollText();
+    
+      let showingPage = true;
+      indicator.textContent = pageText;
+
+      animationInterval = setInterval(() => {
+        indicator.style.opacity = '0';
+        setTimeout(() => {
+          indicator.textContent = showingPage ? scrollText : pageText;
+          indicator.style.opacity = '1';
+          showingPage = !showingPage;
+        }, 300); 
+      }, 2500);
+    };
+
+    if (indicator) 
+      indicator.style.transition = 'opacity 0.3s ease';
+    new fullpage('#fullpage', {
+      licenseKey: 'gplv3-license',
+      autoScrolling: true,
+      navigation: true,
+      navigationPosition: 'left',
+      scrollingSpeed: 500,
+      fitToSection: true,
+      fitToSectionDelay: 200,
+
+      afterRender() {
+        updateIndicator(0); 
+      },
+
+      onLeave(origin, destination) {
+        updateIndicator(destination.index);
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFullpage);
+  } else {
+    initFullpage();
+  }
+</script>
