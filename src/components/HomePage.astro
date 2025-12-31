@@ -49,6 +49,10 @@ const sectionContents = await Promise.all(
   ))}
 </div>
 
+<div class="scroll-indicator">
+  ↓ Scroll Down ↓
+</div>
+
 <style>
   .section-content :global(svg) {
     width: 1em;
@@ -80,6 +84,20 @@ const sectionContents = await Promise.all(
 
   .section-title {
     font-size: 2em;
+  }
+  .scroll-indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: var(--fixed-bottom-height, 60px);
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-medium);
+    z-index: 10;
   }
 </style>
 
