@@ -49,8 +49,8 @@ const sectionContents = await Promise.all(
   ))}
 </div>
 
-<div class="scroll-indicator">
-  ↓ Scroll Down ↓
+<div id="scroll-indicator" class="scroll-indicator">
+↓ Scroll down
 </div>
 
 <style>
@@ -103,15 +103,26 @@ const sectionContents = await Promise.all(
 
 <script>
   import fullpage from 'fullpage.js';
-  
+
   function initFullpage() {
     const container = document.getElementById('fullpage');
     if (!container || container.children.length === 0) {
-      console.warn('Fullpage container not ready, retrying...');
       setTimeout(initFullpage, 100);
       return;
     }
-    
+
+    const totalSections = container.children.length;
+    const indicator = document.getElementById('scroll-indicator');
+
+    const updateIndicator = (index) => {
+      if (!indicator) return;
+      if (index === 0) {
+        indicator.textContent = '↓ Scroll down';
+      } else {
+        indicator.textContent = `${index + 1} / ${totalSections}`;
+      }
+    };
+
     new fullpage('#fullpage', {
       licenseKey: 'gplv3-license',
       autoScrolling: true,
@@ -120,9 +131,17 @@ const sectionContents = await Promise.all(
       scrollingSpeed: 500,
       fitToSection: true,
       fitToSectionDelay: 200,
+
+      afterRender() {
+        updateIndicator(0); 
+      },
+
+      onLeave(origin, destination) {
+        updateIndicator(destination.index);
+      }
     });
   }
-  
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initFullpage);
   } else {
