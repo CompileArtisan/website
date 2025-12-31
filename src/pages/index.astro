@@ -1,74 +1,47 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import Keybindings from '../components/Keybindings.astro'
-import Icon from '../components/Icon.astro'
+import Keybindings from '../components/Keybindings.astro';
+import HomePage from '../components/HomePage.astro';
+import Icon from '../components/Icon';
+import { getCollection } from 'astro:content';
+
+const homeSections = (await getCollection('home')).sort((a, b) => 
+  a.data.order - b.data.order
+);
+
+const sections = homeSections.map((section) => ({
+  label: section.data.label,
+  title: section.data.title,
+  order: section.data.order,
+  id: section.id, 
+}));
 ---
 
 <MainLayout title="CompileArtisan">
     <div class="main-content">
-        <div class="left-panel">
-            <h1 class="hey-there">Hey there! I'm Praanesh, and this is my space on the internet.</h1>
-            <ul>
-              <li>
-                <a href="/blogs/about-me/" class="icon-link">
-                  <Icon name="hyperlink" />
-                    About me
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/CompileArtisan" class="icon-link">
-                  <Icon name="github" />
-                    GitHub
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/praanesh-nair/" class="icon-link">
-                  <Icon name="linkedin" />
-                    Linkedin
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/praanesh_nair/" class="icon-link">
-                  <Icon name="instagram" />
-                    Instagram
-                </a>
-              </li>
-              <li>
-                <a href="https://x.com/compileartisan" class="icon-link">
-                  <Icon name="x" />
-                  X
-                </a>
-              </li>
-              <li>
-                  <a href="/rss.xml" class="icon-link">
-                    <Icon name="rss" />
-                    My RSS Feed
-                  </a>
-                  <a href="https://aboutfeeds.com/" class="icon-link">
-                    (
-                  <Icon name="hyperlink" />
-                    Learn More
-                    )
-                  </a>
-              </li>
-            </ul>
-        </div>
+      <div class="left-panel scroller-container">
+        <HomePage sections={sections} />
+      </div>
         <div class="right-panel" id="description-panel">
           <div class="right-panel-top">
           <p>This is my Personal Website, inspired by the good old
             <a
             href="https://docs.oracle.com/cd/E20881_01/html/E20891/figures/mb1.png"
-            class="right-panel-link">
+            class="icon-link">
+              <Icon name="hyperlink" />
               BIOS interface
-            </a>
+            </a>.
           </p>
-            <div class="tip">
-              <p>You can use your arrow keys to move around, just like it's your BIOS.</p>
-            </div>
           </div>
           <Keybindings />
         </div>
     </div>
-
 </MainLayout>
 
+
+<script>
+import { initHorizontalNavigation } from '../scripts/navigation';
+
+initHorizontalNavigation();
+
+</script>

@@ -1,0 +1,68 @@
+<div id="scroll-indicator" class="scroll-indicator">
+  scroll up/down
+</div>
+
+<style>
+  .scroll-indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: var(--fixed-bottom-height, 60px);
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-medium);
+    z-index: 10;
+    transition: opacity 0.3s ease;
+  }
+</style>
+
+<script>
+  function setupScrollIndicator(totalSections: number) {
+    const indicator = document.getElementById('scroll-indicator');
+    if (!indicator) return;
+
+    let currentIndex = 0;
+    let animationInterval: number | undefined;
+
+    const updateIndicator = (index: number) => {
+      currentIndex = index;
+      if (animationInterval) {
+        clearInterval(animationInterval);
+      }
+
+      const getScrollText = () => {
+        if (currentIndex === 0) return 'scroll up/down';
+        if (currentIndex === totalSections - 1) return 'scroll up';
+        return 'scroll up/down';
+      };
+
+      const pageText = `${currentIndex + 1} / ${totalSections}`;
+      const scrollText = getScrollText();
+    
+      let showingPage = true;
+      indicator.textContent = pageText;
+
+      animationInterval = window.setInterval(() => {
+        indicator.style.opacity = '0';
+        setTimeout(() => {
+          indicator.textContent = showingPage ? scrollText : pageText;
+          indicator.style.opacity = '1';
+          showingPage = !showingPage;
+        }, 300); 
+      }, 2500);
+    };
+
+    (window as any).updateScrollIndicator = updateIndicator;
+
+    updateIndicator(0);
+  }
+
+  document.addEventListener('fullpage:ready', (e: Event) => {
+    const event = e as CustomEvent;
+    setupScrollIndicator(event.detail.totalSections);
+  });
+</script>

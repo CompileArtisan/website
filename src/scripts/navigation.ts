@@ -1,19 +1,9 @@
 import { NAV_ITEMS } from '../config';
 
 
-export const initNavigation = () => {
+export const initHorizontalNavigation = () => {
   const tabs = NAV_ITEMS.map(item => item.path);
-  const items = document.querySelectorAll("li a");
-
   let active = tabs.indexOf(window.location.pathname);
-  let active_item = -1;
-
-  function highlight(index) {
-    items.forEach((link) => link.classList.remove("selected"));
-    if (items[index]) {
-      items[index].classList.add("selected");
-    }
-  }
 
   document.addEventListener("keydown", (event) => {
     switch (event.key) {
@@ -28,6 +18,23 @@ export const initNavigation = () => {
         active = (active + 1) % tabs.length;
         window.location.href = tabs[active];
         break;
+    }
+  });
+}
+
+export const initVerticalNavigation = () => {
+  const items = document.querySelectorAll("li a");
+  let active_item = -1;
+
+  function highlight(index) {
+    items.forEach((link) => link.classList.remove("selected"));
+    if (items[index]) {
+      items[index].classList.add("selected");
+    }
+  }
+
+  document.addEventListener("keydown", (event) => {
+    switch (event.key) {
       case "ArrowDown":
       case "j":
       case "J":
@@ -42,7 +49,7 @@ export const initNavigation = () => {
         break;
       case "Enter":
         if (active_item >= 0) {
-          window.location.href = items[active_item];
+          window.location.href = items[active_item].href;
         }
         break;
       case "Escape":
