@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Icon from './Icon';
 import Age from './Age';
+import ScrollIndicator from './ScrollIndicator.astro';
 
 interface Props {
   sections: Array<{
@@ -49,9 +50,7 @@ const sectionContents = await Promise.all(
   ))}
 </div>
 
-<div id="scroll-indicator" class="scroll-indicator">
-scroll up/down
-</div>
+<ScrollIndicator />
 
 <style>
   .section-content :global(svg) {
