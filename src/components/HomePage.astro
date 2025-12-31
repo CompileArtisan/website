@@ -50,7 +50,7 @@ const sectionContents = await Promise.all(
 </div>
 
 <div id="scroll-indicator" class="scroll-indicator">
-↓ Scroll down
+scroll up/down
 </div>
 
 <style>
@@ -113,16 +113,39 @@ const sectionContents = await Promise.all(
 
     const totalSections = container.children.length;
     const indicator = document.getElementById('scroll-indicator');
+    let currentIndex = 0;
+    let animationInterval;
 
     const updateIndicator = (index) => {
       if (!indicator) return;
-      if (index === 0) {
-        indicator.textContent = '↓ Scroll down';
-      } else {
-        indicator.textContent = `${index + 1} / ${totalSections}`;
-      }
+      currentIndex = index;
+      if (animationInterval)
+        clearInterval(animationInterval);
+
+      const getScrollText = () => {
+        if (currentIndex === 0) return 'scroll up/down';
+        if (currentIndex === totalSections - 1) return 'scroll up';
+        return 'scroll up/down';
+      };
+
+      const pageText = `${currentIndex + 1} / ${totalSections}`;
+      const scrollText = getScrollText();
+    
+      let showingPage = true;
+      indicator.textContent = pageText;
+
+      animationInterval = setInterval(() => {
+        indicator.style.opacity = '0';
+        setTimeout(() => {
+          indicator.textContent = showingPage ? scrollText : pageText;
+          indicator.style.opacity = '1';
+          showingPage = !showingPage;
+        }, 300); 
+      }, 2500);
     };
 
+    if (indicator) 
+      indicator.style.transition = 'opacity 0.3s ease';
     new fullpage('#fullpage', {
       licenseKey: 'gplv3-license',
       autoScrolling: true,
