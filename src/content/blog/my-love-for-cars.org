@@ -11,6 +11,27 @@ description: "I explain what I truly feel when I drive a car"
 #+TOC: headlines 2
 
 * Introduction
+I've gone from driving shopping trolleys as a kid, to driving poorly maintained
+Tata Sumos. Some might say I've gone pro at the same thing 😂. These two events
+are about 15 years apart, although I still find driving shopping trolleys fun.
+
+
+* Growing Up
+An anecdote of mine which I heard from my parents, starts off with my dad's
+friends pointing at a car. "That is a car", said those friends to a 4 year old
+Praanesh. Seemingly, the 4 year old Praanesh corrected them by saying it's a BMW
+😂. As a child, I was aware of all major cars, and I would tell by their sound
+if they're Diesel or Petrol. Nothing to write home about, but definitely puts me
+on the list of people aware of cars.
+
+* Figured out Everything
+By the age of about 12, I understood how most things in a car work. For example:
+- how a transmission system enables a fixed range of rpm to work with different
+  speeds of your wheels
+- what a clutch does in a transmission system
+- the primary types of rims
+
+
 
 
 * Diesel vs Petrol
@@ -48,7 +69,12 @@ My Maruti Suzuki Ritz (ZDI, 2014) is powered by the ever-reliable Fiat 1.3 MJD,
 which produced 74 hp at 4000 rpm, and 190 N.m of torque at 2000 rpm. The peak
 torque output results in a rather dramatic pull. You can feel the entire front
 end lift up, and feel yourself being pushed in your seat, as you leave everyone
-else on the road in dust.
+else on the road in dust. Even the sound of the engine pumps your blood faster.
+At 2000 rpm, all the sound of the diesel clatter fades away, and makes way for a
+roar from the engine accompanied by the sound of air gushing by.
+
+This experience is typical in almost any turbocharged diesel engine, so don't
+worry about finding a Ritz to try this out 😂.
 
 ** What about Petrol?
 In a petrol engine, both the fuel and air are mixed, and then compressed
