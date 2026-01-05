@@ -7,16 +7,16 @@ description: "I explain what I truly feel when I drive a car"
 
 # Table of Contents
 
-1.  [Introduction](#orgacb474f)
-2.  [Growing Up](#org8ee56de)
-3.  [Figured out Everything](#orgf3669b9)
-4.  [Diesel vs Petrol](#orgd46effe)
-    1.  [Torque vs Power](#orge836d86)
-    2.  [Why Diesel?](#orgec9d470)
-    3.  [What about Petrol?](#orgd7ce215)
+1.  [Introduction](#org1c76174)
+2.  [Growing Up](#orgf3404ec)
+3.  [Figured out Everything](#org0e2cfad)
+4.  [Diesel vs Petrol](#orgab5517f)
+    1.  [Torque vs Power](#org11606db)
+    2.  [Why Diesel?](#org5829795)
+    3.  [What about Petrol?](#org760898d)
 
 
-<a id="orgacb474f"></a>
+<a id="org1c76174"></a>
 
 # Introduction
 
@@ -25,36 +25,40 @@ Tata Sumos. Some might say I&rsquo;ve gone pro at the same thing 😂. These two
 are about 15 years apart, although I still find driving shopping trolleys fun.
 
 
-<a id="org8ee56de"></a>
+<a id="orgf3404ec"></a>
 
 # Growing Up
 
 An anecdote of mine which I heard from my parents, starts off with my dad&rsquo;s
 friends pointing at a car. &ldquo;That is a car&rdquo;, said those friends to a 4 year old
 Praanesh. Seemingly, the 4 year old Praanesh corrected them by saying it&rsquo;s a BMW
-😂. As a child, I was aware of all major cars, and I would tell by their sound
-if they&rsquo;re Diesel or Petrol. Nothing to write home about, but definitely puts me
-on the list of people aware of cars.
+😂. As a child, I was aware of all major car brands, and I would tell by their
+sound if they run on Diesel or Petrol. Nothing to write home about, but
+definitely puts me on the list of people aware of cars.
 
 
-<a id="orgf3669b9"></a>
+<a id="org0e2cfad"></a>
 
 # Figured out Everything
 
 By the age of about 12, I understood how most things in a car work. For example:
 
+-   basic principles behind the working of an engine
 -   how a transmission system enables a fixed range of rpm to work with different
     speeds of your wheels
 -   what a clutch does in a transmission system
 -   the primary types of rims
+-   how to operate the stalks on the steering rack
+
+When I travel in a car, I&rsquo;d keenly observe everything the driver does.
 
 
-<a id="orgd46effe"></a>
+<a id="orgab5517f"></a>
 
 # Diesel vs Petrol
 
 
-<a id="orge836d86"></a>
+<a id="org11606db"></a>
 
 ## Torque vs Power
 
@@ -76,7 +80,7 @@ case, it&rsquo;s rotations of the wrench. The more rotations per minute you can 
 the more work you perform, and hence the more power you create.
 
 
-<a id="orgec9d470"></a>
+<a id="org5829795"></a>
 
 ## Why Diesel?
 
@@ -100,7 +104,7 @@ This experience is typical in almost any turbocharged diesel engine, so don&rsqu
 worry about finding a Ritz to try this out 😂.
 
 
-<a id="orgd7ce215"></a>
+<a id="org760898d"></a>
 
 ## What about Petrol?
 
