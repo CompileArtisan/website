@@ -81,6 +81,25 @@ const sectionContents = await Promise.all(
     color: var(--color-primary);
   }
 
+  .section-content :global(table) {
+    border-spacing: separate;
+    border-spacing: 1em; 
+    font-size: 1.3em;
+  }
+
+  .section-content :global(th) {
+    font-size: 1.2rem;
+  }
+
+  .section-content :global(td a) {
+    color: var(--color-text-secondary);
+    text-decoration: underline;
+  }
+
+  .section-content :global(td a):hover {
+    color: var(--color-primary);
+  }
+
   .section-title {
     font-size: 2em;
   }
