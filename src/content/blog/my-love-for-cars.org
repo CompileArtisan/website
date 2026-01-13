@@ -15,6 +15,10 @@ I've gone from driving shopping trolleys as a kid, to driving poorly maintained
 Tata Sumos. Some might say I've gone pro at the same thing 😂. These two events
 are about 15 years apart, although I still find driving shopping trolleys fun.
 
+I'm not someone who watches a lot of F1, or someone who knows the name and
+pricetag of every supercar to ever exist. Yet, I claim to be a car-lover. Read
+on to see what I mean.
+
 
 * Growing Up
 An anecdote of mine which I heard from my parents, starts off with my dad's
@@ -33,12 +37,45 @@ By the age of about 12, I understood how most things in a car work. For example:
 - the primary types of rims
 - how to operate the stalks on the steering rack
 
-When I travel in a car, I'd keenly observe everything the driver does. Even as a
-passenger, I'd mentally drive 
+When I travel in a car, I'd keenly observe everything the driver does. While the
+driver I travel the most with is my dad, I also happen to observe my grandad's
+drivers too.
 
+There are COUNTLESS little practises that I've learnt, to make driving as smooth
+as possible for the car, as well as the passengers. At the same time, I've had
+the habit of reading and understanding the internals of a car.
+
+
+* On the Driver's Seat
+It was during the start of COVID, that I finally got the chance to drive. This
+was the moment I've been waiting for all my life. The first few months were
+simply filled with a highly-knowledgeable driver, driving quite terribly 🤣. But
+after driving thousands and thousands of kilometers across multiple cars, I now
+seem to be a decent driver. I'm also someone who is constantly fascinated by the
+driving experience itself, as I'm able to truly /feel/ all the things I've been
+reading, and all the things I've been picking up from experienced drivers. 
+
+It's a long list of things, but I could give you a couple of examples. For one,
+I never go from a gear to another gear directly - I always visit neutral. I'd go
+from 1st gear, to neutral and then slot it into 2nd gear. The obvious advantage
+is that the engine's RPM drops naturally, but this also reduces internal wear in
+gearbox synchronizers. Another thing is, you'd almost never run into an
+accidental rough gear engagement. The benefits are quite miniscule, but it's
+worth knowing.
+
+Slowing your car down needs some effort too. Put your foot on the brakes, and
+keep doing it till it stops. Sound straightforward, but this isn't the smoothest
+you can get. Slowing down faster/earlier than required, and then easing off the
+brakes result in a much more comfortable stopping. This was something I've known
+for quite a long time, but took me quite a lot of time and calculation to
+master.
 
 
 * Diesel vs Petrol
+If you ever find me yapping about cars, you'd find my enthusiasm to be drawn
+towards cars with a manual transmission, and a diesel engine. Let me give you
+technical perspective (and feel free to skip right past this if you feel like
+I'm nerding out).
 
 
 ** Torque vs Power
@@ -83,5 +120,15 @@ worry about finding a Ritz to try this out 😂.
 In a petrol engine, both the fuel and air are mixed, and then compressed
 together. Petrol is easier to ignite than diesel, but this compressed air is
 still not enough. You need an external spark (provided by a spark plug) to help.
+You'd have to be a little more mindful of the bite point at the clutch pedal,
+considering that you need to provide accelerator inputs accordingly to make up
+for the lack of low-end torque. While the cost of the petroleum fuel itself is
+higher than the diesel fuel, petrol engines can prove quite frugal. Maintenance
+goes quite easy on your pockets. Diesel engines need way more oil changes, and
+part replacements, so that is done away with here.
 
 
+* Conclusion
+I'm glad you made it till here, because this is information-overload. But I felt
+the need to share the knowledge I've aquired and talk about the experiences I've
+had. Thanks for reading ❤ !

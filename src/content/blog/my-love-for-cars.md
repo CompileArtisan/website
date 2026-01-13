@@ -7,16 +7,18 @@ description: "I explain what I truly feel when I drive a car"
 
 # Table of Contents
 
-1.  [Introduction](#org1c76174)
-2.  [Growing Up](#orgf3404ec)
-3.  [Figured out Everything](#org0e2cfad)
-4.  [Diesel vs Petrol](#orgab5517f)
-    1.  [Torque vs Power](#org11606db)
-    2.  [Why Diesel?](#org5829795)
-    3.  [What about Petrol?](#org760898d)
+1.  [Introduction](#org31ac72b)
+2.  [Growing Up](#org368ef09)
+3.  [Figured out Everything](#org7d41f39)
+4.  [On the Driver&rsquo;s Seat](#orgf5a641d)
+5.  [Diesel vs Petrol](#orgd7ee280)
+    1.  [Torque vs Power](#orgd093c12)
+    2.  [Why Diesel?](#org0827292)
+    3.  [What about Petrol?](#org353e6d4)
+6.  [Conclusion](#org48a7003)
 
 
-<a id="org1c76174"></a>
+<a id="org31ac72b"></a>
 
 # Introduction
 
@@ -24,8 +26,12 @@ I&rsquo;ve gone from driving shopping trolleys as a kid, to driving poorly maint
 Tata Sumos. Some might say I&rsquo;ve gone pro at the same thing 😂. These two events
 are about 15 years apart, although I still find driving shopping trolleys fun.
 
+I&rsquo;m not someone who watches a lot of F1, or someone who knows the name and
+pricetag of every supercar to ever exist. Yet, I claim to be a car-lover. Read
+on to see what I mean.
 
-<a id="orgf3404ec"></a>
+
+<a id="org368ef09"></a>
 
 # Growing Up
 
@@ -37,7 +43,7 @@ sound if they run on Diesel or Petrol. Nothing to write home about, but
 definitely puts me on the list of people aware of cars.
 
 
-<a id="org0e2cfad"></a>
+<a id="org7d41f39"></a>
 
 # Figured out Everything
 
@@ -50,15 +56,54 @@ By the age of about 12, I understood how most things in a car work. For example:
 -   the primary types of rims
 -   how to operate the stalks on the steering rack
 
-When I travel in a car, I&rsquo;d keenly observe everything the driver does.
+When I travel in a car, I&rsquo;d keenly observe everything the driver does. While the
+driver I travel the most with is my dad, I also happen to observe my grandad&rsquo;s
+drivers too.
+
+There are COUNTLESS little practises that I&rsquo;ve learnt, to make driving as smooth
+as possible for the car, as well as the passengers. At the same time, I&rsquo;ve had
+the habit of reading and understanding the internals of a car.
 
 
-<a id="orgab5517f"></a>
+<a id="orgf5a641d"></a>
+
+# On the Driver&rsquo;s Seat
+
+It was during the start of COVID, that I finally got the chance to drive. This
+was the moment I&rsquo;ve been waiting for all my life. The first few months were
+simply filled with a highly-knowledgeable driver, driving quite terribly 🤣. But
+after driving thousands and thousands of kilometers across multiple cars, I now
+seem to be a decent driver. I&rsquo;m also someone who is constantly fascinated by the
+driving experience itself, as I&rsquo;m able to truly *feel* all the things I&rsquo;ve been
+reading, and all the things I&rsquo;ve been picking up from experienced drivers. 
+
+It&rsquo;s a long list of things, but I could give you a couple of examples. For one,
+I never go from a gear to another gear directly - I always visit neutral. I&rsquo;d go
+from 1st gear, to neutral and then slot it into 2nd gear. The obvious advantage
+is that the engine&rsquo;s RPM drops naturally, but this also reduces internal wear in
+gearbox synchronizers. Another thing is, you&rsquo;d almost never run into an
+accidental rough gear engagement. The benefits are quite miniscule, but it&rsquo;s
+worth knowing.
+
+Slowing your car down needs some effort too. Put your foot on the brakes, and
+keep doing it till it stops. Sound straightforward, but this isn&rsquo;t the smoothest
+you can get. Slowing down faster/earlier than required, and then easing off the
+brakes result in a much more comfortable stopping. This was something I&rsquo;ve known
+for quite a long time, but took me quite a lot of time and calculation to
+master.
+
+
+<a id="orgd7ee280"></a>
 
 # Diesel vs Petrol
 
+If you ever find me yapping about cars, you&rsquo;d find my enthusiasm to be drawn
+towards cars with a manual transmission, and a diesel engine. Let me give you
+technical perspective (and feel free to skip right past this if you feel like
+I&rsquo;m nerding out).
 
-<a id="org11606db"></a>
+
+<a id="orgd093c12"></a>
 
 ## Torque vs Power
 
@@ -80,7 +125,7 @@ case, it&rsquo;s rotations of the wrench. The more rotations per minute you can 
 the more work you perform, and hence the more power you create.
 
 
-<a id="org5829795"></a>
+<a id="org0827292"></a>
 
 ## Why Diesel?
 
@@ -104,11 +149,26 @@ This experience is typical in almost any turbocharged diesel engine, so don&rsqu
 worry about finding a Ritz to try this out 😂.
 
 
-<a id="org760898d"></a>
+<a id="org353e6d4"></a>
 
 ## What about Petrol?
 
 In a petrol engine, both the fuel and air are mixed, and then compressed
 together. Petrol is easier to ignite than diesel, but this compressed air is
 still not enough. You need an external spark (provided by a spark plug) to help.
+You&rsquo;d have to be a little more mindful of the bite point at the clutch pedal,
+considering that you need to provide accelerator inputs accordingly to make up
+for the lack of low-end torque. While the cost of the petroleum fuel itself is
+higher than the diesel fuel, petrol engines can prove quite frugal. Maintenance
+goes quite easy on your pockets. Diesel engines need way more oil changes, and
+part replacements, so that is done away with here.
+
+
+<a id="org48a7003"></a>
+
+# Conclusion
+
+I&rsquo;m glad you made it till here, because this is information-overload. But I felt
+the need to share the knowledge I&rsquo;ve aquired and talk about the experiences I&rsquo;ve
+had. Thanks for reading ❤ !
 
