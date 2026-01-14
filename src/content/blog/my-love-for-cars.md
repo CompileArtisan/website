@@ -7,18 +7,18 @@ description: "I explain what I truly feel when I drive a car"
 
 # Table of Contents
 
-1.  [Introduction](#org31ac72b)
-2.  [Growing Up](#org368ef09)
-3.  [Figured out Everything](#org7d41f39)
-4.  [On the Driver&rsquo;s Seat](#orgf5a641d)
-5.  [Diesel vs Petrol](#orgd7ee280)
-    1.  [Torque vs Power](#orgd093c12)
-    2.  [Why Diesel?](#org0827292)
-    3.  [What about Petrol?](#org353e6d4)
-6.  [Conclusion](#org48a7003)
+1.  [Introduction](#org43ff613)
+2.  [Growing Up](#org898d642)
+3.  [Figured out Everything](#orgb6cd719)
+4.  [On the Driver&rsquo;s Seat](#orgcba3e69)
+5.  [Diesel vs Petrol](#orgf393a55)
+    1.  [Torque vs Power](#orgcd04a85)
+    2.  [Why Diesel?](#org6479cfa)
+    3.  [What about Petrol?](#orga65e323)
+6.  [Conclusion](#org7132e6e)
 
 
-<a id="org31ac72b"></a>
+<a id="org43ff613"></a>
 
 # Introduction
 
@@ -31,7 +31,7 @@ pricetag of every supercar to ever exist. Yet, I claim to be a car-lover. Read
 on to see what I mean.
 
 
-<a id="org368ef09"></a>
+<a id="org898d642"></a>
 
 # Growing Up
 
@@ -43,7 +43,7 @@ sound if they run on Diesel or Petrol. Nothing to write home about, but
 definitely puts me on the list of people aware of cars.
 
 
-<a id="org7d41f39"></a>
+<a id="orgb6cd719"></a>
 
 # Figured out Everything
 
@@ -65,7 +65,7 @@ as possible for the car, as well as the passengers. At the same time, I&rsquo;ve
 the habit of reading and understanding the internals of a car.
 
 
-<a id="orgf5a641d"></a>
+<a id="orgcba3e69"></a>
 
 # On the Driver&rsquo;s Seat
 
@@ -86,14 +86,14 @@ accidental rough gear engagement. The benefits are quite miniscule, but it&rsquo
 worth knowing.
 
 Slowing your car down needs some effort too. Put your foot on the brakes, and
-keep doing it till it stops. Sound straightforward, but this isn&rsquo;t the smoothest
+keep doing it till it stops. Sounds straightforward, but this isn&rsquo;t the smoothest
 you can get. Slowing down faster/earlier than required, and then easing off the
 brakes result in a much more comfortable stopping. This was something I&rsquo;ve known
 for quite a long time, but took me quite a lot of time and calculation to
 master.
 
 
-<a id="orgd7ee280"></a>
+<a id="orgf393a55"></a>
 
 # Diesel vs Petrol
 
@@ -103,7 +103,7 @@ technical perspective (and feel free to skip right past this if you feel like
 I&rsquo;m nerding out).
 
 
-<a id="orgd093c12"></a>
+<a id="orgcd04a85"></a>
 
 ## Torque vs Power
 
@@ -125,7 +125,7 @@ case, it&rsquo;s rotations of the wrench. The more rotations per minute you can 
 the more work you perform, and hence the more power you create.
 
 
-<a id="org0827292"></a>
+<a id="org6479cfa"></a>
 
 ## Why Diesel?
 
@@ -149,7 +149,7 @@ This experience is typical in almost any turbocharged diesel engine, so don&rsqu
 worry about finding a Ritz to try this out 😂.
 
 
-<a id="org353e6d4"></a>
+<a id="orga65e323"></a>
 
 ## What about Petrol?
 
@@ -164,7 +164,7 @@ goes quite easy on your pockets. Diesel engines need way more oil changes, and
 part replacements, so that is done away with here.
 
 
-<a id="org48a7003"></a>
+<a id="org7132e6e"></a>
 
 # Conclusion
 
