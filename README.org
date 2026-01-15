@@ -1,0 +1,19 @@
+* My Personal Website
+
+A BIOS-themed personal website built with Astro, featuring a unique retro aesthetic inspired by classic computer interfaces.
+
+** Framework
+- [[https://astro.build/][Astro]]
+- [[https://react.dev/][React]]  
+
+** Integration and Features
+- [[https://alvarotrigo.com/fullPage/][fullPage.js]] for full-screen scrolling sections
+- [[https://docs.astro.build/en/guides/integrations-guide/mdx/][@astrojs/mdx]] for rich content
+- [[https://docs.astro.build/en/guides/integrations-guide/react/][@astrojs/react]] for React component integration
+- [[https://docs.astro.build/en/tutorial/5-astro-api/4/][@astrojs/rss]] for RSS feed generation
+- [[https://katex.org/][KaTeX]] for rendering mathematical equations
+- [[https://utteranc.es/][utterances]] for the comments section in blog posts
+- [[https://docs.astro.build/en/guides/integrations-guide/sitemap/][@astrojs/sitemap]] for automatic sitemap generation
+
+** Deployment
+[[https://docs.astro.build/en/guides/deploy/cloudflare/][@astrojs/cloudflare]]
