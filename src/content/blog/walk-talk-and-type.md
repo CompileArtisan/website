@@ -7,23 +7,22 @@ description: "The foundation that helps me in doing what I love doing"
 
 # Table of Contents
 
-1.  [The idea I&rsquo;m tryna sell](#orgae5d511)
+1.  [Second-Nature: The idea I&rsquo;m tryna sell](#org719efd7)
 
 
-<a id="orgae5d511"></a>
+<a id="org719efd7"></a>
 
-# The idea I&rsquo;m tryna sell
+# Second-Nature: The idea I&rsquo;m tryna sell
 
 When you gain a lot of experience in driving a car, moving the vehicle starts
-becoming second-nature to you. Sure, it&rsquo;s not like your hands and legs start
-moving on their own. You can still turn the wheel however you like. You can
-choose to floor the accelerator, or you can choose to have smooth
-acceleration/retardation.
+becoming second-nature to you. I don&rsquo;t mean your hands and legs moving on their
+own or just magically turning into wires which connect the car and your brain.
+You can still turn the wheel however you like. You can choose to floor the
+accelerator, or you can choose to have smooth acceleration/retardation.
 
 The car becomes second-nature to you when you find yourself doing very trivial,
-routine actions effortlessly. It could be shifting from 2nd gear to 3rd gear,
-exactly after 1.7K rpm, and smoothly releasing the clutch like you&rsquo;ve been doing
-for years. It&rsquo;s when you do this exact sequence of oddly specific steps again
-and again, and not your hands and legs just magically turning into this wires
-which connect your brain and the car.
+routine actions effortlessly. Say you&rsquo;re shifting from 2nd gear to 3rd gear,
+exactly after 1.5K rpm, and smoothly releasing the clutch like you&rsquo;ve been doing
+for years. Perfecting this exact sequence of oddly specific steps is when you
+say moving the car is second-nature to you.
 
