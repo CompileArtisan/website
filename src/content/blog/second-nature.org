@@ -1,0 +1,68 @@
+#+OPTIONS: toc:nil
+#+begin_export markdown
+---
+title: "Second-Nature"
+date: 2026-04-13
+description: "How I define second-nature"
+---
+#+end_export
+# date: YYYY-MM-DD
+
+#+TOC: headlines 2
+
+* Second-Nature: The idea I'm tryna sell
+When you gain a lot of experience in driving a car, moving the vehicle starts
+becoming second-nature to you. I don't mean your hands and legs moving on their
+own or just magically turning into wires which connect the car and your brain.
+You can still turn the wheel however you like. You can choose to floor the
+accelerator, or you can choose to have smooth acceleration/retardation.
+
+The car becomes second-nature to you when you find yourself doing very trivial,
+routine actions effortlessly. Say you're shifting from 2nd gear to 3rd gear,
+exactly after 1.5K rpm, and smoothly releasing the clutch like you've been doing
+for years. Perfecting this exact sequence of oddly specific steps is when you
+say moving the car is second-nature to you.
+
+Another example of this could be you turning your steering wheel for a turn, and
+then you turning it back into it's straight position. While you're doing that,
+you're also speeding up. Very coordinated, yet completely in your control.
+
+Don't fancy cars? The way you walk is second-nature too. Your brain has the
+freedom to make your legs run, walk or jog. When you are in the process of
+running, walking or jogging, the sequence of moving your legs back and forth is
+all so coordinated.
+
+It's the very idea that powers martial arts too. All those punches and blows
+coordinated by various body movements to maintain the edge you have over the
+opponent is what makes fighting second-nature to you.
+
+* First step into making a keyboard second-nature to me
+For me, typing on a keyboard is second-nature to me too. I've been [[https://en.wikipedia.org/wiki/Touch_typing][touch typing]]
+for over 7 years now, and it's made me incredibly quick. Each finger is trained
+to reach out for a specific set of keys and in that process, typing a word is a
+sequence of key-strokes. Now, tell me a word and I can execute this sequence of
+key-strokes very elegantly. I hope the previous section paid off in conveying
+this 🙂.
+
+* VIM
+Keyboards are not only used for inserting text. Different combinations or
+sequences of key-strokes can also perform different actions in different
+applications. The evergreen ~Ctrl + C~ and ~Ctrl + V~ will always stand as a
+testament to the convenience of keyboard shortcuts, over selecting text and
+using right-click menus. But typing text on a keyboard has never really had any
+connection with keyboard shortcuts. Not until I was introduced to [[https://www.vim.org/][VIM]]. VIM is a
+Modal text editor, where each mode changes what your keys do. Your keys don't
+just type, they also serve as different ways of interacting with text through
+keybinds.
+
+For instance, a certain key-stroke places you in ~insert~ mode, where your
+keyboard is for inserting text (what you normally use your keyboard for).
+Another key-stroke takes you to ~normal~ mode where different keys can move your
+cursor in different ways, and edit your text in a variety of ways. Editing text
+is insanely keyboard-driven and it really capitalizes on my proficiency.
+
+* eeeeeeeemacs
+[[https://www.gnu.org/software/emacs/][GNU Emacs]] (I usually over-pronounce the "E" in a rather high pitch for comedic
+effect) is what introduced me to the idea of a using simple text files over
+formats used exclusively in some complicated software. I use Doom Emacs with
+[[https://evil.readthedocs.io/en/latest/overview.html][Evil Mode]] 
