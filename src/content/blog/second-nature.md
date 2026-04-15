@@ -7,13 +7,14 @@ description: "How I define second-nature"
 
 # Table of Contents
 
-1.  [Second-Nature: The idea I&rsquo;m tryna sell](#org4bc4d8e)
-2.  [First step into making a keyboard second-nature to me](#org3db51a0)
-3.  [VIM](#orga242fc1)
-4.  [eeeeeeeemacs](#org368915f)
+1.  [Second-Nature: The idea I&rsquo;m tryna sell](#org09af973)
+2.  [First step into making a keyboard second-nature to me](#orga7a231f)
+3.  [VIM](#orga19450d)
+4.  [eeeeeeeemacs](#orgb5edfd8)
+5.  [Conclusion](#org77e0684)
 
 
-<a id="org4bc4d8e"></a>
+<a id="org09af973"></a>
 
 # Second-Nature: The idea I&rsquo;m tryna sell
 
@@ -43,7 +44,7 @@ coordinated by various body movements to maintain the edge you have over the
 opponent is what makes fighting second-nature to you.
 
 
-<a id="org3db51a0"></a>
+<a id="orga7a231f"></a>
 
 # First step into making a keyboard second-nature to me
 
@@ -55,7 +56,7 @@ key-strokes very elegantly. I hope the previous section paid off in conveying
 this 🙂.
 
 
-<a id="orga242fc1"></a>
+<a id="orga19450d"></a>
 
 # VIM
 
@@ -76,12 +77,44 @@ cursor in different ways, and edit your text in a variety of ways. Editing text
 is insanely keyboard-driven and it really capitalizes on my proficiency.
 
 
-<a id="org368915f"></a>
+<a id="orgb5edfd8"></a>
 
 # eeeeeeeemacs
 
 [GNU Emacs](https://www.gnu.org/software/emacs/) (I usually over-pronounce the &ldquo;E&rdquo; in a rather high pitch for comedic
 effect) is what introduced me to the idea of a using simple text files over
-formats used exclusively in some complicated software. I use Doom Emacs with
-[Evil Mode](https://evil.readthedocs.io/en/latest/overview.html) 
+formats used exclusively in some complicated software. Emacs stands for **Editing
+MACros**, and it&rsquo;s basically a Lisp interpreter containing a buffer and cursor
+system. VIM is purely for the text editing, while Emacs is an entire personal
+computing environment.
+
+> Emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish.
+> 
+> — Neal Stephenson
+
+The keybinds of a no-config Emacs are very different. I use Doom Emacs with [Evil
+Mode](https://evil.readthedocs.io/en/latest/overview.html), which means I get the goodies of Emacs, along with the editing experience
+of VIM.
+
+Configuring Emacs isn&rsquo;t traditional where everything is read from a file of
+settings to be made. Instead, you have variables used by the text editor and you
+write Elisp (Emacs Lisp) code to manipulate them. Neither is finding these
+variables nor the Elisp code a challenge because Emacs is a self-documenting
+software. All documentation is baked right in. Overall, Emacs provides endless
+customizability and loads of fun working with text.
+
+An example of a simple text file is `.org`. [Org mode](https://orgmode.org/) is what I use for writing,
+coding and keeping track of my dates and events. For each of these tasks, there
+are so many features Emacs provides you with, and given its nature, there are
+now infinite ways to manipulate them too.
+
+
+<a id="org77e0684"></a>
+
+# Conclusion
+
+Conclusion? Simple. All of the things I use Emacs for, is now completely
+second-nature to me 🙂. Doom Emacs with Evil Mode wouldn&rsquo;t have been possible
+without the knowledge of VIM, and VIM wouldn&rsquo;t have been possible had there been
+no opportunity to capitalize on my typing speed.
 

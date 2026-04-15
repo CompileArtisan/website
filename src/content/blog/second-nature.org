@@ -64,5 +64,36 @@ is insanely keyboard-driven and it really capitalizes on my proficiency.
 * eeeeeeeemacs
 [[https://www.gnu.org/software/emacs/][GNU Emacs]] (I usually over-pronounce the "E" in a rather high pitch for comedic
 effect) is what introduced me to the idea of a using simple text files over
-formats used exclusively in some complicated software. I use Doom Emacs with
-[[https://evil.readthedocs.io/en/latest/overview.html][Evil Mode]] 
+formats used exclusively in some complicated software. Emacs stands for *Editing
+MACros*, and it's basically a Lisp interpreter containing a buffer and cursor
+system. VIM is purely for the text editing, while Emacs is an entire personal
+computing environment.
+
+#+begin_quote
+Emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish.
+
+— Neal Stephenson
+#+end_quote
+
+The keybinds of a no-config Emacs are very different. I use Doom Emacs with [[https://evil.readthedocs.io/en/latest/overview.html][Evil
+Mode]], which means I get the goodies of Emacs, along with the editing experience
+of VIM.
+
+Configuring Emacs isn't traditional where everything is read from a file of
+settings to be made. Instead, you have variables used by the text editor and you
+write Elisp (Emacs Lisp) code to manipulate them. Neither is finding these
+variables nor the Elisp code a challenge because Emacs is a self-documenting
+software. All documentation is baked right in. Overall, Emacs provides endless
+customizability and loads of fun working with text.
+
+
+An example of a simple text file is ~.org~. [[https://orgmode.org/][Org mode]] is what I use for writing,
+coding and keeping track of my dates and events. For each of these tasks, there
+are so many features Emacs provides you with, and given its nature, there are
+now infinite ways to manipulate them too.
+
+* Conclusion
+Conclusion? Simple. All of the things I use Emacs for, is now completely
+second-nature to me 🙂. Doom Emacs with Evil Mode wouldn't have been possible
+without the knowledge of VIM, and VIM wouldn't have been possible had there been
+no opportunity to capitalize on my typing speed.
