@@ -1,0 +1,185 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Keybindings from '../components/Keybindings.astro';
+import Icon from '../components/Icon';
+import { getCollection } from 'astro:content';
+import { xposts } from '../data/xposts';
+
+const blogPosts = await getCollection('blog');
+
+type FeedItem =
+  | { kind: 'blog'; title: string; date: Date; slug: string; description?: string }
+  | { kind: 'xpost'; id: string; text: string; date: Date; url: string };
+
+const feedItems: FeedItem[] = [
+  ...blogPosts.map((post) => ({
+    kind: 'blog' as const,
+    title: post.data.title,
+    date: new Date(post.data.date),
+    slug: post.slug,
+    description: post.data.description,
+  })),
+  ...xposts.map((xp) => ({
+    kind: 'xpost' as const,
+    id: xp.id,
+    text: xp.text,
+    date: new Date(xp.date),
+    url: xp.url,
+  })),
+].sort((a, b) => b.date.getTime() - a.date.getTime());
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+}
+---
+
+<MainLayout title="Feed - CompileArtisan">
+  <div class="main-content">
+    <div class="left-panel">
+      <ul class="feed-list">
+        {feedItems.length === 0 ? (
+          <li class="empty">Nothing here yet.</li>
+        ) : feedItems.map((item) => (
+          <li class={`feed-item feed-item--${item.kind}`}>
+            {item.kind === 'blog' ? (
+              <a href={`/blogs/${item.slug}`} class="icon-link feed-link">
+                <span class="feed-meta">
+                  <span class="feed-type feed-type--blog">blog</span>
+                  <span class="feed-date">{formatDate(item.date)}</span>
+                </span>
+                <span class="feed-body">
+                  <Icon name="hyperlink" />
+                  <span class="feed-title">{item.title}</span>
+                </span>
+              </a>
+            ) : (
+              <a href={item.url} target="_blank" rel="noopener noreferrer" class="icon-link feed-link">
+                <span class="feed-meta">
+                  <span class="feed-type feed-type--xpost">x post</span>
+                  <span class="feed-date">{formatDate(item.date)}</span>
+                </span>
+                <span class="feed-body">
+                  <Icon name="x" />
+                  <span class="feed-title">{item.text}</span>
+                </span>
+              </a>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div class="right-panel">
+      <div class="right-panel-top">
+        <p>Everything I've written — blog posts and X posts — newest first.</p>
+      </div>
+      <Keybindings />
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .feed-list {
+    padding: 2em;
+    list-style: none;
+    margin: 0;
+  }
+
+  .feed-item {
+    margin: var(--spacing-xl) 0;
+    font-size: var(--font-size-large);
+  }
+
+  .feed-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    text-decoration: none;
+    color: var(--color-text-secondary);
+  }
+
+  .feed-link:hover {
+    color: var(--color-primary);
+  }
+
+  .feed-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+    font-size: 0.55em;
+    opacity: 0.75;
+    color: var(--color-text-secondary);
+  }
+
+  .feed-type {
+    padding: 1px 6px;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .feed-type--blog {
+    background-color: var(--color-primary);
+    color: var(--color-text-primary);
+  }
+
+  .feed-type--xpost {
+    background-color: var(--color-text-secondary);
+    color: var(--color-secondary);
+  }
+
+  .feed-date {
+    color: var(--color-text-secondary);
+  }
+
+  .feed-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5em;
+  }
+
+  .feed-body :global(svg) {
+    flex-shrink: 0;
+    margin-top: 0.15em;
+    width: 0.8em;
+    height: 0.8em;
+  }
+
+  .feed-title {
+    line-height: 1.4;
+  }
+
+  .feed-item--xpost .feed-title {
+    font-size: 0.85em;
+    opacity: 0.9;
+  }
+
+  .empty {
+    color: var(--color-text-secondary);
+    opacity: 0.6;
+    padding: 2em;
+    font-size: var(--font-size-medium);
+  }
+
+  @media screen and (max-width: 768px) {
+    .feed-list {
+      padding: 1em;
+    }
+
+    .feed-item {
+      font-size: var(--font-size-medium);
+      margin: var(--spacing-xxl) 0;
+    }
+  }
+</style>
+
+<script>
+  import { initHorizontalNavigation } from '../scripts/navigation';
+  import { initVerticalNavigation } from '../scripts/navigation';
+
+  initHorizontalNavigation();
+  initVerticalNavigation();
+</script>
