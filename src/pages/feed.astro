@@ -9,7 +9,7 @@ const blogPosts = await getCollection('blog');
 
 type FeedItem =
   | { kind: 'blog'; title: string; date: Date; slug: string; description?: string; tags: string[] }
-  | { kind: 'xpost'; id: string; text: string; date: Date; url: string };
+  | { kind: 'xpost'; id: string; text: string; date: Date; url: string; tags: string[] }
 
 const feedItems: FeedItem[] = [
   ...blogPosts.map((post) => ({
@@ -20,20 +20,19 @@ const feedItems: FeedItem[] = [
     description: post.data.description,
     tags: post.data.tags ?? [],
   })),
-  ...xposts.map((xp) => ({
-    kind: 'xpost' as const,
-    id: xp.id,
-    text: xp.text,
-    date: new Date(xp.date),
-    url: xp.url,
-  })),
+...xposts.map((xp) => ({
+  kind: 'xpost' as const,
+  id: xp.id,
+  text: xp.text,
+  date: new Date(xp.date),
+  url: xp.url,
+  tags: xp.tags ?? [],
+})),
 ].sort((a, b) => b.date.getTime() - a.date.getTime());
 
 const allTags = Array.from(
   new Set(
-    feedItems
-      .filter((item): item is Extract<FeedItem, { kind: 'blog' }> => item.kind === 'blog')
-      .flatMap((item) => item.tags)
+    feedItems.flatMap((item) => item.tags ?? [])
   )
 ).sort();
 
@@ -62,11 +61,11 @@ function formatDate(date: Date) {
         {feedItems.length === 0 ? (
           <li class="empty">Nothing here yet.</li>
         ) : feedItems.map((item) => (
-          <li
-            class={`feed-item feed-item--${item.kind}`}
-            data-kind={item.kind}
-            data-tags={item.kind === 'blog' ? (item.tags ?? []).join(',') : ''}
-          >
+<li
+  class={`feed-item feed-item--${item.kind}`}
+  data-kind={item.kind}
+  data-tags={(item.tags ?? []).join(',')}
+>
             {item.kind === 'blog' ? (
               <a href={`/blogs/${item.slug}`} class="icon-link feed-link">
                 <span class="feed-meta">
