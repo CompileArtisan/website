@@ -4,6 +4,7 @@
 title: "My Favourite Things on the Internet"
 date: 2025-08-08
 description: "A comprehensive list of the most unique things which have fascinated me on the Internet"
+tags: ["resources", "tech", "driving"]
 ---
 #+end_export
 

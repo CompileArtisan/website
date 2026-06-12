@@ -2,19 +2,20 @@
 title: "Second-Nature"
 date: 2026-04-13
 description: "How I define second-nature"
+tags: ["driving", "typing", "tech"]
 ---
 
 
 # Table of Contents
 
-1.  [Second-Nature: The idea I&rsquo;m tryna sell](#org09af973)
-2.  [First step into making a keyboard second-nature to me](#orga7a231f)
-3.  [VIM](#orga19450d)
-4.  [eeeeeeeemacs](#orgb5edfd8)
-5.  [Conclusion](#org77e0684)
+1.  [Second-Nature: The idea I&rsquo;m tryna sell](#org5ea0392)
+2.  [First step into making a keyboard second-nature to me](#org65a4c49)
+3.  [VIM](#orgca40f85)
+4.  [eeeeeeeemacs](#orgbad427e)
+5.  [Conclusion](#orgc98263f)
 
 
-<a id="org09af973"></a>
+<a id="org5ea0392"></a>
 
 # Second-Nature: The idea I&rsquo;m tryna sell
 
@@ -44,7 +45,7 @@ coordinated by various body movements to maintain the edge you have over the
 opponent is what makes fighting second-nature to you.
 
 
-<a id="orga7a231f"></a>
+<a id="org65a4c49"></a>
 
 # First step into making a keyboard second-nature to me
 
@@ -56,7 +57,7 @@ key-strokes very elegantly. I hope the previous section paid off in conveying
 this 🙂.
 
 
-<a id="orga19450d"></a>
+<a id="orgca40f85"></a>
 
 # VIM
 
@@ -77,7 +78,7 @@ cursor in different ways, and edit your text in a variety of ways. Editing text
 is insanely keyboard-driven and it really capitalizes on my proficiency.
 
 
-<a id="orgb5edfd8"></a>
+<a id="orgbad427e"></a>
 
 # eeeeeeeemacs
 
@@ -109,7 +110,7 @@ are so many features Emacs provides you with, and given its nature, there are
 now infinite ways to manipulate them too.
 
 
-<a id="org77e0684"></a>
+<a id="orgc98263f"></a>
 
 # Conclusion
 

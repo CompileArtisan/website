@@ -2,21 +2,22 @@
 title: "My Favourite Things on the Internet"
 date: 2025-08-08
 description: "A comprehensive list of the most unique things which have fascinated me on the Internet"
+tags: ["resources", "tech", "driving"]
 ---
 
 
 # Table of Contents
 
-1.  [Programming in General](#org54113e0)
-2.  [Linux](#orgc33ee4a)
-    1.  [Emacs](#org35bc65d)
-    2.  [Kitty](#org2c3c75f)
-3.  [Internet is Fun](#org312e14a)
-4.  [Physics and Mathematics](#org05c577e)
-5.  [Automotive Scene](#org5cfd5f4)
+1.  [Programming in General](#org08feb3f)
+2.  [Linux](#org60200b2)
+    1.  [Emacs](#org5cff070)
+    2.  [Kitty](#orge17e0a5)
+3.  [Internet is Fun](#org79d78e3)
+4.  [Physics and Mathematics](#orge9d0217)
+5.  [Automotive Scene](#orgfa3cd7c)
 
 
-<a id="org54113e0"></a>
+<a id="org08feb3f"></a>
 
 # Programming in General
 
@@ -25,12 +26,12 @@ description: "A comprehensive list of the most unique things which have fascinat
     [Stack Exchange](https://stackexchange.com/) and [Reddit](https://www.reddit.com/).
 
 
-<a id="orgc33ee4a"></a>
+<a id="org60200b2"></a>
 
 # Linux
 
 
-<a id="org35bc65d"></a>
+<a id="org5cff070"></a>
 
 ## Emacs
 
@@ -45,14 +46,14 @@ description: "A comprehensive list of the most unique things which have fascinat
 </table>
 
 
-<a id="org2c3c75f"></a>
+<a id="orge17e0a5"></a>
 
 ## Kitty
 
 -   Brilliant Guide on Customizing Kitty: [kitty.conf - kitty](https://sw.kovidgoyal.net/kitty/conf/)
 
 
-<a id="org312e14a"></a>
+<a id="org79d78e3"></a>
 
 # Internet is Fun
 
@@ -62,7 +63,7 @@ description: "A comprehensive list of the most unique things which have fascinat
 -   My Guru&rsquo;s favourite things on the internet: [Essential Media - heftymouse](https://heftymouse.me/info/essential/)
 
 
-<a id="org05c577e"></a>
+<a id="orge9d0217"></a>
 
 # Physics and Mathematics
 
@@ -70,7 +71,7 @@ description: "A comprehensive list of the most unique things which have fascinat
 -   Get an incremental foundation on blockchains: [Blockchain Demo](https://andersbrownworth.com/blockchain/hash)
 
 
-<a id="org5cfd5f4"></a>
+<a id="orgfa3cd7c"></a>
 
 # Automotive Scene
 

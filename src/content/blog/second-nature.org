@@ -4,6 +4,7 @@
 title: "Second-Nature"
 date: 2026-04-13
 description: "How I define second-nature"
+tags: ["driving", "typing", "tech"]
 ---
 #+end_export
 # date: YYYY-MM-DD

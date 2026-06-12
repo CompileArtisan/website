@@ -4,6 +4,7 @@
 title: "Paste-cat"
 date: 2025-03-16
 description: "How uniqueness and inspiration met in my workflow"
+tags: [ "tech", "story"]
 ---
 #+end_export
 

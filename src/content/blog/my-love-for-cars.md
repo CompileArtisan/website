@@ -2,23 +2,24 @@
 title: "My Love for Cars"
 date: 2025-12-04
 description: "I explain what I truly feel when I drive a car"
+tags: ["driving", "story"]
 ---
 
 
 # Table of Contents
 
-1.  [Introduction](#org43ff613)
-2.  [Growing Up](#org898d642)
-3.  [Figured out Everything](#orgb6cd719)
-4.  [On the Driver&rsquo;s Seat](#orgcba3e69)
-5.  [Diesel vs Petrol](#orgf393a55)
-    1.  [Torque vs Power](#orgcd04a85)
-    2.  [Why Diesel?](#org6479cfa)
-    3.  [What about Petrol?](#orga65e323)
-6.  [Conclusion](#org7132e6e)
+1.  [Introduction](#org3dfec68)
+2.  [Growing Up](#org3cb1765)
+3.  [Figured out Everything](#org99621e6)
+4.  [On the Driver&rsquo;s Seat](#orgecae7a5)
+5.  [Diesel vs Petrol](#orgdc73e31)
+    1.  [Torque vs Power](#org9498986)
+    2.  [Why Diesel?](#orgf40720c)
+    3.  [What about Petrol?](#org106b8e8)
+6.  [Conclusion](#orgd9c1a05)
 
 
-<a id="org43ff613"></a>
+<a id="org3dfec68"></a>
 
 # Introduction
 
@@ -31,7 +32,7 @@ pricetag of every supercar to ever exist. Yet, I claim to be a car-lover. Read
 on to see what I mean.
 
 
-<a id="org898d642"></a>
+<a id="org3cb1765"></a>
 
 # Growing Up
 
@@ -43,7 +44,7 @@ sound if they run on Diesel or Petrol. Nothing to write home about, but
 definitely puts me on the list of people aware of cars.
 
 
-<a id="orgb6cd719"></a>
+<a id="org99621e6"></a>
 
 # Figured out Everything
 
@@ -65,7 +66,7 @@ as possible for the car, as well as the passengers. At the same time, I&rsquo;ve
 the habit of reading and understanding the internals of a car.
 
 
-<a id="orgcba3e69"></a>
+<a id="orgecae7a5"></a>
 
 # On the Driver&rsquo;s Seat
 
@@ -93,7 +94,7 @@ for quite a long time, but took me quite a lot of time and calculation to
 master.
 
 
-<a id="orgf393a55"></a>
+<a id="orgdc73e31"></a>
 
 # Diesel vs Petrol
 
@@ -103,7 +104,7 @@ technical perspective (and feel free to skip right past this if you feel like
 I&rsquo;m nerding out).
 
 
-<a id="orgcd04a85"></a>
+<a id="org9498986"></a>
 
 ## Torque vs Power
 
@@ -125,7 +126,7 @@ case, it&rsquo;s rotations of the wrench. The more rotations per minute you can 
 the more work you perform, and hence the more power you create.
 
 
-<a id="org6479cfa"></a>
+<a id="orgf40720c"></a>
 
 ## Why Diesel?
 
@@ -149,7 +150,7 @@ This experience is typical in almost any turbocharged diesel engine, so don&rsqu
 worry about finding a Ritz to try this out 😂.
 
 
-<a id="orga65e323"></a>
+<a id="org106b8e8"></a>
 
 ## What about Petrol?
 
@@ -164,7 +165,7 @@ goes quite easy on your pockets. Diesel engines need way more oil changes, and
 part replacements, so that is done away with here.
 
 
-<a id="org7132e6e"></a>
+<a id="orgd9c1a05"></a>
 
 # Conclusion
 

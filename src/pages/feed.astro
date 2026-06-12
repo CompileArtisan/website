@@ -8,7 +8,7 @@ import { xposts } from '../data/xposts';
 const blogPosts = await getCollection('blog');
 
 type FeedItem =
-  | { kind: 'blog'; title: string; date: Date; slug: string; description?: string }
+  | { kind: 'blog'; title: string; date: Date; slug: string; description?: string; tags: string[] }
   | { kind: 'xpost'; id: string; text: string; date: Date; url: string };
 
 const feedItems: FeedItem[] = [
@@ -18,6 +18,7 @@ const feedItems: FeedItem[] = [
     date: new Date(post.data.date),
     slug: post.slug,
     description: post.data.description,
+    tags: post.data.tags ?? [],
   })),
   ...xposts.map((xp) => ({
     kind: 'xpost' as const,
@@ -27,6 +28,14 @@ const feedItems: FeedItem[] = [
     url: xp.url,
   })),
 ].sort((a, b) => b.date.getTime() - a.date.getTime());
+
+const allTags = Array.from(
+  new Set(
+    feedItems
+      .filter((item): item is Extract<FeedItem, { kind: 'blog' }> => item.kind === 'blog')
+      .flatMap((item) => item.tags)
+  )
+).sort();
 
 function formatDate(date: Date) {
   return date.toLocaleDateString('en-US', {
@@ -40,16 +49,36 @@ function formatDate(date: Date) {
 <MainLayout title="Feed - CompileArtisan">
   <div class="main-content">
     <div class="left-panel">
-      <ul class="feed-list">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">all</button>
+        <button class="filter-btn" data-filter="kind:blog">blog</button>
+        <button class="filter-btn" data-filter="kind:xpost">x post</button>
+        {allTags.map(tag => (
+          <button class="filter-btn" data-filter={`tag:${tag}`}>{tag}</button>
+        ))}
+      </div>
+
+      <ul class="feed-list" id="feed-list">
         {feedItems.length === 0 ? (
           <li class="empty">Nothing here yet.</li>
         ) : feedItems.map((item) => (
-          <li class={`feed-item feed-item--${item.kind}`}>
+          <li
+            class={`feed-item feed-item--${item.kind}`}
+            data-kind={item.kind}
+            data-tags={item.kind === 'blog' ? (item.tags ?? []).join(',') : ''}
+          >
             {item.kind === 'blog' ? (
               <a href={`/blogs/${item.slug}`} class="icon-link feed-link">
                 <span class="feed-meta">
                   <span class="feed-type feed-type--blog">blog</span>
                   <span class="feed-date">{formatDate(item.date)}</span>
+                  {(item.tags ?? []).length > 0 && (
+                    <span class="feed-tags">
+                      {item.tags.map(tag => (
+                        <span class="feed-tag">{tag}</span>
+                      ))}
+                    </span>
+                  )}
                 </span>
                 <span class="feed-body">
                   <Icon name="hyperlink" />
@@ -82,6 +111,33 @@ function formatDate(date: Date) {
 </MainLayout>
 
 <style>
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    padding: 1em 2em 0.5em;
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .filter-btn {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-small);
+    background: none;
+    border: 2px solid var(--color-text-secondary);
+    color: var(--color-text-secondary);
+    padding: 2px 10px;
+    cursor: pointer;
+    text-transform: lowercase;
+    transition: all var(--transition-duration) ease;
+  }
+
+  .filter-btn:hover,
+  .filter-btn.active {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-text-primary);
+  }
+
   .feed-list {
     padding: 2em;
     list-style: none;
@@ -91,6 +147,10 @@ function formatDate(date: Date) {
   .feed-item {
     margin: var(--spacing-xl) 0;
     font-size: var(--font-size-large);
+  }
+
+  .feed-item.hidden {
+    display: none;
   }
 
   .feed-link {
@@ -108,6 +168,7 @@ function formatDate(date: Date) {
   .feed-meta {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 0.8em;
     font-size: 0.55em;
     opacity: 0.75;
@@ -133,6 +194,20 @@ function formatDate(date: Date) {
 
   .feed-date {
     color: var(--color-text-secondary);
+  }
+
+  .feed-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .feed-tag {
+    border: 1px solid var(--color-text-secondary);
+    padding: 0px 6px;
+    font-size: 0.9em;
+    color: var(--color-text-secondary);
+    opacity: 0.7;
   }
 
   .feed-body {
@@ -165,6 +240,10 @@ function formatDate(date: Date) {
   }
 
   @media screen and (max-width: 768px) {
+    .filter-bar {
+      padding: 0.75em 1em 0.5em;
+    }
+
     .feed-list {
       padding: 1em;
     }
@@ -177,6 +256,34 @@ function formatDate(date: Date) {
 </style>
 
 <script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const items = document.querySelectorAll<HTMLLIElement>('.feed-item');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.dataset.filter ?? 'all';
+
+      items.forEach(item => {
+        const kind = item.dataset.kind ?? '';
+        const tags = item.dataset.tags ? item.dataset.tags.split(',') : [];
+
+        let visible = false;
+        if (filter === 'all') {
+          visible = true;
+        } else if (filter.startsWith('kind:')) {
+          visible = kind === filter.slice(5);
+        } else if (filter.startsWith('tag:')) {
+          visible = tags.includes(filter.slice(4));
+        }
+
+        item.classList.toggle('hidden', !visible);
+      });
+    });
+  });
+
   import { initHorizontalNavigation } from '../scripts/navigation';
   import { initVerticalNavigation } from '../scripts/navigation';
 

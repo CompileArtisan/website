@@ -2,6 +2,7 @@
 title: "Learn more about who I am"
 date: 2024-12-23
 description: "Who am I"
+tags: ["story"]
 ---
 
 ### Let me introduce myself
