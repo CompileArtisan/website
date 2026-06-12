@@ -86,10 +86,15 @@ function formatDate(date: Date) {
               </a>
             ) : (
               <a href={item.url} target="_blank" rel="noopener noreferrer" class="icon-link feed-link">
-                <span class="feed-meta">
-                  <span class="feed-type feed-type--xpost">x post</span>
-                  <span class="feed-date">{formatDate(item.date)}</span>
-                </span>
+<span class="feed-meta">
+  <span class="feed-type feed-type--xpost">x post</span>
+  <span class="feed-date">{formatDate(item.date)}</span>
+  {(item.tags ?? []).length > 0 && (
+    <span class="feed-tags">
+      {item.tags.map(tag => <span class="feed-tag">{tag}</span>)}
+    </span>
+  )}
+</span>
                 <span class="feed-body">
                   <Icon name="x" />
                   <span class="feed-title">{item.text}</span>
