@@ -1,0 +1,16 @@
+#+OPTIONS: toc:nil
+#+begin_export markdown
+---
+title: "Butterfly"
+date: 2026-06-13
+description: "A story talking about goodness"
+tags: ["story"]
+---
+#+end_export
+# date: YYYY-MM-DD
+
+#+TOC: headlines 2
+
+* Prelude
+What follows isn't a tech blog, but a story I wrote. I was briefly inspired by [[https://protesilaos.com/][Protesilaos]] and his work.
+
