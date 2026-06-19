@@ -8,12 +8,12 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#orgae3c0d4)
-2.  [Climbing up the lighthouse](#orgf61859e)
-3.  [Windows shut?](#orgf9fa736)
+1.  [Prelude](#orgbb225ec)
+2.  [Climbing up the lighthouse](#org80ceb83)
+3.  [Windows shut?](#org597439c)
 
 
-<a id="orgae3c0d4"></a>
+<a id="orgbb225ec"></a>
 
 # Prelude
 
@@ -21,7 +21,7 @@ What follows isn&rsquo;t a tech blog, but a very abstract story I wrote. I was b
 inspired by [Protesilaos](https://protesilaos.com/) and his work.
 
 
-<a id="orgf61859e"></a>
+<a id="org80ceb83"></a>
 
 # Climbing up the lighthouse
 
@@ -54,7 +54,7 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="orgf9fa736"></a>
+<a id="org597439c"></a>
 
 # Windows shut?
 
