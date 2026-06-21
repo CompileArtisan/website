@@ -8,12 +8,13 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#orgbb225ec)
-2.  [Climbing up the lighthouse](#org80ceb83)
-3.  [Windows shut?](#org597439c)
+1.  [Prelude](#org26c04be)
+2.  [Climbing up the lighthouse](#org41e72e3)
+3.  [Windows shut?](#orgf8ebae6)
+4.  [Shadow](#orgbbbf695)
 
 
-<a id="orgbb225ec"></a>
+<a id="org26c04be"></a>
 
 # Prelude
 
@@ -21,7 +22,7 @@ What follows isn&rsquo;t a tech blog, but a very abstract story I wrote. I was b
 inspired by [Protesilaos](https://protesilaos.com/) and his work.
 
 
-<a id="org80ceb83"></a>
+<a id="org41e72e3"></a>
 
 # Climbing up the lighthouse
 
@@ -54,7 +55,25 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="org597439c"></a>
+<a id="orgf8ebae6"></a>
 
 # Windows shut?
+
+The boy could scale heights of success, time and happiness through loads of
+effort in climbing up the staircase of the lighthouse. His own path, effort and
+direction was his greatest asset, and he felt closing his windows actively
+fueling it. Everyone outside looking through his window were attracted to the
+staircase, and not the boy himself. So the fix is simple: if the staircase was
+the only thing people saw through the windows, keep the windows closed, but let
+everyone use the staircase. Reducing everyone outside the lighthouse to mere
+shadows is the final form things took after all that happened.
+
+
+<a id="orgbbbf695"></a>
+
+# Shadow
+
+The boy lived in neglect, but continued to be helpful to all his friends. He
+completely disregarded any depth because it is only a shadow cast by his friends
+is he chose to see.
 
