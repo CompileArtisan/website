@@ -8,21 +8,22 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#org26c04be)
-2.  [Climbing up the lighthouse](#org41e72e3)
-3.  [Windows shut?](#orgf8ebae6)
-4.  [Shadow](#orgbbbf695)
+1.  [Prelude](#org34bd653)
+2.  [Climbing up the lighthouse](#org1571eab)
+3.  [Windows shut?](#orgc965e9f)
+4.  [Shadow](#org314e750)
 
 
-<a id="org26c04be"></a>
+<a id="org34bd653"></a>
 
 # Prelude
 
 What follows isn&rsquo;t a tech blog, but a very abstract story I wrote. I was briefly
-inspired by [Protesilaos](https://protesilaos.com/) and his work.
+inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s very abstract and perhaps illogical
+too, but bare with me :)
 
 
-<a id="org41e72e3"></a>
+<a id="org1571eab"></a>
 
 # Climbing up the lighthouse
 
@@ -55,7 +56,7 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="orgf8ebae6"></a>
+<a id="orgc965e9f"></a>
 
 # Windows shut?
 
@@ -65,15 +66,16 @@ direction was his greatest asset, and he felt closing his windows actively
 fueling it. Everyone outside looking through his window were attracted to the
 staircase, and not the boy himself. So the fix is simple: if the staircase was
 the only thing people saw through the windows, keep the windows closed, but let
-everyone use the staircase. Reducing everyone outside the lighthouse to mere
-shadows is the final form things took after all that happened.
+everyone use the staircase. He carried burdens, solved problems and sacrificed
+his own comfort to create better outcomes for others, but reducing everyone
+outside the lighthouse to mere shadows is the final form things took after all
+that happened.
 
 
-<a id="orgbbbf695"></a>
+<a id="org314e750"></a>
 
 # Shadow
 
-The boy lived in neglect, but continued to be helpful to all his friends. He
-completely disregarded any depth because it is only a shadow cast by his friends
-is he chose to see.
+The boy completely disregarded any depth because it is only a shadow cast by his
+friends is he chose to see. 
 
