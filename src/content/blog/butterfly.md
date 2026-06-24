@@ -8,13 +8,13 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#org34bd653)
-2.  [Climbing up the lighthouse](#org1571eab)
-3.  [Windows shut?](#orgc965e9f)
-4.  [Shadow](#org314e750)
+1.  [Prelude](#orge2368ce)
+2.  [Climbing up the lighthouse](#org65b77d5)
+3.  [Windows shut?](#org20202e9)
+4.  [Shadow](#org46fb8c7)
 
 
-<a id="org34bd653"></a>
+<a id="orge2368ce"></a>
 
 # Prelude
 
@@ -23,7 +23,7 @@ inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s ver
 too, but bare with me :)
 
 
-<a id="org1571eab"></a>
+<a id="org65b77d5"></a>
 
 # Climbing up the lighthouse
 
@@ -56,7 +56,7 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="orgc965e9f"></a>
+<a id="org20202e9"></a>
 
 # Windows shut?
 
@@ -72,10 +72,12 @@ outside the lighthouse to mere shadows is the final form things took after all
 that happened.
 
 
-<a id="org314e750"></a>
+<a id="org46fb8c7"></a>
 
 # Shadow
 
 The boy completely disregarded any depth because it is only a shadow cast by his
-friends is he chose to see. 
+friends is he chose to see. Some shadows climb up the stairs steadily, while
+some shadows jump up the lighthouse. One such shadow appeared to stay adrift.
+While the boy
 
