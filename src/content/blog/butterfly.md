@@ -8,14 +8,15 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#org2bc1c2e)
-2.  [Climbing up the lighthouse](#orgf64c706)
-3.  [Windows shut?](#org78b909b)
-4.  [Shadow](#org63d4b95)
-5.  [Structure and Color](#org5a463f5)
+1.  [Prelude](#orgf24c64e)
+2.  [Climbing up the lighthouse](#orgba432bf)
+3.  [Windows shut?](#org8517f9b)
+4.  [Shadow](#orga33b71f)
+5.  [Structure and Color](#org0cd873f)
+6.  [Same but different](#org568b2f7)
 
 
-<a id="org2bc1c2e"></a>
+<a id="orgf24c64e"></a>
 
 # Prelude
 
@@ -24,7 +25,7 @@ inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s ver
 too, but bare with me :)
 
 
-<a id="orgf64c706"></a>
+<a id="orgba432bf"></a>
 
 # Climbing up the lighthouse
 
@@ -57,12 +58,13 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="org78b909b"></a>
+<a id="org8517f9b"></a>
 
 # Windows shut?
 
 The boy could scale heights of success, time and happiness through loads of
-effort in climbing up the staircase of the lighthouse. His own path, effort and
+effort in climbing up the staircase of the lighthouse. The boy sees structure,
+climbs systematically and values patterns and efforts. His own path, effort and
 direction was his greatest asset and proof of purpose, and he felt closing his
 windows actively fueling it. Everyone outside looking through his window were
 attracted to the staircase, and not the boy himself. So the fix is simple: if
@@ -73,7 +75,7 @@ but reducing everyone outside the lighthouse to mere shadows is the final form
 things took after all that happened.
 
 
-<a id="org63d4b95"></a>
+<a id="orga33b71f"></a>
 
 # Shadow
 
@@ -85,16 +87,32 @@ often spends time near windows. The shadow seemed to move wherever the wind took
 it. When the wind grew stronger, the shadow danced around. While other shadows
 climbed with purpose, this shadow wandered. This shadow wasn&rsquo;t determined to
 chase heights at all. Instead, it drifted besides everyone&rsquo;s window. The boy
-paid attention to this shadow, as it would wait at any open window and receieves
-whatever comes through it. It could be joy, laughter, anger or pain. One day
-this shadow stood beside the boy&rsquo;s window too.
+paid attention to this shadow, as it would wait at any open window and receives
+whatever comes through it. It could be joy, laughter, anger or pain. The shadow
+unfolds itself and welcomed all of it. One day this shadow stood beside the
+boy&rsquo;s window too. The shadow kept returning to the boy&rsquo;s window. The boy began
+talking to the shadow everyday. The shadow gained so much of trust that it
+outweighed the boy&rsquo;s caution. The boy finally decided to open the windows. It
+was then the boy realized that this shadow, was a butterfly.
 
 
-<a id="org5a463f5"></a>
+<a id="org0cd873f"></a>
 
 # Structure and Color
 
 The colors on her wings told stories. Not of where she had flown, but of every
 window where she had stopped. Some colors had faded. Some patterns no longer
-matched. Yet she still spread her wings as though they were whole.
+matched. Yet she still spread her wings as though they were whole. These marks
+only stuck with her forever because a butterfly&rsquo;s wings don&rsquo;t heal. Once
+damaged, they remain damaged. The butterfly never spread her wings to be
+admired. She spread them because someone else needed somewhere soft for their
+heart to land. Every window she visited left something behind. She accepted each
+color exactly as it was. The boy never used the window to share his feelings.
+The moment he opened them, he had all the time in the world to appreciate the
+butterfly&rsquo;s wings.
+
+
+<a id="org568b2f7"></a>
+
+# Same but different
 
