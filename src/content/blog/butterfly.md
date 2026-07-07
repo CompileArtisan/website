@@ -8,15 +8,15 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#orgf24c64e)
-2.  [Climbing up the lighthouse](#orgba432bf)
-3.  [Windows shut?](#org8517f9b)
-4.  [Shadow](#orga33b71f)
-5.  [Structure and Color](#org0cd873f)
-6.  [Same but different](#org568b2f7)
+1.  [Prelude](#org40d9211)
+2.  [Climbing up the lighthouse](#orgc7046f9)
+3.  [Windows shut?](#org93ccefd)
+4.  [Shadow](#org88e6918)
+5.  [Structure and Color](#org6656810)
+6.  [Same but different](#orgdafcf48)
 
 
-<a id="orgf24c64e"></a>
+<a id="org40d9211"></a>
 
 # Prelude
 
@@ -25,7 +25,7 @@ inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s ver
 too, but bare with me :)
 
 
-<a id="orgba432bf"></a>
+<a id="orgc7046f9"></a>
 
 # Climbing up the lighthouse
 
@@ -58,7 +58,7 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="org8517f9b"></a>
+<a id="org93ccefd"></a>
 
 # Windows shut?
 
@@ -75,28 +75,30 @@ but reducing everyone outside the lighthouse to mere shadows is the final form
 things took after all that happened.
 
 
-<a id="orga33b71f"></a>
+<a id="org88e6918"></a>
 
 # Shadow
 
-The boy completely disregarded any depth because it is only a shadow cast by his
-friends is he chose to see. Some shadows climb up the stairs steadily, while
-some shadows jump up the lighthouse. Among countless passing silhouettes, one
-such shadow appeared to stay adrift. This one shadow floats and wanders, but
-often spends time near windows. The shadow seemed to move wherever the wind took
-it. When the wind grew stronger, the shadow danced around. While other shadows
-climbed with purpose, this shadow wandered. This shadow wasn&rsquo;t determined to
-chase heights at all. Instead, it drifted besides everyone&rsquo;s window. The boy
-paid attention to this shadow, as it would wait at any open window and receives
-whatever comes through it. It could be joy, laughter, anger or pain. The shadow
-unfolds itself and welcomed all of it. One day this shadow stood beside the
-boy&rsquo;s window too. The shadow kept returning to the boy&rsquo;s window. The boy began
-talking to the shadow everyday. The shadow gained so much of trust that it
-outweighed the boy&rsquo;s caution. The boy finally decided to open the windows. It
-was then the boy realized that this shadow, was a butterfly.
+The boy realized that he is who he is because of the entire staircase. One or
+two steps can&rsquo;t explain a person. However, he completely disregarded any depth
+because it is only a shadow cast by his friends is he chose to see. Some shadows
+climb up the stairs steadily, while some shadows jump up the lighthouse. Among
+countless passing silhouettes, one such shadow appeared to stay adrift. This one
+shadow floats and wanders, but often spends time near windows. The shadow seemed
+to move wherever the wind took it. When the wind grew stronger, the shadow
+danced around. While other shadows climbed with purpose, this shadow wandered.
+This shadow wasn&rsquo;t determined to chase heights at all. Instead, it drifted
+besides everyone&rsquo;s window. The boy paid attention to this shadow, as it would
+wait at any open window and receives whatever comes through it. It could be joy,
+laughter, anger or pain. The shadow unfolds itself and welcomed all of it. One
+day this shadow stood beside the boy&rsquo;s window too. The shadow kept returning to
+the boy&rsquo;s window. The boy began talking to the shadow everyday. The shadow
+gained so much of trust that it outweighed the boy&rsquo;s caution. The boy finally
+decided to open the windows. It was then the boy realized that this shadow, was
+a butterfly.
 
 
-<a id="org0cd873f"></a>
+<a id="org6656810"></a>
 
 # Structure and Color
 
@@ -109,10 +111,12 @@ admired. She spread them because someone else needed somewhere soft for their
 heart to land. Every window she visited left something behind. She accepted each
 color exactly as it was. The boy never used the window to share his feelings.
 The moment he opened them, he had all the time in the world to appreciate the
-butterfly&rsquo;s wings.
+butterfly&rsquo;s wings. Some of the wings&rsquo; fractures belonged even to the boy
+himself. Nonetheless, the wings bore loads of colors and patterns, which the
+butterfly herself couldn&rsquo;t see. No butterfly can see their own wings.
 
 
-<a id="org568b2f7"></a>
+<a id="orgdafcf48"></a>
 
 # Same but different
 
