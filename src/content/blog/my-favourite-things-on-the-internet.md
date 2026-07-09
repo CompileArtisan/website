@@ -8,16 +8,16 @@ tags: ["resources", "tech", "driving"]
 
 # Table of Contents
 
-1.  [Programming in General](#orgf233384)
-2.  [Linux](#org51468bc)
-    1.  [Emacs](#org5a4ca1d)
-    2.  [Kitty](#org57dbdf4)
-3.  [Internet is Fun](#org59d7409)
-4.  [Physics and Mathematics](#org6b47983)
-5.  [Automotive Scene](#org4dc0ee1)
+1.  [Programming in General](#org5a85300)
+2.  [Linux](#org182ea34)
+    1.  [Emacs](#org749fda6)
+    2.  [Kitty](#org0d267c6)
+3.  [Internet is Fun](#org8ccebbe)
+4.  [Physics and Mathematics](#org1892365)
+5.  [Automotive Scene](#org46494d0)
 
 
-<a id="orgf233384"></a>
+<a id="org5a85300"></a>
 
 # Programming in General
 
@@ -27,12 +27,12 @@ tags: ["resources", "tech", "driving"]
 -   Journalism focused on tech: [The Verge](https://www.theverge.com/)
 
 
-<a id="org51468bc"></a>
+<a id="org182ea34"></a>
 
 # Linux
 
 
-<a id="org5a4ca1d"></a>
+<a id="org749fda6"></a>
 
 ## Emacs
 
@@ -47,14 +47,14 @@ tags: ["resources", "tech", "driving"]
 </table>
 
 
-<a id="org57dbdf4"></a>
+<a id="org0d267c6"></a>
 
 ## Kitty
 
 -   Brilliant Guide on Customizing Kitty: [kitty.conf - kitty](https://sw.kovidgoyal.net/kitty/conf/)
 
 
-<a id="org59d7409"></a>
+<a id="org8ccebbe"></a>
 
 # Internet is Fun
 
@@ -62,9 +62,10 @@ tags: ["resources", "tech", "driving"]
 -   JavaScript that blew my mind: [Antonymph](https://lyra.horse/antonymph/)
 -   HTTP Error Codes done cutely: [HTTP Cats](https://http.cat/)
 -   My Guru&rsquo;s favourite things on the internet: [Essential Media - heftymouse](https://heftymouse.me/info/essential/)
+-   Just a great knowledge source in general: [r/explainlikeimfive](https://www.reddit.com/r/explainlikeimfive/)
 
 
-<a id="org6b47983"></a>
+<a id="org1892365"></a>
 
 # Physics and Mathematics
 
@@ -72,7 +73,7 @@ tags: ["resources", "tech", "driving"]
 -   Get an incremental foundation on blockchains: [Blockchain Demo](https://andersbrownworth.com/blockchain/hash)
 
 
-<a id="org4dc0ee1"></a>
+<a id="org46494d0"></a>
 
 # Automotive Scene
 
