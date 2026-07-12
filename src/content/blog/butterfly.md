@@ -8,15 +8,15 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#org40d9211)
-2.  [Climbing up the lighthouse](#orgc7046f9)
-3.  [Windows shut?](#org93ccefd)
-4.  [Shadow](#org88e6918)
-5.  [Structure and Color](#org6656810)
-6.  [Same but different](#orgdafcf48)
+1.  [Prelude](#org40f7852)
+2.  [Climbing up the lighthouse](#orgcf8a301)
+3.  [Windows shut?](#orgda2013a)
+4.  [Shadow](#orgc3c771b)
+5.  [Structure and Color](#org525678d)
+6.  [Same but different](#orgbda0fc6)
 
 
-<a id="org40d9211"></a>
+<a id="org40f7852"></a>
 
 # Prelude
 
@@ -25,7 +25,7 @@ inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s ver
 too, but bare with me :)
 
 
-<a id="orgc7046f9"></a>
+<a id="orgcf8a301"></a>
 
 # Climbing up the lighthouse
 
@@ -58,7 +58,7 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="org93ccefd"></a>
+<a id="orgda2013a"></a>
 
 # Windows shut?
 
@@ -75,7 +75,7 @@ but reducing everyone outside the lighthouse to mere shadows is the final form
 things took after all that happened.
 
 
-<a id="org88e6918"></a>
+<a id="orgc3c771b"></a>
 
 # Shadow
 
@@ -92,13 +92,13 @@ besides everyone&rsquo;s window. The boy paid attention to this shadow, as it wo
 wait at any open window and receives whatever comes through it. It could be joy,
 laughter, anger or pain. The shadow unfolds itself and welcomed all of it. One
 day this shadow stood beside the boy&rsquo;s window too. The shadow kept returning to
-the boy&rsquo;s window. The boy began talking to the shadow everyday. The shadow
-gained so much of trust that it outweighed the boy&rsquo;s caution. The boy finally
-decided to open the windows. It was then the boy realized that this shadow, was
-a butterfly.
+the boy&rsquo;s window. The boy began talking to the shadow everyday. Days became
+conversations and conversations became trust. The shadow gained so much of trust
+that it outweighed the boy&rsquo;s caution. The boy finally decided to open the
+windows. It was then the boy realized that this shadow, was a butterfly.
 
 
-<a id="org6656810"></a>
+<a id="org525678d"></a>
 
 # Structure and Color
 
@@ -116,7 +116,11 @@ himself. Nonetheless, the wings bore loads of colors and patterns, which the
 butterfly herself couldn&rsquo;t see. No butterfly can see their own wings.
 
 
-<a id="orgdafcf48"></a>
+<a id="orgbda0fc6"></a>
 
 # Same but different
+
+To a young, sensitive and emotionally fragile person like the boy, structure is
+safety. His lighthouse isn&rsquo;t just a climb, but it&rsquo;s a fortification. The
+butterfly is braver and spreads her beautiful and colorful wings wide. 
 
