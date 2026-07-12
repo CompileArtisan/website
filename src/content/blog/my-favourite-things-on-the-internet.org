@@ -15,6 +15,7 @@ tags: ["resources", "tech", "driving"]
 - Find answers from a random person who's had a random problem you're facing:
   [[https://stackexchange.com/][Stack Exchange]] and [[https://www.reddit.com/][Reddit]].
 - Journalism focused on tech: [[https://www.theverge.com/][The Verge]] 
+- Computer Science in C Programming: [[https://www.youtube.com/@JacobSorber][Jacob Sorber]] 
 
 * Linux
 

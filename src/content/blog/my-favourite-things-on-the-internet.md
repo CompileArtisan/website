@@ -8,16 +8,16 @@ tags: ["resources", "tech", "driving"]
 
 # Table of Contents
 
-1.  [Programming in General](#org5a85300)
-2.  [Linux](#org182ea34)
-    1.  [Emacs](#org749fda6)
-    2.  [Kitty](#org0d267c6)
-3.  [Internet is Fun](#org8ccebbe)
-4.  [Physics and Mathematics](#org1892365)
-5.  [Automotive Scene](#org46494d0)
+1.  [Programming in General](#orge5e4311)
+2.  [Linux](#orgea6e497)
+    1.  [Emacs](#orgd358d8e)
+    2.  [Kitty](#org4a6ba81)
+3.  [Internet is Fun](#org4e3d78e)
+4.  [Physics and Mathematics](#org6119853)
+5.  [Automotive Scene](#orgddcdf1c)
 
 
-<a id="org5a85300"></a>
+<a id="orge5e4311"></a>
 
 # Programming in General
 
@@ -25,14 +25,15 @@ tags: ["resources", "tech", "driving"]
 -   Find answers from a random person who&rsquo;s had a random problem you&rsquo;re facing:
     [Stack Exchange](https://stackexchange.com/) and [Reddit](https://www.reddit.com/).
 -   Journalism focused on tech: [The Verge](https://www.theverge.com/)
+-   Computer Science in C Programming: [Jacob Sorber](https://www.youtube.com/@JacobSorber)
 
 
-<a id="org182ea34"></a>
+<a id="orgea6e497"></a>
 
 # Linux
 
 
-<a id="org749fda6"></a>
+<a id="orgd358d8e"></a>
 
 ## Emacs
 
@@ -47,14 +48,14 @@ tags: ["resources", "tech", "driving"]
 </table>
 
 
-<a id="org0d267c6"></a>
+<a id="org4a6ba81"></a>
 
 ## Kitty
 
 -   Brilliant Guide on Customizing Kitty: [kitty.conf - kitty](https://sw.kovidgoyal.net/kitty/conf/)
 
 
-<a id="org8ccebbe"></a>
+<a id="org4e3d78e"></a>
 
 # Internet is Fun
 
@@ -65,7 +66,7 @@ tags: ["resources", "tech", "driving"]
 -   Just a great knowledge source in general: [r/explainlikeimfive](https://www.reddit.com/r/explainlikeimfive/)
 
 
-<a id="org1892365"></a>
+<a id="org6119853"></a>
 
 # Physics and Mathematics
 
@@ -73,7 +74,7 @@ tags: ["resources", "tech", "driving"]
 -   Get an incremental foundation on blockchains: [Blockchain Demo](https://andersbrownworth.com/blockchain/hash)
 
 
-<a id="org46494d0"></a>
+<a id="orgddcdf1c"></a>
 
 # Automotive Scene
 
