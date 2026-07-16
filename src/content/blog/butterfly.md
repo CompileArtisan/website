@@ -8,15 +8,15 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#org40f7852)
-2.  [Climbing up the lighthouse](#orgcf8a301)
-3.  [Windows shut?](#orgda2013a)
-4.  [Shadow](#orgc3c771b)
-5.  [Structure and Color](#org525678d)
-6.  [Same but different](#orgbda0fc6)
+1.  [Prelude](#orge3d05e0)
+2.  [Climbing up the lighthouse](#orgd7e90a0)
+3.  [Windows shut?](#orgf08d037)
+4.  [Shadow](#org92df38c)
+5.  [Structure and Color](#org70fa7f4)
+6.  [Same but different](#org8bc9c62)
 
 
-<a id="org40f7852"></a>
+<a id="orge3d05e0"></a>
 
 # Prelude
 
@@ -25,7 +25,7 @@ inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s ver
 too, but bare with me :)
 
 
-<a id="orgcf8a301"></a>
+<a id="orgd7e90a0"></a>
 
 # Climbing up the lighthouse
 
@@ -58,7 +58,7 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="orgda2013a"></a>
+<a id="orgf08d037"></a>
 
 # Windows shut?
 
@@ -75,7 +75,7 @@ but reducing everyone outside the lighthouse to mere shadows is the final form
 things took after all that happened.
 
 
-<a id="orgc3c771b"></a>
+<a id="org92df38c"></a>
 
 # Shadow
 
@@ -98,7 +98,7 @@ that it outweighed the boy&rsquo;s caution. The boy finally decided to open the
 windows. It was then the boy realized that this shadow, was a butterfly.
 
 
-<a id="org525678d"></a>
+<a id="org70fa7f4"></a>
 
 # Structure and Color
 
@@ -106,17 +106,24 @@ The colors on her wings told stories. Not of where she had flown, but of every
 window where she had stopped. Some colors had faded. Some patterns no longer
 matched. Yet she still spread her wings as though they were whole. These marks
 only stuck with her forever because a butterfly&rsquo;s wings don&rsquo;t heal. Once
-damaged, they remain damaged. The butterfly never spread her wings to be
-admired. She spread them because someone else needed somewhere soft for their
-heart to land. Every window she visited left something behind. She accepted each
-color exactly as it was. The boy never used the window to share his feelings.
-The moment he opened them, he had all the time in the world to appreciate the
-butterfly&rsquo;s wings. Some of the wings&rsquo; fractures belonged even to the boy
-himself. Nonetheless, the wings bore loads of colors and patterns, which the
-butterfly herself couldn&rsquo;t see. No butterfly can see their own wings.
+damaged, they remain damaged.
+
+The butterfly never spread her wings to be admired. She spread them because
+someone else needed somewhere soft for their heart to land. Every window she
+visited left something behind. She accepted each color exactly as it was. She
+didn&rsquo;t just carry these colors. Instead, she held on to them intensely. 
+
+The boy never used the window to share his feelings. The moment he opened them,
+he had all the time in the world to appreciate the butterfly&rsquo;s wings. A quiet
+sorrow hit the boy as some of the wings&rsquo; fractures belonged even to himself.
+Nonetheless, the wings bore loads of colors and patterns. But, no butterfly can
+see their own wings.
+
+Nonetheless, the wings bore loads of colors and
+patterns. But, no butterfly can see their own wings.
 
 
-<a id="orgbda0fc6"></a>
+<a id="org8bc9c62"></a>
 
 # Same but different
 
