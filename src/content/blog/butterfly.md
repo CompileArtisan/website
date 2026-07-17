@@ -8,15 +8,15 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#orge3d05e0)
-2.  [Climbing up the lighthouse](#orgd7e90a0)
-3.  [Windows shut?](#orgf08d037)
-4.  [Shadow](#org92df38c)
-5.  [Structure and Color](#org70fa7f4)
-6.  [Same but different](#org8bc9c62)
+1.  [Prelude](#orgdec5f4f)
+2.  [Climbing up the lighthouse](#orgbfa8550)
+3.  [Windows shut?](#org9b65f24)
+4.  [Shadow](#org9c707fc)
+5.  [Preserving Warmth](#org4d7487a)
+6.  [Same but different](#orgb8b6fb9)
 
 
-<a id="orge3d05e0"></a>
+<a id="orgdec5f4f"></a>
 
 # Prelude
 
@@ -25,7 +25,7 @@ inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s ver
 too, but bare with me :)
 
 
-<a id="orgd7e90a0"></a>
+<a id="orgbfa8550"></a>
 
 # Climbing up the lighthouse
 
@@ -58,7 +58,7 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="orgf08d037"></a>
+<a id="org9b65f24"></a>
 
 # Windows shut?
 
@@ -75,7 +75,7 @@ but reducing everyone outside the lighthouse to mere shadows is the final form
 things took after all that happened.
 
 
-<a id="org92df38c"></a>
+<a id="org9c707fc"></a>
 
 # Shadow
 
@@ -98,9 +98,9 @@ that it outweighed the boy&rsquo;s caution. The boy finally decided to open the
 windows. It was then the boy realized that this shadow, was a butterfly.
 
 
-<a id="org70fa7f4"></a>
+<a id="org4d7487a"></a>
 
-# Structure and Color
+# Preserving Warmth
 
 The colors on her wings told stories. Not of where she had flown, but of every
 window where she had stopped. Some colors had faded. Some patterns no longer
@@ -111,7 +111,13 @@ damaged, they remain damaged.
 The butterfly never spread her wings to be admired. She spread them because
 someone else needed somewhere soft for their heart to land. Every window she
 visited left something behind. She accepted each color exactly as it was. She
-didn&rsquo;t just carry these colors. Instead, she held on to them intensely. 
+didn&rsquo;t just carry these colors. Instead, she held on to them intensely. Every
+visit gave her colors she kept revisiting. This butterfly felt the warmth of
+every color on her wings, as though they were just created.
+
+The boy noticed several things. For one, she could see through windows with a
+lot of depth, straight into everyone&rsquo;s heart. She was completely blind to
+superficial successes and social heights of their lighthouse.
 
 The boy never used the window to share his feelings. The moment he opened them,
 he had all the time in the world to appreciate the butterfly&rsquo;s wings. A quiet
@@ -123,7 +129,7 @@ Nonetheless, the wings bore loads of colors and
 patterns. But, no butterfly can see their own wings.
 
 
-<a id="org8bc9c62"></a>
+<a id="orgb8b6fb9"></a>
 
 # Same but different
 
