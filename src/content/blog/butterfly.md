@@ -8,15 +8,15 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#orgf9e51cd)
-2.  [Climbing up the lighthouse](#org849c9df)
-3.  [Windows shut?](#orgcd7cb2f)
-4.  [Shadow](#orgb906bd7)
-5.  [Preserving Warmth](#org93947e2)
-6.  [Same but different](#org875c445)
+1.  [Prelude](#org9fdd28b)
+2.  [Climbing up the lighthouse](#org776f834)
+3.  [Windows shut?](#org6b1a5e8)
+4.  [Shadow](#org0f1bdc8)
+5.  [Preserving Warmth](#orga8e5d9b)
+6.  [Same but different](#orgb577053)
 
 
-<a id="orgf9e51cd"></a>
+<a id="org9fdd28b"></a>
 
 # Prelude
 
@@ -25,7 +25,7 @@ inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s ver
 too, but bare with me :)
 
 
-<a id="org849c9df"></a>
+<a id="org776f834"></a>
 
 # Climbing up the lighthouse
 
@@ -58,7 +58,7 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="orgcd7cb2f"></a>
+<a id="org6b1a5e8"></a>
 
 # Windows shut?
 
@@ -75,7 +75,7 @@ but reducing everyone outside the lighthouse to mere shadows is the final form
 things took after all that happened.
 
 
-<a id="orgb906bd7"></a>
+<a id="org0f1bdc8"></a>
 
 # Shadow
 
@@ -98,7 +98,7 @@ that it outweighed the boy&rsquo;s caution. The boy finally decided to open the
 windows. It was then the boy realized that this shadow, was a butterfly.
 
 
-<a id="org93947e2"></a>
+<a id="orga8e5d9b"></a>
 
 # Preserving Warmth
 
@@ -133,11 +133,13 @@ warmth of all of it, but couldn&rsquo;t see the masterpiece they formed. No butt
 can see their own wings.
 
 
-<a id="org875c445"></a>
+<a id="orgb577053"></a>
 
 # Same but different
 
 To a young, sensitive and emotionally fragile person like the boy, structure is
-safety. His lighthouse isn&rsquo;t just a climb, but it&rsquo;s a fortification. The
-butterfly is braver and spreads her beautiful and colorful wings wide. 
+safety. His lighthouse isn&rsquo;t just a climb, but it&rsquo;s a fortification. He was
+still young, sensitive, and deeply afraid of the past. Thinking about where he
+had fallen only brought him pain, thus channeling all his thoughts into the
+present and future.
 
