@@ -8,16 +8,16 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#org290d8ff)
-2.  [Climbing up the lighthouse](#org9d64432)
-3.  [Windows shut?](#orgf1a3ae6)
-4.  [Drifting Shadow](#org104fe5e)
-5.  [Preserving Warmth](#orgb11e30a)
-6.  [Stairs vs Wings](#org9b3ed7c)
-7.  [The big picture](#orgc9ca4e9)
+1.  [Prelude](#orga39998b)
+2.  [Climbing up the lighthouse](#orgf7f306d)
+3.  [Windows shut?](#orgabfc0d3)
+4.  [Drifting Shadow](#orgb505ab3)
+5.  [Preserving Warmth](#org5096d1b)
+6.  [Stairs vs Wings](#org4d914db)
+7.  [The big picture](#org46a66ec)
 
 
-<a id="org290d8ff"></a>
+<a id="orga39998b"></a>
 
 # Prelude
 
@@ -26,7 +26,7 @@ inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s ver
 too, but bare with me :)
 
 
-<a id="org9d64432"></a>
+<a id="orgf7f306d"></a>
 
 # Climbing up the lighthouse
 
@@ -59,7 +59,7 @@ back to looking up to him. The staircase that once felt like a burden, became
 his strength. 
 
 
-<a id="orgf1a3ae6"></a>
+<a id="orgabfc0d3"></a>
 
 # Windows shut?
 
@@ -76,7 +76,7 @@ but reducing everyone outside the lighthouse to mere shadows is the final form
 things took after all that happened.
 
 
-<a id="org104fe5e"></a>
+<a id="orgb505ab3"></a>
 
 # Drifting Shadow
 
@@ -99,7 +99,7 @@ that it outweighed the boy&rsquo;s caution. The boy finally decided to open the
 windows. It was then the boy realized that this shadow, was a butterfly.
 
 
-<a id="orgb11e30a"></a>
+<a id="org5096d1b"></a>
 
 # Preserving Warmth
 
@@ -118,7 +118,7 @@ joy, laughter, anger, or pain, this butterfly felt the warmth of every color on
 her wings, as though they were just created.
 
 
-<a id="org9b3ed7c"></a>
+<a id="org4d914db"></a>
 
 # Stairs vs Wings
 
@@ -140,15 +140,15 @@ alongside hers with radical acceptance. In fact the butterfly lives alongside
 **everyone&rsquo;s** past because it&rsquo;s all there in her wings.
 
 
-<a id="orgc9ca4e9"></a>
+<a id="org46a66ec"></a>
 
 # The big picture
 
 The boy never used the window to share his feelings. The moment he opened them,
 he had all the time in the world to appreciate the butterfly&rsquo;s wings. A quiet
 sorrow hit the boy as some of the wings&rsquo; fractures belonged even to himself.
-What the boy wanted to outclimb, is what the butterfly carried softly.
-Nonetheless, the wings bore loads of colors and patterns. She could feel the
-warmth of all of it, but couldn&rsquo;t see the masterpiece they formed. No butterfly
-can see their own wings.
+What the boy wanted to outclimb, is what the butterfly carried softly. The wings
+bore loads of colors and patterns. She could feel the warmth of all of it, but
+couldn&rsquo;t see the masterpiece they formed. The boy, who understood structure,
+knew that no butterfly can see their own wings.
 
