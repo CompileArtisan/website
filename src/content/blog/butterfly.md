@@ -8,16 +8,15 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#orga39998b)
-2.  [Climbing up the lighthouse](#orgf7f306d)
-3.  [Windows shut?](#orgabfc0d3)
-4.  [Drifting Shadow](#orgb505ab3)
-5.  [Preserving Warmth](#org5096d1b)
-6.  [Stairs vs Wings](#org4d914db)
-7.  [The big picture](#org46a66ec)
+1.  [Prelude](#org580f21b)
+2.  [Climbing Up The Lighthouse](#org9f6536f)
+3.  [Windows Shut?](#org7d21ec7)
+4.  [Drifting Shadow](#org40059dc)
+5.  [Preserving Warmth](#org65bb6f6)
+6.  [Stairs vs Wings](#orgb04825f)
 
 
-<a id="orga39998b"></a>
+<a id="org580f21b"></a>
 
 # Prelude
 
@@ -26,9 +25,9 @@ inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s ver
 too, but bare with me :)
 
 
-<a id="orgf7f306d"></a>
+<a id="org9f6536f"></a>
 
-# Climbing up the lighthouse
+# Climbing Up The Lighthouse
 
 We&rsquo;re all in a journey to keep rising higher, the skies and the heaven beyond.
 The height you&rsquo;re at could be a measure of success, a measure of time, or maybe
@@ -41,65 +40,65 @@ keeping the lighthouse insulated from the rest of the world, while the others
 might want the windows wide open, for the whole world to know. You are your mind
 and your emotions, while the lighthouse symbolizes your physical self.
 
-One particular boy ascends heights using the staircase, although quite
+One particular boy ascended heights using the staircase, although quite
 erratically. He started with an environment where he was naturally more capable
-than everyone to rise. He looks outside his window to interact with the rest of
-the world and at this point of time, everyone outside his window looked upto
-him. The boy kept climbing up the stair case till one day the lighthouse moved
-somewhere else. The people and the surroundings around him changed. Everyone
-outside now look down from windows above his own, and the world that had seemed
-far below, had risen past him. He began to resent every step, and tried to jump
-past them to leap forward and catch up, while everyone outside seemed to fly
-high effortlessly. From such heights, the boy could no longer tell what object
-fell from above by chance, and what was thrown at him with intent. Every thing
-felt like an attack through his window.
+than everyone to rise. He looked outside his window to interact with the rest of
+the world and at this point of time, everyone outside looked up to him. The boy
+kept climbing up the staircase till one day the lighthouse moved somewhere else.
+The people and the surroundings around him had changed. Now, everyone outside
+looked down from windows above his own, and the world that had seemed far below,
+had risen past him. He began to resent every step, and tried to jump past them
+to leap forward and catch up, while everyone outside seemed to fly high
+effortlessly. From such heights, the boy could no longer tell what object fell
+from above by chance, and what was thrown at him with intent. Everything felt
+like an attack through his window.
 
-But the boy kept rising and finally got back into a good pace, and people are
-back to looking up to him. The staircase that once felt like a burden, became
-his strength. 
+Somehow, in the end, the boy kept rising and finally got back into a good pace,
+and people are back to looking up to him. The staircase that once felt like a
+burden, became his strength.
 
 
-<a id="orgabfc0d3"></a>
+<a id="org7d21ec7"></a>
 
-# Windows shut?
+# Windows Shut?
 
 The boy could scale heights of success, time and happiness through loads of
-effort in climbing up the staircase of the lighthouse. The boy sees structure,
-climbs systematically and values patterns and efforts. His own path, effort and
-direction was his greatest asset and proof of purpose, and he felt closing his
-windows actively fueling it. Everyone outside looking through his window were
-attracted to the staircase, and not the boy himself. So the fix is simple: if
-the staircase was the only thing people saw through the windows, keep the
+effort in climbing up the staircase. The boy saw structure, climbed
+systematically and valued patterns and efforts. His own path, effort and
+direction were his greatest assets and proofs of purpose, and he felt closing
+his windows actively fueling it. Everyone outside looking through his window
+were attracted to the staircase, and not the boy himself. So the fix is simple:
+if the staircase was the only thing people saw through the windows, keep the
 windows closed, but let everyone use the staircase. He carried burdens, solved
 problems and sacrificed his own comfort to create better outcomes for others,
-but reducing everyone outside the lighthouse to mere shadows is the final form
+but reducing everyone outside the lighthouse to mere shadows was the final form
 things took after all that happened.
 
 
-<a id="orgb505ab3"></a>
+<a id="org40059dc"></a>
 
 # Drifting Shadow
 
-The boy realized that he is who he is because of the entire staircase. One or
+The boy realized that he was who he was because of the entire staircase. One or
 two steps can&rsquo;t explain a person. However, he completely disregarded any depth
-because it is only a shadow cast by his friends is he chose to see. Some shadows
+because it was only a shadow cast by his friends he chose to see. Some shadows
 climb up the stairs steadily, while some shadows jump up the lighthouse. Among
 countless passing silhouettes, one such shadow appeared to stay adrift. This one
-shadow floats and wanders, but often spends time near windows. The shadow seemed
-to move wherever the wind took it. When the wind grew stronger, the shadow
-danced around. While other shadows climbed with purpose, this shadow wandered.
-This shadow wasn&rsquo;t determined to chase heights at all. Instead, it drifted
-besides everyone&rsquo;s window. The boy paid attention to this shadow, as it would
-wait at any open window and receives whatever comes through it. It could be joy,
-laughter, anger or pain. The shadow unfolds itself and welcomed all of it. One
-day this shadow stood beside the boy&rsquo;s window too. The shadow kept returning to
-the boy&rsquo;s window. The boy began talking to the shadow everyday. Days became
-conversations and conversations became trust. The shadow gained so much of trust
-that it outweighed the boy&rsquo;s caution. The boy finally decided to open the
-windows. It was then the boy realized that this shadow, was a butterfly.
+shadow floated and wandered, but often spent its time near windows. It seemed to
+move wherever the wind took it. When the wind grew stronger, it danced around.
+While other shadows climbed with purpose, this shadow wandered. It wasn&rsquo;t
+determined to chase heights at all. Instead, it drifted beside everyone&rsquo;s
+windows. The boy paid attention to it, as it would wait at any open window and
+receive whatever comes through it. It could be joy, laughter, anger or pain. The
+shadow unfolded itself and welcomed all of it. One day, it stood beside the
+boy&rsquo;s window too. It kept returning to the boy&rsquo;s window. The boy began talking
+to it everyday. Days became conversations and conversations became trust. The
+shadow gained so much trust that it outweighed the boy&rsquo;s caution. The boy
+finally decided to open the windows. It was then, he realized, that this shadow
+was a butterfly.
 
 
-<a id="org5096d1b"></a>
+<a id="org65bb6f6"></a>
 
 # Preserving Warmth
 
@@ -110,45 +109,40 @@ only stuck with her forever because a butterfly&rsquo;s wings don&rsquo;t heal. 
 damaged, they remain damaged.
 
 The butterfly never spread her wings to be admired. She spread them because
-someone else needed somewhere soft for their heart to land. Every window she
-visited left something behind. She accepted each color exactly as it was. She
-didn&rsquo;t just carry these colors. Instead, she held on to them intensely. Every
-visit gave her colors she kept revisiting. Regardless of whether they brought
-joy, laughter, anger, or pain, this butterfly felt the warmth of every color on
-her wings, as though they were just created.
+everyone banked on them for their heart to land. Every window she visited left
+something behind. She accepted each color exactly as it was. She didn&rsquo;t just
+carry these colors. Instead, she held on to them intensely. Every visit gave her
+colors she kept revisiting. Regardless of whether they brought her joy,
+laughter, anger, or pain, she felt the warmth of every color on her wings, as
+though they were just created.
 
 
-<a id="org4d914db"></a>
+<a id="orgb04825f"></a>
 
 # Stairs vs Wings
 
 The boy noticed several things. For one, she could see through windows with a
 lot of depth, straight into everyone&rsquo;s heart. She was completely blind to
-superficial successes and social heights of their lighthouse. All the colors
+superficial successes and social heights of their lighthouses. All the colors
 etched on her wings represents raw and unfiltered memories. These colors are
 extremely grounded and honest. Most people build defences around their past,
 unconsciously tell themselves, &ldquo;I wasn&rsquo;t really wrong&rdquo;, and reshape their
 memories to protect their ego. On the other hand, the butterfly&rsquo;s wings were an
-exhibit of unfiltered honesty. 
+exhibit of unfiltered honesty.
 
 To a young, sensitive and emotionally fragile person like the boy, structure is
 safety. His lighthouse isn&rsquo;t just a climb, but it&rsquo;s a fortification. He was
 still young, sensitive, and deeply afraid of the past. Thinking about where he
 had fallen only brought him pain, thus channeling all his thoughts into the
 present and future. While the boy runs away from the past, the butterfly lives
-alongside hers with radical acceptance. In fact the butterfly lives alongside
-**everyone&rsquo;s** past because it&rsquo;s all there in her wings.
-
-
-<a id="org46a66ec"></a>
-
-# The big picture
+alongside hers with radical acceptance. In fact, the butterfly lives alongside
+**everyone&rsquo;s** pasts because they&rsquo;re all there in her wings.
 
 The boy never used the window to share his feelings. The moment he opened them,
 he had all the time in the world to appreciate the butterfly&rsquo;s wings. A quiet
 sorrow hit the boy as some of the wings&rsquo; fractures belonged even to himself.
 What the boy wanted to outclimb, is what the butterfly carried softly. The wings
 bore loads of colors and patterns. She could feel the warmth of all of it, but
-couldn&rsquo;t see the masterpiece they formed. The boy, who understood structure,
+couldn&rsquo;t see the masterpiece they had formed. The boy, who understood structure,
 knew that no butterfly can see their own wings.
 
