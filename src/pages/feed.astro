@@ -67,7 +67,7 @@ function formatDate(date: Date) {
   data-tags={(item.tags ?? []).join(',')}
 >
             {item.kind === 'blog' ? (
-              <a href={`/blogs/${item.slug}`} class="icon-link feed-link">
+              <a href={`/blog/${item.slug}`} class="icon-link feed-link">
                 <span class="feed-meta">
                   <span class="feed-type feed-type--blog">blog</span>
                   <span class="feed-date">{formatDate(item.date)}</span>
