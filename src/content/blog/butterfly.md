@@ -8,15 +8,15 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#org580f21b)
-2.  [Climbing Up The Lighthouse](#org9f6536f)
-3.  [Windows Shut?](#org7d21ec7)
-4.  [Drifting Shadow](#org40059dc)
-5.  [Preserving Warmth](#org65bb6f6)
-6.  [Stairs vs Wings](#orgb04825f)
+1.  [Prelude](#orga4494be)
+2.  [Climbing Up The Lighthouse](#org144696d)
+3.  [Windows Shut?](#org1f7ba8b)
+4.  [Drifting Shadow](#org801c001)
+5.  [Preserving Warmth](#org573b34e)
+6.  [Stairs vs Wings](#orgb8f0f1f)
 
 
-<a id="org580f21b"></a>
+<a id="orga4494be"></a>
 
 # Prelude
 
@@ -25,7 +25,7 @@ inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s ver
 too, but bare with me :)
 
 
-<a id="org9f6536f"></a>
+<a id="org144696d"></a>
 
 # Climbing Up The Lighthouse
 
@@ -58,7 +58,7 @@ and people are back to looking up to him. The staircase that once felt like a
 burden, became his strength.
 
 
-<a id="org7d21ec7"></a>
+<a id="org1f7ba8b"></a>
 
 # Windows Shut?
 
@@ -75,7 +75,7 @@ but reducing everyone outside the lighthouse to mere shadows was the final form
 things took after all that happened.
 
 
-<a id="org40059dc"></a>
+<a id="org801c001"></a>
 
 # Drifting Shadow
 
@@ -87,18 +87,24 @@ countless passing silhouettes, one such shadow appeared to stay adrift. This one
 shadow floated and wandered, but often spent its time near windows. It seemed to
 move wherever the wind took it. When the wind grew stronger, it danced around.
 While other shadows climbed with purpose, this shadow wandered. It wasn&rsquo;t
-determined to chase heights at all. Instead, it drifted beside everyone&rsquo;s
-windows. The boy paid attention to it, as it would wait at any open window and
-receive whatever comes through it. It could be joy, laughter, anger or pain. The
-shadow unfolded itself and welcomed all of it. One day, it stood beside the
-boy&rsquo;s window too. It kept returning to the boy&rsquo;s window. The boy began talking
-to it everyday. Days became conversations and conversations became trust. The
-shadow gained so much trust that it outweighed the boy&rsquo;s caution. The boy
+determined to chase heights at all. The boy paid attention to it, as it would
+wait at any open window and receive whatever comes through it. It could be joy,
+laughter, anger or pain. The shadow unfolded itself and welcomed all of it. One
+day, it stood beside the boy&rsquo;s window too. It kept returning to the boy&rsquo;s
+window. However, the boy always had flawed interactions with it in light of his
+fortified defences flaring up.
+
+The boy began talking to it everyday. Days became conversations and
+conversations became trust. With time, looking back at how he had treated the
+wandering silhouette, the boy realized he wasn&rsquo;t a rational man, but a
+rationalizer. The boy was smart enough to dissect his own shortcomings, but
+immature enough to suffer from emotional turbulence when it mattered the most.
+The shadow gained so much trust that it outweighed the boy&rsquo;s caution. The boy
 finally decided to open the windows. It was then, he realized, that this shadow
 was a butterfly.
 
 
-<a id="org65bb6f6"></a>
+<a id="org573b34e"></a>
 
 # Preserving Warmth
 
@@ -117,7 +123,7 @@ laughter, anger, or pain, she felt the warmth of every color on her wings, as
 though they were just created.
 
 
-<a id="orgb04825f"></a>
+<a id="orgb8f0f1f"></a>
 
 # Stairs vs Wings
 
