@@ -8,28 +8,26 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#org73c54a1)
-2.  [Climbing Up The Lighthouse](#orgc5ae13e)
-3.  [Windows Shut?](#org2223b45)
-4.  [Drifting Shadow](#org21ea47c)
-5.  [Preserving Warmth](#orgf6cc53f)
-6.  [Stairs vs Wings](#org3efdc38)
-7.  [Conclusion](#orgca11869)
+1.  [Prelude](#org815cf36)
+2.  [Climbing Up The Lighthouse](#orgb309bee)
+3.  [Windows Shut?](#org1b23047)
+4.  [Drifting Shadow](#org8e2ac0a)
+5.  [Preserving Warmth](#org6412140)
+6.  [Stairs vs Wings](#orga810277)
+7.  [Conclusion](#orgcebc6be)
 
 
-<a id="org73c54a1"></a>
+<a id="org815cf36"></a>
 
 # Prelude
 
 What follows isn&rsquo;t a tech blog, but a very abstract story I wrote. I&rsquo;ve been
 wanting to write about seeing life through two completely different mechanisms,
-and how they&rsquo;d interact with each other. 
-
-I was briefly inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s very abstract and
-perhaps illogical too, but bare with me :)
+and how they&rsquo;d interact with each other. I was briefly inspired by [Protesilaos](https://protesilaos.com/)
+and his work.
 
 
-<a id="orgc5ae13e"></a>
+<a id="orgb309bee"></a>
 
 # Climbing Up The Lighthouse
 
@@ -62,7 +60,7 @@ and people are back to looking up to him. The staircase that once felt like a
 burden, became his strength.
 
 
-<a id="org2223b45"></a>
+<a id="org1b23047"></a>
 
 # Windows Shut?
 
@@ -79,7 +77,7 @@ but reducing everyone outside the lighthouse to mere shadows was the final form
 things took after all that happened.
 
 
-<a id="org21ea47c"></a>
+<a id="org8e2ac0a"></a>
 
 # Drifting Shadow
 
@@ -108,7 +106,7 @@ finally decided to open the windows. It was then, he realized, that this shadow
 was a butterfly.
 
 
-<a id="orgf6cc53f"></a>
+<a id="org6412140"></a>
 
 # Preserving Warmth
 
@@ -127,7 +125,7 @@ laughter, anger, or pain, she felt the warmth of every color on her wings, as
 though they were just created.
 
 
-<a id="org3efdc38"></a>
+<a id="orga810277"></a>
 
 # Stairs vs Wings
 
@@ -157,7 +155,7 @@ couldn&rsquo;t see the masterpiece they had formed. The boy, who understood stru
 knew that no butterfly can see their own wings.
 
 
-<a id="orgca11869"></a>
+<a id="orgcebc6be"></a>
 
 # Conclusion
 

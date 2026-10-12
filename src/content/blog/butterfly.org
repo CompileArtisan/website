@@ -14,10 +14,8 @@ tags: ["story"]
 * Prelude
 What follows isn't a tech blog, but a very abstract story I wrote. I've been
 wanting to write about seeing life through two completely different mechanisms,
-and how they'd interact with each other. 
-
-I was briefly inspired by [[https://protesilaos.com/][Protesilaos]] and his work. It's very abstract and
-perhaps illogical too, but bare with me :)
+and how they'd interact with each other. I was briefly inspired by [[https://protesilaos.com/][Protesilaos]]
+and his work.
 
 * Climbing Up The Lighthouse
 We're all in a journey to keep rising higher, the skies and the heaven beyond.
