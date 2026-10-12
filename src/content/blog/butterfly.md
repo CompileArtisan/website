@@ -8,24 +8,28 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#orga4494be)
-2.  [Climbing Up The Lighthouse](#org144696d)
-3.  [Windows Shut?](#org1f7ba8b)
-4.  [Drifting Shadow](#org801c001)
-5.  [Preserving Warmth](#org573b34e)
-6.  [Stairs vs Wings](#orgb8f0f1f)
+1.  [Prelude](#org73c54a1)
+2.  [Climbing Up The Lighthouse](#orgc5ae13e)
+3.  [Windows Shut?](#org2223b45)
+4.  [Drifting Shadow](#org21ea47c)
+5.  [Preserving Warmth](#orgf6cc53f)
+6.  [Stairs vs Wings](#org3efdc38)
+7.  [Conclusion](#orgca11869)
 
 
-<a id="orga4494be"></a>
+<a id="org73c54a1"></a>
 
 # Prelude
 
-What follows isn&rsquo;t a tech blog, but a very abstract story I wrote. I was briefly
-inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s very abstract and perhaps illogical
-too, but bare with me :)
+What follows isn&rsquo;t a tech blog, but a very abstract story I wrote. I&rsquo;ve been
+wanting to write about seeing life through two completely different mechanisms,
+and how they&rsquo;d interact with each other. 
+
+I was briefly inspired by [Protesilaos](https://protesilaos.com/) and his work. It&rsquo;s very abstract and
+perhaps illogical too, but bare with me :)
 
 
-<a id="org144696d"></a>
+<a id="orgc5ae13e"></a>
 
 # Climbing Up The Lighthouse
 
@@ -58,7 +62,7 @@ and people are back to looking up to him. The staircase that once felt like a
 burden, became his strength.
 
 
-<a id="org1f7ba8b"></a>
+<a id="org2223b45"></a>
 
 # Windows Shut?
 
@@ -75,7 +79,7 @@ but reducing everyone outside the lighthouse to mere shadows was the final form
 things took after all that happened.
 
 
-<a id="org801c001"></a>
+<a id="org21ea47c"></a>
 
 # Drifting Shadow
 
@@ -104,7 +108,7 @@ finally decided to open the windows. It was then, he realized, that this shadow
 was a butterfly.
 
 
-<a id="org573b34e"></a>
+<a id="orgf6cc53f"></a>
 
 # Preserving Warmth
 
@@ -123,7 +127,7 @@ laughter, anger, or pain, she felt the warmth of every color on her wings, as
 though they were just created.
 
 
-<a id="orgb8f0f1f"></a>
+<a id="org3efdc38"></a>
 
 # Stairs vs Wings
 
@@ -151,4 +155,15 @@ What the boy wanted to outclimb, is what the butterfly carried softly. The wings
 bore loads of colors and patterns. She could feel the warmth of all of it, but
 couldn&rsquo;t see the masterpiece they had formed. The boy, who understood structure,
 knew that no butterfly can see their own wings.
+
+
+<a id="orgca11869"></a>
+
+# Conclusion
+
+Systematic efforts put in using emotional isolation is how you see life
+vertically. Scaling through life vertically would mean you&rsquo;re driven by
+extrinsic motivation. Possessing radical acceptance and presence is how you
+measure life horizontally. It&rsquo;s about how far you can accept the live you&rsquo;ve
+lived so far and the life you&rsquo;re living right now.
 

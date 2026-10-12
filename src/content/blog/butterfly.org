@@ -12,9 +12,12 @@ tags: ["story"]
 #+TOC: headlines 2
 
 * Prelude
-What follows isn't a tech blog, but a very abstract story I wrote. I was briefly
-inspired by [[https://protesilaos.com/][Protesilaos]] and his work. It's very abstract and perhaps illogical
-too, but bare with me :)
+What follows isn't a tech blog, but a very abstract story I wrote. I've been
+wanting to write about seeing life through two completely different mechanisms,
+and how they'd interact with each other. 
+
+I was briefly inspired by [[https://protesilaos.com/][Protesilaos]] and his work. It's very abstract and
+perhaps illogical too, but bare with me :)
 
 * Climbing Up The Lighthouse
 We're all in a journey to keep rising higher, the skies and the heaven beyond.
@@ -134,5 +137,10 @@ couldn't see the masterpiece they had formed. The boy, who understood structure,
 knew that no butterfly can see their own wings.
 
 
-
+* Conclusion
+Systematic efforts put in using emotional isolation is how you see life
+vertically. Scaling through life vertically would mean you're driven by
+extrinsic motivation. Possessing radical acceptance and presence is how you
+measure life horizontally. It's about how far you can accept the live you've
+lived so far and the life you're living right now.
 
