@@ -8,16 +8,16 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#org3f0aced)
-2.  [Climbing Up The Lighthouse](#org0330091)
-3.  [Windows Shut?](#org3a33879)
-4.  [Drifting Shadow](#orgabf5dc9)
-5.  [Preserving Warmth](#org79f95e1)
-6.  [Stairs vs Wings](#orgdf69957)
-7.  [Conclusion](#orgba4857b)
+1.  [Prelude](#orga006456)
+2.  [Climbing Up The Lighthouse](#org5fdc435)
+3.  [Windows Shut?](#orgdb8fc08)
+4.  [Drifting Shadow](#org4bc5ce4)
+5.  [Preserving Warmth](#orgbc9d5ec)
+6.  [Stairs vs Wings](#orgd5f97f4)
+7.  [Conclusion](#orge690e2a)
 
 
-<a id="org3f0aced"></a>
+<a id="orga006456"></a>
 
 # Prelude
 
@@ -27,7 +27,7 @@ and how they&rsquo;d interact with each other. I was briefly inspired by [Protes
 and his work.
 
 
-<a id="org0330091"></a>
+<a id="org5fdc435"></a>
 
 # Climbing Up The Lighthouse
 
@@ -61,7 +61,7 @@ and people are back to looking up to him. The staircase that once felt like a
 burden, became his strength.
 
 
-<a id="org3a33879"></a>
+<a id="orgdb8fc08"></a>
 
 # Windows Shut?
 
@@ -78,7 +78,7 @@ but reducing everyone outside the lighthouse to mere shadows was the final form
 things took after all that happened.
 
 
-<a id="orgabf5dc9"></a>
+<a id="org4bc5ce4"></a>
 
 # Drifting Shadow
 
@@ -107,7 +107,7 @@ finally decided to open the windows. It was then, he realized, that this shadow
 was a butterfly.
 
 
-<a id="org79f95e1"></a>
+<a id="orgbc9d5ec"></a>
 
 # Preserving Warmth
 
@@ -126,12 +126,12 @@ laughter, anger, or pain, she felt the warmth of every color on her wings, as
 though they were just created.
 
 
-<a id="orgdf69957"></a>
+<a id="orgd5f97f4"></a>
 
 # Stairs vs Wings
 
-The boy noticed several things. For one, she could see through windows with a
-lot of depth, straight into everyone&rsquo;s heart. She was completely blind to
+The boy noticed several things. For one, the butterfly could see through windows
+with a lot of depth, straight into everyone&rsquo;s heart. She was completely blind to
 superficial successes and social heights of their lighthouses. All the colors
 etched on her wings represents raw and unfiltered memories. These colors are
 extremely grounded and honest. Most people build defences around their past,
@@ -156,7 +156,7 @@ couldn&rsquo;t see the masterpiece they had formed. The boy, who understood stru
 knew that no butterfly can see their own wings.
 
 
-<a id="orgba4857b"></a>
+<a id="orge690e2a"></a>
 
 # Conclusion
 
