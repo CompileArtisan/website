@@ -8,16 +8,16 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#org815cf36)
-2.  [Climbing Up The Lighthouse](#orgb309bee)
-3.  [Windows Shut?](#org1b23047)
-4.  [Drifting Shadow](#org8e2ac0a)
-5.  [Preserving Warmth](#org6412140)
-6.  [Stairs vs Wings](#orga810277)
-7.  [Conclusion](#orgcebc6be)
+1.  [Prelude](#org3f0aced)
+2.  [Climbing Up The Lighthouse](#org0330091)
+3.  [Windows Shut?](#org3a33879)
+4.  [Drifting Shadow](#orgabf5dc9)
+5.  [Preserving Warmth](#org79f95e1)
+6.  [Stairs vs Wings](#orgdf69957)
+7.  [Conclusion](#orgba4857b)
 
 
-<a id="org815cf36"></a>
+<a id="org3f0aced"></a>
 
 # Prelude
 
@@ -27,20 +27,21 @@ and how they&rsquo;d interact with each other. I was briefly inspired by [Protes
 and his work.
 
 
-<a id="orgb309bee"></a>
+<a id="org0330091"></a>
 
 # Climbing Up The Lighthouse
 
-We&rsquo;re all in a journey to keep rising higher, the skies and the heaven beyond.
-The height you&rsquo;re at could be a measure of success, a measure of time, or maybe
-even a measure of happiness. Different people have different ways to climb up
-this *lighthouse of heights*, and they can choose how much of it they want to
-reveal to everyone else. Some climb up the staircase, while the others might fly
-with their wings. Some ascend covertly from inside the lighthouse, while others
-scale the outer walls for all to see. Some may keep all the windows shut tight
-keeping the lighthouse insulated from the rest of the world, while the others
-might want the windows wide open, for the whole world to know. You are your mind
-and your emotions, while the lighthouse symbolizes your physical self.
+We&rsquo;re all in a journey where we keep rising higher, the skies and the heaven
+beyond. The height you&rsquo;re at could be a measure of success, a measure of time,
+or maybe even a measure of happiness. Different people have different ways to
+climb up this *lighthouse of heights*, and they can choose how much of it they
+want to reveal to everyone else. Some climb up the staircase, while the others
+might fly with their wings. Some ascend covertly from inside the lighthouse,
+while others scale the outer walls for all to see. Some may keep all the windows
+shut tight keeping the lighthouse insulated from the rest of the world, while
+the others might want the windows wide open, for the whole world to know. You
+are your mind and your emotions, while the lighthouse symbolizes your physical
+self.
 
 One particular boy ascended heights using the staircase, although quite
 erratically. He started with an environment where he was naturally more capable
@@ -60,7 +61,7 @@ and people are back to looking up to him. The staircase that once felt like a
 burden, became his strength.
 
 
-<a id="org1b23047"></a>
+<a id="org3a33879"></a>
 
 # Windows Shut?
 
@@ -77,7 +78,7 @@ but reducing everyone outside the lighthouse to mere shadows was the final form
 things took after all that happened.
 
 
-<a id="org8e2ac0a"></a>
+<a id="orgabf5dc9"></a>
 
 # Drifting Shadow
 
@@ -106,7 +107,7 @@ finally decided to open the windows. It was then, he realized, that this shadow
 was a butterfly.
 
 
-<a id="org6412140"></a>
+<a id="org79f95e1"></a>
 
 # Preserving Warmth
 
@@ -125,7 +126,7 @@ laughter, anger, or pain, she felt the warmth of every color on her wings, as
 though they were just created.
 
 
-<a id="orga810277"></a>
+<a id="orgdf69957"></a>
 
 # Stairs vs Wings
 
@@ -155,13 +156,13 @@ couldn&rsquo;t see the masterpiece they had formed. The boy, who understood stru
 knew that no butterfly can see their own wings.
 
 
-<a id="orgcebc6be"></a>
+<a id="orgba4857b"></a>
 
 # Conclusion
 
 Systematic efforts put in using emotional isolation is how you see life
 vertically. Scaling through life vertically would mean you&rsquo;re driven by
 extrinsic motivation. Possessing radical acceptance and presence is how you
-measure life horizontally. It&rsquo;s about how far you can accept the live you&rsquo;ve
+measure life horizontally. It&rsquo;s about how far you can accept the life you&rsquo;ve
 lived so far and the life you&rsquo;re living right now.
 
