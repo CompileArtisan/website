@@ -8,16 +8,16 @@ tags: ["story"]
 
 # Table of Contents
 
-1.  [Prelude](#orga006456)
-2.  [Climbing Up The Lighthouse](#org5fdc435)
-3.  [Windows Shut?](#orgdb8fc08)
-4.  [Drifting Shadow](#org4bc5ce4)
-5.  [Preserving Warmth](#orgbc9d5ec)
-6.  [Stairs vs Wings](#orgd5f97f4)
-7.  [Conclusion](#orge690e2a)
+1.  [Prelude](#org281cb5f)
+2.  [Climbing Up The Lighthouse](#org0d84dd0)
+3.  [Windows Shut?](#org078759e)
+4.  [Drifting Shadow](#org79ad1b7)
+5.  [Preserving Warmth](#org69ee0ac)
+6.  [Stairs vs Wings](#org65d10e0)
+7.  [Conclusion](#org69715a0)
 
 
-<a id="orga006456"></a>
+<a id="org281cb5f"></a>
 
 # Prelude
 
@@ -27,7 +27,7 @@ and how they&rsquo;d interact with each other. I was briefly inspired by [Protes
 and his work.
 
 
-<a id="org5fdc435"></a>
+<a id="org0d84dd0"></a>
 
 # Climbing Up The Lighthouse
 
@@ -61,7 +61,7 @@ and people are back to looking up to him. The staircase that once felt like a
 burden, became his strength.
 
 
-<a id="orgdb8fc08"></a>
+<a id="org078759e"></a>
 
 # Windows Shut?
 
@@ -78,7 +78,7 @@ but reducing everyone outside the lighthouse to mere shadows was the final form
 things took after all that happened.
 
 
-<a id="org4bc5ce4"></a>
+<a id="org79ad1b7"></a>
 
 # Drifting Shadow
 
@@ -107,7 +107,7 @@ finally decided to open the windows. It was then, he realized, that this shadow
 was a butterfly.
 
 
-<a id="orgbc9d5ec"></a>
+<a id="org69ee0ac"></a>
 
 # Preserving Warmth
 
@@ -126,7 +126,7 @@ laughter, anger, or pain, she felt the warmth of every color on her wings, as
 though they were just created.
 
 
-<a id="orgd5f97f4"></a>
+<a id="org65d10e0"></a>
 
 # Stairs vs Wings
 
@@ -153,10 +153,10 @@ sorrow hit the boy as some of the wings&rsquo; fractures belonged even to himsel
 What the boy wanted to outclimb, is what the butterfly carried softly. The wings
 bore loads of colors and patterns. She could feel the warmth of all of it, but
 couldn&rsquo;t see the masterpiece they had formed. The boy, who understood structure,
-knew that no butterfly can see their own wings.
+knew that no butterfly can see its own wings.
 
 
-<a id="orge690e2a"></a>
+<a id="org69715a0"></a>
 
 # Conclusion
 
