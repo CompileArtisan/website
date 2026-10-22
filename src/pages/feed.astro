@@ -3,7 +3,7 @@ import MainLayout from '../layouts/MainLayout.astro';
 import Keybindings from '../components/Keybindings.astro';
 import Icon from '../components/Icon';
 import { getCollection } from 'astro:content';
-import { xposts } from '../data/xposts';
+import { xposts } from '../lib/xposts';
 
 const blogPosts = await getCollection('blog');
 
